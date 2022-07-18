@@ -2,7 +2,7 @@
 <html lang="en">
     {% include "_head.html" %}
 <body>
-    <a href="/"><img src="/_assets/header.png" alt="{{ metadata.title }}"></a>
+    <a href="/"><img src="/assets/header.png" alt="{{ metadata.title }}"></a>
     <div class="centertext">{% for page in collections.page %} <a href="{{ page.url }}">{{ page.data.title }}</a> {% endfor %}</div>
     <h1>{{ title }}</h1>
     {% if date %}
@@ -15,7 +15,7 @@
     {% endif %}
     {{ content }}
     <footer class="centertext">
-        <img src="_assets/footer.png">
+        <img src="/assets/footer.png">
     </footer>
 </body>
 </html>

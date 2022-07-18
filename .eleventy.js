@@ -3,7 +3,7 @@ const markdownIt = require("markdown-it");
 module.exports = function(eleventyConfig) {
     /* Copy some files directly */
     eleventyConfig.addPassthroughCopy("src/style.css");
-    eleventyConfig.addPassthroughCopy("src/_assets");
+    eleventyConfig.addPassthroughCopy("src/assets");
     /* Make .md files more powerful */
     let mdoptions = {
         html: true,
