@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "_head.html" %}
+<body>
+    <a href="/"><img src="/_assets/header.png" alt="{{ metadata.title }}"></a>
+    <div class="centertext">{% for page in collections.page %} <a href="{{ page.url }}">{{ page.data.title }}</a> {% endfor %}</div>
+    <h1>{{ title }}</h1>
+    {{ content }}
+    {% include "_footer.html" %}
+</body>
+</html>

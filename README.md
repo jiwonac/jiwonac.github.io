@@ -1,0 +1,1 @@
+Personal website coded in [Eleventy](https://www.11ty.dev/) static site generator, HTML with [Liquid](https://shopify.github.io/liquid/), and raw CSS. 

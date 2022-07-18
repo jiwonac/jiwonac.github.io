@@ -1,0 +1,41 @@
+html {
+    font-family: monospace;
+    font-size: 1.2em;
+    background-color: #1f1f1f;
+    color: #c9c9c9;
+    line-height: 1.2em;
+  }
+  
+  a {
+    color: #bd8fbd;
+  }
+  
+  body {
+    width: 720px;
+    margin: auto;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+  
+  img {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+
+  hr {
+    width: 50%;
+  }
+  
+  /* Implements left and right adjusted text in the same line */
+  .alignleft {
+      float: left;
+  }
+  
+  .alignright {
+      float: right;
+  }
+
+  .centertext {
+      text-align: center;
+  }

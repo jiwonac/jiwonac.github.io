@@ -1,0 +1,26 @@
+{
+    "title": "Jiwon's Alcove",
+    "description": "Musings on computer science and life.",
+    "name": "Jiwon Chang",
+    "baseURL": "https://jiwonc.net/",
+    "links": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jiwonchang/"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/jiwonac/"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:blog@jiwonc.net"
+        },
+        {
+            "name": "she/her"
+        },
+        {
+            "name": "🏳️‍🌈🇰🇷"
+        }
+    ]
+}
