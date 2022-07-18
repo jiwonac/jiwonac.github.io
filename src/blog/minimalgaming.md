@@ -2,7 +2,7 @@
 title: 6 Minimalist Gaming Setup Ideas
 tags: blog
 date: 2019-04-18
-image: _assets/egpu.jpg
+image: /assets/egpu.jpg
 ---
 
 Can a gamer also be a minimalist? Of course. Gaming provides value in many of our lives, so many minimalists choose to keep it.

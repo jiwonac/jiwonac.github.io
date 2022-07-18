@@ -2,7 +2,7 @@
 title: Accidental Environmentalism in Minimalism
 tags: blog
 date: 2019-05-19
-image: _assets/plant.jpg
+image: /assets/plant.jpg
 ---
 
 <p>The Green New Deal is still a hot topic in politics, which is remarkable considering that conservation biologists, climatologists, and <a href="https://youtu.be/JDcro7dPqpA?t=1108">Bill Nye</a>  have been shouting into the void for what seems like an eternity. </p>

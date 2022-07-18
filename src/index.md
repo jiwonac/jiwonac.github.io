@@ -2,7 +2,7 @@
 title: About
 tags: page
 date: 1970-01-01
-image: /_assets/profile.png
+image: /assets/profile.png
 ---
 
 Hello! I am Jiwon Chang, a computer science student at the university of Rochester. I research representative data selection and integration under professor [Fatemeh Nargesian](https://fnargesian.com/) and PhD student [Pranay Mundra](https://mundrapranay.github.io/).

@@ -2,7 +2,7 @@
 title: How I Finally Made Reading Into a Habit
 tags: blog
 date: 2019-04-15
-image: _assets/readinghabit.jpg
+image: /assets/readinghabit.jpg
 ---
 
 <p>Most people recognize the value of reading books; many of us set a new year's resolution to read more. We're pumped up with energy. Yet, it rarely lasts.</p>

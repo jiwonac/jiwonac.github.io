@@ -2,7 +2,7 @@
 title: The Joy of Nature-Watching in our Technocentric Lives
 tags: blog
 date: 2019-04-26
-image: _assets/naturewatching.jpg
+image: /assets/naturewatching.jpg
 ---
 
 <p>A necessary counterpart to our modern lives is the reintroduction of the natural world. Few activities brought me more joy than the simple act of observing and photographing wildlife in their natural habitat. </p>
