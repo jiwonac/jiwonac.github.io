@@ -5,7 +5,7 @@ date: 1971-01-01
 ---
 
 <ul>
-    {% for post in collections.blog %}
+    {% for post in collections.blog reversed %}
     <li>
         <a href="{{ post.url }}">{{ post.data.title }}</a>
         <div class="alignright">{{ post.data.date | date: "%b %d, %Y" }}</div>
