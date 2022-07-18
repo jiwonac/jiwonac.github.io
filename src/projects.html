@@ -1,0 +1,25 @@
+---
+title: Projects
+tags: page
+---
+
+<ul>
+{% for project in projects %}
+<li>
+    <b>{% if project.url %} 
+        <a href="{{ project.url }}">{{ project.name }}</a> 
+    {% else %} 
+        {{project.name}} 
+    {% endif %}</b>
+    {% if project.collaborators %} 
+        with {{ project.collaborators }}
+    {% endif %}
+    {% if project.extra %}
+        {{ project.extra }}
+    {% endif %}
+    {% if project.date %} 
+        ({{ project.date | date: "%Y" }}) 
+    {% endif %} 
+</li>
+{% endfor %}
+</ul>

@@ -5,6 +5,14 @@
     <a href="/"><img src="/_assets/header.png" alt="{{ metadata.title }}"></a>
     <div class="centertext">{% for page in collections.page %} <a href="{{ page.url }}">{{ page.data.title }}</a> {% endfor %}</div>
     <h1>{{ title }}</h1>
+    {% if date %}
+        {% if tags contains "blog" %}
+            {{ date | date: "%b %d, %Y" }}
+        {% endif %}
+    {% endif %}
+    {% if image %}
+        <img src="{{ image }}">
+    {% endif %}
     {{ content }}
     {% include "_footer.html" %}
 </body>

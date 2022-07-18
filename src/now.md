@@ -1,7 +1,6 @@
 ---
 title: Now
 tags: page
-date: 1970-01-03
 ---
 
 I am currently...

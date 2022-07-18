@@ -5,6 +5,10 @@
     "baseURL": "https://jiwonc.net/",
     "links": [
         {
+            "name": "CV",
+            "url": "_assets/cv.pdf"
+        },
+        {
             "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/jiwonchang/"
         },

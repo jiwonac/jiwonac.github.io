@@ -1,14 +1,33 @@
 [
     {
-        "name": "Subgroup Distribution Tailoring for Intersectionally Fair Data Integration"
+        "name": "Subgroup Distribution Tailoring for Intersectionally Fair Data Integration",
+        "date": "October 2022",
+        "url": null,
+        "collaborators": "Fatemeh Nargesian",
+        "extra": "with University of Rochester Discover Grant."
     },
     {
-        "name": "Data-Centric Coreset Generation with Fairness Constraints"
+        "name": "Personal Website",
+        "date": "July 2022",
+        "url": "https://github.com/jiwonac/jiwonac.github.io",
+        "extra": "on Github."
     },
     {
-        "name": "Single Exposure Fusion"
+        "name": "Data-Centric Coreset Generation with Fairness Constraints",
+        "date": "May 2022",
+        "url": null, 
+        "collaborators": "Pranay Mundra and Fatemeh Nargesian."
     },
     {
-        "name": "Evaluating the True Mana Cost of CCG Cards"
+        "name": "Single Exposure Fusion",
+        "date": "December 2021",
+        "url": null,
+        "extra": "as course project for Visual Computing."
+    },
+    {
+        "name": "Evaluating the True Mana Cost of CCG Cards",
+        "date": "August 2017",
+        "url": null,
+        "extra": "as IB extended essay."
     }
 ]

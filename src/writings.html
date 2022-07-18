@@ -1,0 +1,13 @@
+---
+title: Writings
+tags: page
+---
+
+<ul>
+    {% for writing in writings %}
+    <li>
+        <a href="{{ writing.url }}">{{ writing.title }}</a> in <a href="{{ writing.publication_url }}">{{ writing.publication }}</a>
+        <div class="alignright">{{ writing.date | date: "%b %d, %Y" }}</div>
+    </li> 
+    {% endfor %}
+</ul>
