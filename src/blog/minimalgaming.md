@@ -1,7 +1,7 @@
 ---
 title: 6 Minimalist Gaming Setup Ideas
 tags: blog
-date: 2019-05-19
+date: 2019-04-18
 image: _assets/egpu.jpg
 ---
 
