@@ -7,72 +7,75 @@
                 "subheading": "The Day the World Stops Shopping: How Ending Consumerism Saves the Environment and Ourselves",
                 "author": "J. B. MacKinnon",
                 "id": {
-                    "ISBN": 9780062856043
+                    "name": "ISBN",
+                    "value": "9780062856043"
                 },
                 "date_released": "2021-05-25",
                 "date_started": "2022-07-22",
-                "date_finished": None,
-                "rating": None,
+                "date_finished": null,
+                "rating": null,
                 "url": "https://www.jbmackinnon.com/the-day-the-world-stops-shopping",
-                "cover_image": None
+                "cover_image": null
             },
             {
                 "title": "Ordinary Men",
                 "subheading": "Reserve Police Battalion 101 and the Final Solution in Poland",
                 "author": "Christopher Browning",
                 "id": {
-                    "ISBN": 9780062303028
+                    "name": "ISBN",
+                    "value": "9780062303028"
                 },
                 "date_released": "2017-02-28",
                 "date_started": "2022-07-24",
-                "date_finished": None,
-                "rating": None,
+                "date_finished": null,
+                "rating": null,
                 "url": "https://www.harpercollins.com/products/ordinary-men-christopher-r-browning?variant=32207518924834",
-                "cover_image": None
+                "cover_image": null
             },
             {
                 "title": "How to Create a Vegan World",
                 "subheading": "A Pragmatic Approach",
                 "author": "Tobias Leenaert",
                 "id": {
-                    "ISBN": 9781590565711
+                    "name": "ISBN",
+                    "value": "9781590565711"
                 },
                 "date_released": "2017-07-05",
                 "date_started": "2022-06",
-                "date_finished": None,
-                "rating": None,
+                "date_finished": null,
+                "rating": null,
                 "url": "http://veganstrategist.org/veganworld/",
-                "cover_image": None
+                "cover_image": null
             },
             {
                 "title": "The Bright Ages",
                 "subheading": "A New History of Medieval Europe",
-                "author": [
-                    "Matthew Gabriele",
-                    "David M. Perry"
-                ],
+                "author": "Matthew Gabriele and David M. Perry",
                 "id": {
-                    "ISBN": "978-0-06-298090-8"
+                    "name": "ISBN",
+                    "value": "978-0-06-298090-8"
                 },
                 "date_released": "2021-12-07",
                 "date_started": "2021-05",
-                "date_finished": None,
-                "rating": None,
+                "date_finished": null,
+                "rating": null,
                 "url": "https://www.harvard.com/book/the_bright_ages/",
-                "cover_image": None
+                "cover_image": null
             },
             {
                 "title": "The Three-Body Problem",
                 "author": "Cixin Liu",
                 "id": {
-                    "ISBN": "978-0-76-538203-0"
+                    "name": "ISBN",
+                    "value": "978-0-76-538203-0"
                 },
                 "date_released": "2016-01-12",
                 "date_started": "2021-06",
-                "date_finished": None,
-                "rating": None,
-                "url": None,
-                "cover_image": None
+                "date_finished": null,
+                "rating": null,
+                "url": "https://us.macmillan.com/books/9780765382030/thethreebodyproblem",
+                "cover_image": null
+            }
         ]
     },
     {
@@ -82,14 +85,158 @@
                 "title": "Children of Time",
                 "author": "Adrian Tchaikovsky",
                 "id": {
-                    "ISBN": 9780316452502
+                    "name": "ISBN",
+                    "value": "9780316452502"
                 },
                 "date_released": "2015-06-04",
                 "date_started": "2022-07",
                 "date_finished": "2022-07-22",
                 "rating": 4,
                 "url": "https://www.adriantchaikovsky.com/children-of-time-series.html#anchor2",
-                "cover_image": None
+                "cover_image": null
+            },
+            {
+                "title": "Professional Student",
+                "subheading": "The Survival Code of Those Who Turn a Crisis Into an Opportunity",
+                "title_original": "프로페셔널 스튜던트",
+                "subheading_original": "위기를 기회로 만드는 사람들의 생존코드",
+                "author": "Yongseop Kim",
+                "author_original": "김용섭",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9791197016875"
+                },
+                "date_released": "2021-02-18",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 2,
+                "url": "https://book.naver.com/bookdb/book_detail.naver?bid=18002971",
+                "cover_image": null
+            },
+            {
+                "title": "A World Without Email",
+                "subheading": "Reimagining Work in an Age of Communication overload",
+                "author": "Cal Newport",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9780525536550"
+                },
+                "date_released": "2021-03-02",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 3,
+                "url": "https://www.calnewport.com/books/a-world-without-email/",
+                "cover_image": null
+            },
+            {
+                "title": "So I Decided to Record.",
+                "subheading": "Daily Habits So I Won't Forget",
+                "title_original": "기록하기로 했습니다.",
+                "subheading_original": "잊지 않으려고 시작한 매일의 습관",
+                "author": "Kim Sinji",
+                "author_original": "김신지",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9791160805390"
+                },
+                "date_released": "2021-02-09",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 4,
+                "url": "https://book.naver.com/bookdb/book_detail.naver?bid=17853832",
+                "cover_image": null
+            },
+            {
+                "title": "The Humble Pi",
+                "subheading": "When Math Goes Wrong in the Real World",
+                "author": "Matt Parker",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9780593084687"
+                },
+                "date_released": "2020-01-21",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 2,
+                "url": "https://www.penguinrandomhouse.com/books/610964/humble-pi-by-matt-parker/?pdivflag",
+                "cover_image": null
+            },
+            {
+                "title": "The Butchering Art",
+                "subheading": "Joseph Lister's Quest to Transform the Grisly World of Victorian Medicine",
+                "author": "Lindsay Fitzharris",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9780374117290"
+                },
+                "date_released": "2017-10-31",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 5,
+                "url": "https://drlindseyfitzharris.com/the-butchering-art/",
+                "cover_image": null
+            },
+            {
+                "title": "Underbug",
+                "subheading": "An Obsessive Tale of Termites and Technology",
+                "author": "Lisa Margonelli",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9780374282073"
+                },
+                "date_released": "2018-08-21",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 5,
+                "url": "https://lisamargonelli.com/2018/06/24/underbug-the-book/",
+                "cover_image": null
+            },
+            {
+                "title": "If We Can't Go at the Speed of Light",
+                "title_original": "우리가 빛의 속도로 갈 수 없다면",
+                "author": "Kim Choyeop",
+                "author_original": "김초엽",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9791190090018"
+                },
+                "date_released": "2019-06-24",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 4,
+                "url": "https://book.naver.com/bookdb/book_detail.naver?bid=15028705",
+                "cover_image": null
+            },
+            {
+                "title": "The Last Wish",
+                "subheading": "The Witcher #0.5",
+                "author": "Andrej Sapkowski",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9780575077836"
+                },
+                "date_released": "2007-06-07",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 4,
+                "url": "https://www.goodreads.com/book/show/1128434.The_Last_Wish",
+                "cover_image": null
+            },
+            {
+                "title": "The Greenhouse at the End of the Earth",
+                "title_original": "지구 끝의 온실",
+                "author": "Kim Choyeop",
+                "author_original": "김초엽",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9791191824001"
+                },
+                "date_released": "2021-08-18",
+                "date_started": "2021",
+                "date_finished": "2021",
+                "rating": 4,
+                "url": "https://book.naver.com/bookdb/book_detail.naver?bid=20825320",
+                "cover_image": null
             }
         ]
     },
@@ -100,62 +247,65 @@
                 "title": "Ra",
                 "author": "qntm",
                 "id": {
-                    "ASIN": "B07L9KLYPK"
+                    "name": "ASIN",
+                    "value": "B07L9KLYPK"
                 },
                 "date_released": "2018-12-11",
-                "date_started": None,
-                "date_finished": None,
-                "rating": None,
+                "date_started": null,
+                "date_finished": null,
+                "rating": null,
                 "url": "https://www.amazon.com/Ra-Sam-Hughes-ebook/dp/B07L9KLYPK/",
-                "cover_image": None
+                "cover_image": null
             },
             {
-                "title": "THere Is No Antimemetics Division",
+                "title": "There Is No Antimemetics Division",
                 "author": "qntm",
                 "id": {
-                    "ASIN": "B08FHHQRM2"
+                    "name": "ASIN",
+                    "value": "B08FHHQRM2"
                 },
                 "date_released": "2020-08-08",
-                "date_started": None,
-                "date_finished": None,
-                "rating": None,
+                "date_started": null,
+                "date_finished": null,
+                "rating": null,
                 "url": "https://www.amazon.com/There-No-Antimemetics-Division-qntm-ebook/dp/B08FHHQRM2/",
-                "cover_image": None
+                "cover_image": null
             }
         ]
     },
     {
-        "name": "Suspended",
+        "name": "Did Not Finish",
         "books": [
             {
                 "title": "This is Vegan Propaganda",
                 "subheading": "And Other Lies the Meat Industry Tells You",
                 "author": "Ed Winters",
                 "id": {
-                    "ISBN": "978-1-78504-376-5"
+                    "name": "ISBN",
+                    "value": "978-1-78504-376-5"
                 },
                 "date_released": "2022-01-06",
                 "date_started": "2022-05",
-                "date_finished": None,
+                "date_finished": null,
                 "rating": 1,
                 "url": "https://earthlinged.org/thisisveganpropaganda",
-                "cover_image": None,
-                "notes": "Although Ed Winters, a.k.a. Earthling Ed, is a skilled orator, his book falls short of the eloquence and rhetorical precision which he employs in his TED talk. Dull, repetitive language drags down what is otherwise sound information. Worthwhile, if any, as a one-stop-shop for relevant references."
+                "cover_image": null
             },
             {
                 "title": "Would Trotsky Wear a Bluetooth",
                 "subheading": "Technological Utopianism Under Socialism",
                 "author": "Paul R. Josephson",
                 "id": {
-                    "ISBN": "978-0-8018-9410-7"
+                    "name": "ISBN",
+                    "value": "978-0-8018-9410-7"
                 },
                 "date_released": "2009-01-01",
                 "date_started": "2022",
-                "date_finished": None,
+                "date_finished": null,
                 "rating": 3,
                 "url": "https://www.goodreads.com/book/show/7617517-would-trotsky-wear-a-bluetooth",
-                "cover_image": None,
-                "notes": "While the subject matter is fascinating, this university press book is difficult to tackle for the layperson."
+                "cover_image": null
+            }
         ]
     }
 ]

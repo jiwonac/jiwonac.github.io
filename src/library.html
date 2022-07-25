@@ -1,0 +1,35 @@
+---
+title: Library
+tags: page
+---
+
+{% for list in library %}
+<h2>{{ list.name }}</h2>
+    {% for book in list.books %}
+        <h3>
+            {% if book.url %}<a href="{{book.url}}">{% endif %}
+                {{book.title}}{% if book.subheading %}: {{book.subheading}} {% endif %}
+                {% if book.title_original %}
+                    ({{book.title_original}}{% if book.subheading_original %}: {{book.subheading_original}} {% endif %})
+                {% endif %}
+            {%if book.url %}</a>{% endif %}
+        </h3>
+        {% if book.cover_image %}
+            <img src="{{book.cover_image}}" alt="{{book.title}} Cover Image">
+        {% endif %}
+        <p>
+            Author: {{book.author}}{% if book.author_original %} ({{book.author_original}}){% endif %}<br>
+            Released: {{book.date_released}}<br>
+            {{book.id.name}}: {{book.id.value}}
+            {% if book.date_started %}
+                <br>Started: {{book.date_started}}
+            {% endif %}
+            {% if book.date_finished %}
+                <br>Finished: {{book.date_finished}}
+            {% endif %}
+            {% if book.rating %}
+                <br>Rating: {% for i in (1..5) %}{% if i <= book.rating %}★{% else %}✰{% endif %}{% endfor %}
+            {% endif %}
+        </p>
+    {% endfor %}
+{% endfor %}
