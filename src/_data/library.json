@@ -1,0 +1,161 @@
+[
+    {
+        "name": "Reading",
+        "books": [
+            {
+                "title": "The Day the World Stops Shopping",
+                "subheading": "The Day the World Stops Shopping: How Ending Consumerism Saves the Environment and Ourselves",
+                "author": "J. B. MacKinnon",
+                "id": {
+                    "ISBN": 9780062856043
+                },
+                "date_released": "2021-05-25",
+                "date_started": "2022-07-22",
+                "date_finished": None,
+                "rating": None,
+                "url": "https://www.jbmackinnon.com/the-day-the-world-stops-shopping",
+                "cover_image": None
+            },
+            {
+                "title": "Ordinary Men",
+                "subheading": "Reserve Police Battalion 101 and the Final Solution in Poland",
+                "author": "Christopher Browning",
+                "id": {
+                    "ISBN": 9780062303028
+                },
+                "date_released": "2017-02-28",
+                "date_started": "2022-07-24",
+                "date_finished": None,
+                "rating": None,
+                "url": "https://www.harpercollins.com/products/ordinary-men-christopher-r-browning?variant=32207518924834",
+                "cover_image": None
+            },
+            {
+                "title": "How to Create a Vegan World",
+                "subheading": "A Pragmatic Approach",
+                "author": "Tobias Leenaert",
+                "id": {
+                    "ISBN": 9781590565711
+                },
+                "date_released": "2017-07-05",
+                "date_started": "2022-06",
+                "date_finished": None,
+                "rating": None,
+                "url": "http://veganstrategist.org/veganworld/",
+                "cover_image": None
+            },
+            {
+                "title": "The Bright Ages",
+                "subheading": "A New History of Medieval Europe",
+                "author": [
+                    "Matthew Gabriele",
+                    "David M. Perry"
+                ],
+                "id": {
+                    "ISBN": "978-0-06-298090-8"
+                },
+                "date_released": "2021-12-07",
+                "date_started": "2021-05",
+                "date_finished": None,
+                "rating": None,
+                "url": "https://www.harvard.com/book/the_bright_ages/",
+                "cover_image": None
+            },
+            {
+                "title": "The Three-Body Problem",
+                "author": "Cixin Liu",
+                "id": {
+                    "ISBN": "978-0-76-538203-0"
+                },
+                "date_released": "2016-01-12",
+                "date_started": "2021-06",
+                "date_finished": None,
+                "rating": None,
+                "url": None,
+                "cover_image": None
+        ]
+    },
+    {
+        "name": "Completed",
+        "books": [
+            {
+                "title": "Children of Time",
+                "author": "Adrian Tchaikovsky",
+                "id": {
+                    "ISBN": 9780316452502
+                },
+                "date_released": "2015-06-04",
+                "date_started": "2022-07",
+                "date_finished": "2022-07-22",
+                "rating": 4,
+                "url": "https://www.adriantchaikovsky.com/children-of-time-series.html#anchor2",
+                "cover_image": None
+            }
+        ]
+    },
+    {
+        "name": "Backlog",
+        "books": [
+            {
+                "title": "Ra",
+                "author": "qntm",
+                "id": {
+                    "ASIN": "B07L9KLYPK"
+                },
+                "date_released": "2018-12-11",
+                "date_started": None,
+                "date_finished": None,
+                "rating": None,
+                "url": "https://www.amazon.com/Ra-Sam-Hughes-ebook/dp/B07L9KLYPK/",
+                "cover_image": None
+            },
+            {
+                "title": "THere Is No Antimemetics Division",
+                "author": "qntm",
+                "id": {
+                    "ASIN": "B08FHHQRM2"
+                },
+                "date_released": "2020-08-08",
+                "date_started": None,
+                "date_finished": None,
+                "rating": None,
+                "url": "https://www.amazon.com/There-No-Antimemetics-Division-qntm-ebook/dp/B08FHHQRM2/",
+                "cover_image": None
+            }
+        ]
+    },
+    {
+        "name": "Suspended",
+        "books": [
+            {
+                "title": "This is Vegan Propaganda",
+                "subheading": "And Other Lies the Meat Industry Tells You",
+                "author": "Ed Winters",
+                "id": {
+                    "ISBN": "978-1-78504-376-5"
+                },
+                "date_released": "2022-01-06",
+                "date_started": "2022-05",
+                "date_finished": None,
+                "rating": 1,
+                "url": "https://earthlinged.org/thisisveganpropaganda",
+                "cover_image": None,
+                "notes": "Although Ed Winters, a.k.a. Earthling Ed, is a skilled orator, his book falls short of the eloquence and rhetorical precision which he employs in his TED talk. Dull, repetitive language drags down what is otherwise sound information. Worthwhile, if any, as a one-stop-shop for relevant references."
+            },
+            {
+                "title": "Would Trotsky Wear a Bluetooth",
+                "subheading": "Technological Utopianism Under Socialism",
+                "author": "Paul R. Josephson",
+                "id": {
+                    "ISBN": "978-0-8018-9410-7"
+                },
+                "date_released": "2009-01-01",
+                "date_started": "2022",
+                "date_finished": None,
+                "rating": 3,
+                "url": "https://www.goodreads.com/book/show/7617517-would-trotsky-wear-a-bluetooth",
+                "cover_image": None,
+                "notes": "While the subject matter is fascinating, this university press book is difficult to tackle for the layperson."
+        ]
+    }
+]
