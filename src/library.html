@@ -8,11 +8,10 @@ tags: page
     {% for book in list.books %}
         <h3>
             {% if book.url %}<a href="{{book.url}}">{% endif %}
-                {{book.title}}{% if book.subheading %}: {{book.subheading}} {% endif %}
+                {{book.title}}{%if book.url %}</a>{% endif %}{% if book.subheading %}: {{book.subheading}} {% endif %}
                 {% if book.title_original %}
                     ({{book.title_original}}{% if book.subheading_original %}: {{book.subheading_original}} {% endif %})
                 {% endif %}
-            {%if book.url %}</a>{% endif %}
         </h3>
         {% if book.cover_image %}
             <img src="{{book.cover_image}}" alt="{{book.title}} Cover Image">
