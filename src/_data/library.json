@@ -96,6 +96,20 @@
                 "cover_image": null
             },
             {
+                "title": "Press Reset",
+                "author": "Ruin and Recovery in the Video Game Industry",
+                "id": {
+                    "name": "ISBN",
+                    "value": "9781538735480"
+                },
+                "date_released": "2021-05-11",
+                "date_started": "2021-07-10",
+                "date_finished": "2021-07",
+                "rating": 4,
+                "url": "https://www.goodreads.com/en/book/show/55277893-press-reset",
+                "cover_image": null
+            }
+            {
                 "title": "Professional Student",
                 "subheading": "The Survival Code of Those Who Turn a Crisis Into an Opportunity",
                 "title_original": "프로페셔널 스튜던트",
