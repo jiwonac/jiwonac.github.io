@@ -15,7 +15,7 @@
                 "date_finished": null,
                 "rating": null,
                 "url": "https://www.jbmackinnon.com/the-day-the-world-stops-shopping",
-                "cover_image": null
+                "cover_image": "/assets/shopping.jpg"
             },
             {
                 "title": "Ordinary Men",
@@ -30,7 +30,7 @@
                 "date_finished": null,
                 "rating": null,
                 "url": "https://www.harpercollins.com/products/ordinary-men-christopher-r-browning?variant=32207518924834",
-                "cover_image": null
+                "cover_image": "/assets/ordinarymen.jpg"
             },
             {
                 "title": "How to Create a Vegan World",
@@ -45,7 +45,7 @@
                 "date_finished": null,
                 "rating": null,
                 "url": "http://veganstrategist.org/veganworld/",
-                "cover_image": null
+                "cover_image": "/assets/veganworld.jpg"
             },
             {
                 "title": "The Bright Ages",
@@ -60,7 +60,7 @@
                 "date_finished": null,
                 "rating": null,
                 "url": "https://www.harvard.com/book/the_bright_ages/",
-                "cover_image": null
+                "cover_image": "/assets/brightages.jpg"
             },
             {
                 "title": "The Three-Body Problem",
@@ -74,7 +74,7 @@
                 "date_finished": null,
                 "rating": null,
                 "url": "https://us.macmillan.com/books/9780765382030/thethreebodyproblem",
-                "cover_image": null
+                "cover_image": "/assets/threebody.jpg"
             }
         ]
     },
@@ -93,11 +93,12 @@
                 "date_finished": "2022-07-22",
                 "rating": 4,
                 "url": "https://www.adriantchaikovsky.com/children-of-time-series.html#anchor2",
-                "cover_image": null
+                "cover_image": "/assets/childrenoftime.jpg"
             },
             {
                 "title": "Press Reset",
-                "author": "Ruin and Recovery in the Video Game Industry",
+                "subheading": "Ruin and Recovery in the Video Game Industry",
+                "author": "Jason Schreier",
                 "id": {
                     "name": "ISBN",
                     "value": "9781538735480"
@@ -107,8 +108,8 @@
                 "date_finished": "2021-07",
                 "rating": 4,
                 "url": "https://www.goodreads.com/en/book/show/55277893-press-reset",
-                "cover_image": null
-            }
+                "cover_image": "/assets/pressreset.jpg"
+            },
             {
                 "title": "Professional Student",
                 "subheading": "The Survival Code of Those Who Turn a Crisis Into an Opportunity",
@@ -125,7 +126,7 @@
                 "date_finished": "2021",
                 "rating": 2,
                 "url": "https://book.naver.com/bookdb/book_detail.naver?bid=18002971",
-                "cover_image": null
+                "cover_image": "/assets/professionalstudent.jpg"
             },
             {
                 "title": "A World Without Email",
@@ -140,7 +141,7 @@
                 "date_finished": "2021",
                 "rating": 3,
                 "url": "https://www.calnewport.com/books/a-world-without-email/",
-                "cover_image": null
+                "cover_image": "/assets/email.jpg"
             },
             {
                 "title": "So I Decided to Record.",
@@ -158,7 +159,7 @@
                 "date_finished": "2021",
                 "rating": 4,
                 "url": "https://book.naver.com/bookdb/book_detail.naver?bid=17853832",
-                "cover_image": null
+                "cover_image": "/assets/record.jpg"
             },
             {
                 "title": "The Humble Pi",
@@ -173,7 +174,7 @@
                 "date_finished": "2021",
                 "rating": 2,
                 "url": "https://www.penguinrandomhouse.com/books/610964/humble-pi-by-matt-parker/?pdivflag",
-                "cover_image": null
+                "cover_image": "/assets/humblepi.jpg"
             },
             {
                 "title": "The Butchering Art",
@@ -188,7 +189,7 @@
                 "date_finished": "2021",
                 "rating": 5,
                 "url": "https://drlindseyfitzharris.com/the-butchering-art/",
-                "cover_image": null
+                "cover_image": "/assets/butcheringart.jpg"
             },
             {
                 "title": "Underbug",
@@ -203,7 +204,7 @@
                 "date_finished": "2021",
                 "rating": 5,
                 "url": "https://lisamargonelli.com/2018/06/24/underbug-the-book/",
-                "cover_image": null
+                "cover_image": "/assets/underbug.jpg"
             },
             {
                 "title": "If We Can't Go at the Speed of Light",
@@ -219,7 +220,7 @@
                 "date_finished": "2021",
                 "rating": 4,
                 "url": "https://book.naver.com/bookdb/book_detail.naver?bid=15028705",
-                "cover_image": null
+                "cover_image": "/assets/speedoflight.jpg"
             },
             {
                 "title": "The Last Wish",
@@ -234,7 +235,7 @@
                 "date_finished": "2021",
                 "rating": 4,
                 "url": "https://www.goodreads.com/book/show/1128434.The_Last_Wish",
-                "cover_image": null
+                "cover_image": "/assets/lastwish.jpg"
             },
             {
                 "title": "The Greenhouse at the End of the Earth",
@@ -250,7 +251,7 @@
                 "date_finished": "2021",
                 "rating": 4,
                 "url": "https://book.naver.com/bookdb/book_detail.naver?bid=20825320",
-                "cover_image": null
+                "cover_image": "/assets/greenhouse.jpg"
             }
         ]
     },

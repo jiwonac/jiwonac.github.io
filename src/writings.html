@@ -3,11 +3,18 @@ title: Writings
 tags: page
 ---
 
-<ul>
+<div class="tile-container">
     {% for writing in writings %}
-    <li>
-        <a href="{{ writing.url }}">{{ writing.title }}</a> in <a href="{{ writing.publication_url }}">{{ writing.publication }}</a>
-        <div class="alignright">{{ writing.date | date: "%b %d, %Y" }}</div>
-    </li> 
+        <div class="tile">
+            {% if writing.image %}
+                <a href="{{ writing.url }}">
+                    <img src="{{ writing.image }}" style="height: 100px; max-width: 50%; object-fit: cover;">
+                </a>
+            {% endif %}
+            <p>
+                <a href="{{ writing.url }}">{{ writing.title }}</a> in <a href="{{ writing.publication_url }}">{{ writing.publication }}</a>
+                <div class="alignright">{{ writing.date | date: "%b %d, %Y" }}</div>
+            </p>
+        </div>
     {% endfor %}
-</ul>
+</div>

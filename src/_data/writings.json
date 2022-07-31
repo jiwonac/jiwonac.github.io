@@ -4,20 +4,23 @@
         "url": "http://www.campustimes.org/2021/10/31/a-more-engaging-way-to-teach-science/",
         "publication": "Campus Times",
         "publication_url": "http://www.campustimes.org/",
-        "date": "October 31, 2021"
+        "date": "October 31, 2021",
+        "image": "/assets/scienceeducation.png"
     },
     {
         "title": "Disaster prevention lessons from AI",
         "url": "http://www.campustimes.org/2020/10/25/disaster-prevention-lessons-from-ai",
         "publication": "Campus Times",
         "publication_url": "http://www.campustimes.org/",
-        "date": "October 25, 2020"
+        "date": "October 25, 2020",
+        "image": "/assets/aisafety.png"
     },
     {
         "title": "Computer science education needs a reboot",
         "url": "http://www.campustimes.org/2020/10/05/computer-science-education-needs-a-reboot/",
         "publication": "Campus Times",
         "publication_url": "http://www.campustimes.org/",
-        "date": "October 05, 2020"
+        "date": "October 05, 2020",
+        "image": "/assets/cseducation.png"
     }
 ]
