@@ -1,7 +1,7 @@
 ---
 title: Disaster prevention lessons from AI
 date: 2020-10-25
-date_str: "October 25, 2020"
+date_str: "Oct 25, 2020"
 image: "/assets/writings/aisafety.png"
 small_image: true
 alt: "A robot wearing a safety vest."
