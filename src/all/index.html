@@ -1,0 +1,6 @@
+---
+eleventyExcludeFromCollections: true
+---
+{% for post in collections.allexcepthome %}
+    {% include "_content.html", index=true %}
+{% endfor %}

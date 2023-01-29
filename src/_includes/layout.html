@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include "_head.html" %}
+</html>
+<body>
+    <div id="body-container">
+        <div id="body-grid">
+            <div id="body-left">
+                <h1><a href="/">{{ metadata.title }}</a></h1>
+                {% if eleventyExcludeFromCollections %}
+                    {{ content }}
+                {% else %}
+                    <div class="content">
+                        <div class="content-left">
+                            {{ date_str }}<br>
+                            {% if collaborators %}
+                                <small>
+                                {% for collaborator in collaborators %}
+                                    {{ collaborator }}<br>
+                                {% endfor %}
+                                </small>
+                            {% endif %}
+                        </div>
+                        <div class="content-right">
+                            <h2>{{ title }}</h2>
+                            {% if image %}
+                                <img src="{{ image }}" alt="{{ alt }}">
+                            {% endif %}
+                            {% if links %}
+                                <p>
+                                    {% for link in links %}
+                                        <img src="{{ link.image }}" class="textsize-image">
+                                        <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                            {{ content }}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+            <div id="body-right">
+                {% include "_categories.html" %}
+                {% include "_nav.html" %}
+            </div>
+        </div>
+        {% include "_foot.html" %}
+    </div>
+</body>

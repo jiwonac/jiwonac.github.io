@@ -1,0 +1,7 @@
+---
+eleventyExcludeFromCollections: true
+---
+
+{% for post in collections.writings reversed %}
+    {% include "_content.html", index=true %}
+{% endfor %}

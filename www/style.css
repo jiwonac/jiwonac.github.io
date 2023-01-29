@@ -1,0 +1,192 @@
+:root {
+    /* Color variables */
+    --dark-color: #1f1f1f;
+    --light-color: #FAF9F6;
+    --key-color-dark: rgb(185, 29, 146);
+    --dim-color: gray;
+    
+    /* Size variables */
+    --default-margin: 10px;
+
+    scroll-behavior: smooth;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 24px;
+}
+
+#body-container {
+    margin: 10px;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#body-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+#body-left {
+}
+
+#body-right {
+    margin-top: 10em;
+    position: relative;
+    padding: var(--default-margin);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.content-left {
+    text-align: right;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.content-right {
+    border-left: 2px solid var(--dark-color);
+    padding-left: 10pt;
+}
+
+#categories {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.category {
+    margin: 2.5pt;
+}
+
+nav {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    position: relative; 
+    text-align: center;
+    margin: var(--default-margin);
+}
+
+.textsize-image {
+    height: 1em;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: underline 0.15em var(--dark-color);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms, color 300ms;
+    color: var(--dark-color);
+}
+
+a:hover {
+    text-decoration-color: var(--key-color-dark);
+    text-underline-offset: 0.4em;
+    color: var(--key-color-dark);
+}
+
+.highlight {
+    color: var(--key-color-dark);
+  }
+  
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.highlight a {
+    color: var(--key-color-dark);
+    text-decoration-color: var(--key-color-dark);
+}
+
+.highlight a:hover {
+    color: var(--dark-color);
+    text-decoration-color: var(--dark-color);
+}
+
+.poster-text {
+    font-size: 2em;
+}
+  
+.smallposter-text {
+    font-size: 1.5em;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@-moz-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@-webkit-keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.inner-reveal {
+    opacity: 0;
+    animation: fadeIn 1s ease-in 0s 1 normal forwards;
+    -moz-animation: fadeIn 1s ease-in 0s 1 normal forwards;
+    -webkit-animation: fadeIn 1s ease-in 0s 1 normal forwards;
+}
+  
+.inner-reveal:nth-child(1) { animation-delay: 0.0s; }
+.inner-reveal:nth-child(2) { animation-delay: 0.5s; }
+.inner-reveal:nth-child(3) { animation-delay: 1.0s; }
+.inner-reveal:nth-child(4) { animation-delay: 1.5s; }
+.inner-reveal:nth-child(5) { animation-delay: 2.0s; }
+.inner-reveal:nth-child(6) { animation-delay: 2.5s; }
+  
+.alternating-wrapper {
+    position: relative;
+    width: 100%;
+}
+  
+  /*
+   * stay-time: 2
+   * fade-time: 0.5s
+   * num-elements: 6
+   * animation-time: (stay-time + fade-time) x num-elements = 2.5 x 6 = 15s
+   */
+  
+.alternating-inner {
+    position: absolute;
+    opacity: 0;
+    animation: fadeInOut 15s ease-in 0s infinite normal forwards;
+    -moz-animation: fadeInOut 15s ease-in 0s infinite normal forwards;
+    -webkit-animation: fadeInOut 15s ease-in 0s infinite normal forwards;
+    width: max-content;
+}
+  
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    3.33% { opacity: 1; }
+    16.66% { opacity: 1; }
+    20.00% { opacity: 0; }
+    100% { opacity: 0; }
+}
+  
+.alternating-inner:nth-child(1) { animation-delay: 0.0s; }
+.alternating-inner:nth-child(2) { animation-delay: 2.5s; }
+.alternating-inner:nth-child(3) { animation-delay: 5.0s; }
+.alternating-inner:nth-child(4) { animation-delay: 7.5s; }
+.alternating-inner:nth-child(5) { animation-delay: 10.0s; }
+.alternating-inner:nth-child(6) { animation-delay: 12.5s; }
+
+h1 {
+    font-size: 4em;
+}
+
+ul {
+    padding-top: 0em;
+}
+
+.small-image {
+    float: right;
+    aspect-ratio: 4/3; 
+    object-fit: cover;
+    width: 200px;
+}

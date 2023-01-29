@@ -1,0 +1,43 @@
+<div class="content">
+    <div class="content-left">
+        {{ post.data.date_str }}<br>
+        {% if post.data.collaborators %}
+            <small>
+            {% for collaborator in post.data.collaborators %}
+                {{ collaborator }}<br>
+            {% endfor %}
+            </small>
+        {% endif %}
+    </div>
+    <div class="content-right">
+        {% if post.data.title %}
+            {% if post.url %}
+                <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+            {% elsif post.data.url %}
+                <h2><a href="{{ post.data.url }}">{{ post.data.title }}</a></h2>
+            {% else %}
+                <h2>{{ post.data.title }}</h2>
+            {% endif %}
+        {% endif %}
+        {% if post.data.image %}
+            {% if post.data.small_image and index %}
+                <img src="{{ post.data.image }}" class="small-image">
+            {% else %}
+                <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
+            {% endif %}
+        {% endif %}
+        {% if post.data.links %}
+            <p>
+                {% for link in post.data.links %}
+                    <img src="{{ link.image }}" class="textsize-image">
+                    <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
+                {% endfor %}
+            </p>
+        {% endif %}
+        {% if post.data.blurb %}
+            {{ post.data.blurb }}
+        {% else %}
+            {{ post.templateContent }}
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,39 @@
+{
+    "title": "Jiwon's Alcove",
+    "description": "Musings on computer science and life.",
+    "name": "Jiwon Chang",
+    "baseURL": "https://jiwonc.net/",
+    "language": "en-us",
+    "links": [
+        {
+            "name": "CV",
+            "url": "/assets/docs/cv.pdf",
+            "image": "/assets/icons/pdf.png"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/jiwonac/",
+            "image": "/assets/icons/github.png"
+        },
+        {
+            "name": "Email",
+            "url": "mailto:blog@jiwonc.net",
+            "image": "/assets/icons/email.png"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jiwonchang",
+            "image": "/assets/icons/linkedin.png"
+        },
+        {
+            "name": "GoodReads",
+            "url": " https://www.goodreads.com/jiwonac",
+            "image": "/assets/icons/book.png"
+        },
+        {
+            "name": "RSS",
+            "url": "https://jiwonc.net/feed.xml",
+            "image": "/assets/icons/rss.png"
+        }
+    ]
+}
