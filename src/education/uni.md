@@ -9,6 +9,7 @@ permalink: false
 ---
 
 * B.S. in computer science!
+* GPA: 3.36
 * Discover Grant for Undergraduate Research
 
 <b>Relevant Coursework</b>
