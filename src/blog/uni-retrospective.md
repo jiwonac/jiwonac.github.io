@@ -3,7 +3,7 @@ title: "A Few Lessons from Undergrad"
 date: 2023-02-12
 date_str: "Feb 12, 2023"
 tags: blog
-blurb: 
+blurb: "I just got my bachelor's degree, so I wrote a listicle about it."
 ---
 
 I just got my bachelor's degree! It was a long journey, including a semester when I only got F's. It's a miracle I got a degree at all, let alone with the opportunity to pursue a PhD next fall. Rather than writing an overly long retrospective that nobody cares about, I wrote a listicle instead! 
@@ -30,3 +30,11 @@ I just got my bachelor's degree! It was a long journey, including a semester whe
 10. **Different fields view the same problem in different lenses.** Computer science includes subdisciplines whose practitioners think in wildly different ways, such as theory (algorithms & analysis), systems (empirical experiments), HCI (human factor), and data science (statistics). 
 
 Many honorable mentions goes to: The greedy heuristic; search algorithms; minimax; finite automata, regular expressions and context-free grammar; duality; recursion; instructions as data; backpropagation; metaheuristics; the equivalence of logic, category theory and type theory; P vs NP problem. 
+
+### Top Classes I Wish I Had Time For
+
+1. Theory of machine learning & neural networks
+2. Traditional relational database systems
+3. Math fundamentals: real analysis, abstract algebra & combinatorics
+4. Spectral graph theory
+5. Computational geometry
