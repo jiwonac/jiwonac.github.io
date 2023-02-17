@@ -21,7 +21,7 @@
         {% endif %}
         {% if post.data.image %}
             {% if post.data.small_image and index %}
-                <img src="{{ post.data.image }}" class="small-image">
+                <img src="{{ post.data.image }}" class="small-image" alt="{{ post.data.alt }}">
             {% else %}
                 <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
             {% endif %}

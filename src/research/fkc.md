@@ -1,6 +1,7 @@
 ---
 title: "Fair $k$-Cover Coresets"
 image: "/assets/research/fkc.png"
+alt: Red and blue points on a plane, with some red points and some blue points having a circle around them. 
 collaborators: 
  - Pranay Mundra
  - Yurong Yu

@@ -3,7 +3,7 @@
     <div id="link">
         {% if link.image %}
         <a href="{{ link.url }}">
-            <img src="{{ link.image }}" class="textsize-image">
+            <img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}">
         </a>
         {% endif %}
         <!--{% if link.url != NULL %}
