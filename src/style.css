@@ -12,7 +12,7 @@
     color: var(--dark-color);
     background-color: var(--light-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 #body-container {
@@ -189,4 +189,9 @@ ul {
     aspect-ratio: 4/3; 
     object-fit: cover;
     width: 200px;
+}
+
+blockquote {
+    border-left: 2px solid var(--dim-color);
+    padding-left: 20px;
 }
