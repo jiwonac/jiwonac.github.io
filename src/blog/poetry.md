@@ -3,7 +3,7 @@ title: Jamming to Musicians I Like for their Poetic Lyrics
 tags: blog
 date: 2023-02-18
 date_str: "Feb 18, 2023"
-blurb: ""
+blurb: "This is the post in which I vibe to the lyricism of my favorite songs and artists. "
 ---
 
 I listen to a wide range of music, from rock and metal to some synthwave, hiphop and and K-pop. So while I'm not a genre purist, there is a common "vibe" among my favorite artists in that they put a lot of attention into the lyrics of their songs and aim to be more "poetic" than the norm of their genre. 
