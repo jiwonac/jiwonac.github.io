@@ -51,23 +51,24 @@
 <p><img src="/assets/blog/academic-pkm.png" alt=""></p>
 <p>The following template for literature notes works well for me. The title of the literature notes are citekeys, but I can also quick switch via a paper's title using the alias field. I can also quickly switch to the item in Zotero by clicking on the Zotero URI. In the topics field, I tag a paper by its topic and I also have a simple paper reading tracking system where I tag them as #toread or #done.</p>
 <pre><code>---
-alias: &quot;\{\{title\}\}&quot;
+alias: {title}
 ---
-# \{\{title\}\}
+# {title}
 
-Author: \{\{authorString\}\}
-URL: \{\{URL\}\}
-[Zotero URI](\{\{zoteroSelectURI\}\})
+Author: {authorString}
+URL: {URL}
+[Zotero URI]({zoteroSelectURI})
 Topics:
 Status:
 
-\{\{abstract\}\}
+{abstract}
 
 ## Notes
 
 &gt; A blockquote summarizing the paper in one sentence. 
 
 * Some bullet points. 
+* Blah blah. 
 </code></pre>
 <p>Now, I want to discuss certain factors that I designed into my systems that might not be obvious.</p>
 <h2>What's Not in Obsidian</h2>

@@ -28,23 +28,24 @@ The following template for literature notes works well for me. The title of the 
 
 ```
 ---
-alias: "\{\{title\}\}"
+alias: {title}
 ---
-# \{\{title\}\}
+# {title}
 
-Author: \{\{authorString\}\}
-URL: \{\{URL\}\}
-[Zotero URI](\{\{zoteroSelectURI\}\})
+Author: {authorString}
+URL: {URL}
+[Zotero URI]({zoteroSelectURI})
 Topics:
 Status:
 
-\{\{abstract\}\}
+{abstract}
 
 ## Notes
 
 > A blockquote summarizing the paper in one sentence. 
 
 * Some bullet points. 
+* Blah blah. 
 ```
 Now, I want to discuss certain factors that I designed into my systems that might not be obvious. 
 
