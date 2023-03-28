@@ -8,15 +8,15 @@ blurb: "The concept of a PKM isn't inherently life-saving nor terrible. It's jus
 
 I've been following the personal knowledge management (PKM) space for a while now. The promises of a second brain that helps you make novel connections and organize the haphazard pile of primary, secondary and original text, is appealing to an academic like me. 
 
-Yet, I had trouble finding a system that works for me. [Zettelkasten](https://zettelkasten.de/posts/overview/#the-introduction-to-the-zettelkasten-method) is too orthodox in its insistence on a flat hierarchy and atomic notes, as I don't really think like that. I don't have an incentive to cultivate a [digital garden](https://nesslabs.com/digital-garden-set-up). [Johnny Decimal](https://johnnydecimal.com/)? Too restrictive. [PARA](https://fortelabs.com/blog/para/) is better, though its insistence on categorizing everything as either a project or an area doesn't mesh too well with my workflow. 
+Yet, I had trouble finding a system that works for me. [Zettelkasten](https://zettelkasten.de/posts/overview/#the-introduction-to-the-zettelkasten-method) is too orthodox in its insistence of a flat hierarchy and atomic notes, as I don't really think like that. I don't have an incentive to cultivate a [digital garden](https://nesslabs.com/digital-garden-set-up). [Johnny Decimal](https://johnnydecimal.com/)? Too restrictive. [PARA](https://fortelabs.com/blog/para/) is better, though categorizing everything as either a project or an area doesn't mesh too well with my workflow. 
 
 Ultimately, I decided to start from scratch and assess my needs. 
-1. I need a way to organize scientific literature, and corresponding notes for future reference. 
+1. I need a way to organize scientific literature and literature notes. 
 2. I want to be able to discover non-obvious connection between literature. 
-3. I need a way to take notes on *subjects* and not just *literature notes* for studying and for future reference. 
+3. I need a way to take notes on *subjects* for studying and for future reference. 
 4. I need a way to take notes on *projects* that may cite multiple *literature notes* or *subject notes*. 
 
-To summarize, there are three fundamental types of notes I make: literature, subject, and project notes. 
+To summarize, there are three fundamental types of notes I take: literature, subject, and project notes. 
 
 Since I need to manage hundreds of papers, I decided to use a reference manager, with my choice being goold 'ol free and open source [Zotero](https://zotero.org). For note-taking, I'm sticking with [Obsidian](https://obsidian.md), since I like that it uses raw markdown files for future-proofing. 
 
@@ -28,41 +28,45 @@ The following template for literature notes works well for me. The title of the 
 
 ```
 ---
-alias: "{{title}}"
+alias: "\{\{title\}\}"
 ---
-# {{title}}
+# \{\{title\}\}
 
-Author: {{authorString}}
-URL: {{URL}}
-[Zotero URI]({{zoteroSelectURI}})
+Author: \{\{authorString\}\}
+URL: \{\{URL\}\}
+[Zotero URI](\{\{zoteroSelectURI\}\})
 Topics:
 Status:
 
-{{abstract}}
+\{\{abstract\}\}
 
 ## Notes
+
+> A blockquote summarizing the paper in one sentence. 
+
+* Some bullet points. 
 ```
 Now, I want to discuss certain factors that I designed into my systems that might not be obvious. 
 
 ## What's Not in Obsidian
 
-Although Obsidian is an excellent tool, it can't do everything. Trying to shove everything into a centralized PKM and/or a single app is a trend in the space that I dislike. 
+Although Obsidian is an excellent tool, it can't do everything. Trying to shove everything into a centralized PKM and/or a single app is a phenomenon in the PKM space that I dislike. 
 
-**I discover literature via external sources.** Manual recommendations by colleagues, email alerts, RSS feeds, and searching archives like Google Scholar, arXiv or ACM DL are much better methods of literature discovery. 
+**I discover literature via external sources.** Manual recommendations by colleagues, email alerts, RSS feeds, and searching archives like Google Scholar, arXiv or ACM DL are much better methods of literature discovery than anything within Obsidian.
 
-**I read papers on Zotero or on hard copy, not on Obsidian.** Zotero takes care of PDF and highlight management. Zotero is much more mature in terms of reference management & PDF management than Obsidian. I can still integrate the two platforms by including a "Open in Zotero" link in Obsidian's literature notes. 
+**I read papers on Zotero or as a hard copy, not on Obsidian.** Zotero takes care of PDF and highlight management. Zotero is much more mature in terms of reference management & PDF management than Obsidian. I can still integrate the two platforms by including a "Open in Zotero" link in Obsidian's literature notes. 
 
 **I only take notes related to research and academic topics on Obsidian.** This is to avoid the [collector's fallacy](https://zettelkasten.de/posts/collectors-fallacy/). Yes, I love the idea of learning everything, but my time on Earth is limited. I'm paid to research computer science. I'm not paid to take notes about note-taking. 
 
-**I don't take meeting, lecture, conference, or math notes on Obsidian.** I prefer to take physical notes for these purposes, as I tend to focus better and make better progress with math equations and arrows and diagrams. I will transfer some important tidbits of these paper notes afterwards to Obsidian. 
+**I don't take meeting, lecture, conference, or math notes on Obsidian.** I prefer to take physical notes for these purposes, as I tend to focus better and make better progress with math equations, arrows and diagrams. I will transfer some important tidbits of these paper notes afterwards to Obsidian. 
 
 **I don't incorporate time and task management on Obsidian.** I think plain text is a horrible format for these tasks. I prefer using pen & paper with the occasional help from a digital Calendar. I like the tactility and physicality. I like being able to doodle a time block without being confined to the limitations of markdown when it comes to hyper-text. 
 
-**I dont' write the final output on Obsidian.** I mainly produce two types of outputs: LaTeX manuscripts and code. Overleaf is the de-facto LaTeX collaboration platform among academics. GitHub is the programmer's equivalent. Trying to shove LaTeX manuscript writing into Obsidian via complicated pandoc setup makes no sense. Obsidian is fine for writing draft notes or snippets. 
+**I dont' write the final output on Obsidian.** I mainly produce two types of outputs: LaTeX manuscripts and code. Overleaf is the de-facto LaTeX collaboration platform among academics. GitHub is the programmer's equivalent. Trying to shove LaTeX manuscript writing into Obsidian via a complicated pandoc setup makes no sense. Obsidian is fine for writing draft notes or snippets, though. 
 
 ## Hierarchy of Subjects
 
-Furthermore, I think of *subjects as a hierchy, not a map*. I think it's so weird that the Zettelkasten people insist on a purely flat structure, when even scientific papers are categorized as a hierarchy. 
+I think of *subjects as a hierchy, not a web*. I think it's so weird that the Zettelkasten people insist on a purely flat structure, when scientific papers are ategorized as a hierarchy. 
 
 For instance, a [paper](https://asudeh.github.io/indexlab/tutorial22.htm) I recently read can be categorized as follows. 
 1. Computer science → data management systems → data integration
@@ -80,7 +84,7 @@ Finally, you do not have to stick to an "official" categorization system like AC
 
 Obsidian supports hierarchical tags. Unfortunately, a *tag note* doesn't exist. If I tag a paper with `#CS/AIML/active-learning`, then I can't take notes about active learning in general. The solution I came up with is to use the [Folder Notes](https://github.com/aidenlx/alx-folder-note) plugin. Since folders are inherently hierarchical, it makes sense to nest topics in a folder structure. Folder Notes streamline the process of taking notes *about a folder.* 
 
-For instance, I configured the Folder Notes plugin such that it automatically inserts a waypoint template when a new folder note is created. 
+I configured the Folder Notes plugin such that it automatically inserts a waypoint template when a new folder note is created. 
 ```
 ## Waypoint
 %% Waypoint %%
@@ -104,14 +108,14 @@ The "data management" note has the following waypoint.
 - <u>data integration</u>
 - <u>relational database</u>
 
-Waypoints make it easier to navigate my fairly large tree of topics. Typically, a single refernce is related to one to three topics. If I'm studying a particular topic, or doing a literature survey of a subject, then I take detailed topic notes on the appropriate folder note. 
+Waypoints make it easier to navigate my fairly large tree of topics. Typically, a single refernce is related to one to three topics. If I'm studying a particular topic, or doing a literature survey on a subject, then I take detailed subject notes on the appropriate folder note. 
 
-This system also helps with discoverability. By tagging each literature to multiple topics, I can discover connections that I otherwise may not have made by using the backlinks feature on Obsidian. "Oh right, that paper also uses this algorithm to solve a completely different problem! I should review my notes for that paper to see remind myself what the authors did." 
+This system also helps with discoverability. By tagging each literature to multiple topics, I can discover connections that I otherwise may not have made by using the backlinks feature on Obsidian. "Oh right, that paper also uses this algorithm to solve a completely different problem! I should review my notes for that paper to remind myself what the authors did." 
 
 ## Takeaways
 
-The concept of a PKM isn't inherently life-saving nor terrible. It's just a tool that could be useful. It's easy to make mistakes due to the passionate ferver around the topic. My newbie suggestions are as follows. 
+The concept of a PKM isn't inherently life-saving nor terrible. It's just a tool that could be useful. It's easy to make mistakes due to the passionate ferver around the topic. My tips are as follows. 
 
 1. Assess your needs; find the simplest system that best accomplishes your needs. 
-2. It's good to have many aspects of your knowledge work or life stay outside of your PKM. Be a curator, not a collector. 
+2. It's good to have many aspects of your knowledge work or life stay outside of your PKM. 
 3. Hierarchical folder notes might be a good middle ground between purely flat Zettelkasten and a prescriptive system where an item must belong to a *single* folder. 
