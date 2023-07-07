@@ -8,7 +8,6 @@ date: 2021-12-15
 date_str: "2022"
 tags:
  - research
- - featured
 links:
  - 
      name: code

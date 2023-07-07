@@ -2,6 +2,12 @@
 eleventyExcludeFromCollections: true
 title: Home
 ---
+
 {% for post in collections.featured reversed %}
+    {% include "_content.html", index=true %}
+{% endfor %}
+
+{% assign blog_posts = collections.blog | reverse %}
+{% for post in blog_posts limit:2 %}
     {% include "_content.html", index=true %}
 {% endfor %}
