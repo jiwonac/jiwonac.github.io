@@ -9,10 +9,8 @@ date_str: ""
 
 Right now, I'm...
 <ul>
-    <li>Working on research projects for the Data Intelligence Lab.</li>
+    <li>Working on in-database optimization systems.</li>
     <li>Developing a color programming system.</li>
-    <li>Playing Witcher 3 on the Steam Deck.</li>
-    <li>Learning Blender for CG art.</li>
+    <li>Studying mathematics for algorithms research.</li>
+    <li>Enjoying summer break.</li>
 </ul>
-
-<span class="highlight">NOTE:</span> This website was redesigned from ground-up! There might be bugs, please be patient. RSS isn't updated yet, for instance. 
