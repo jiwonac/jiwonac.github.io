@@ -7,7 +7,6 @@ small_image: true
 alt: "Computer code which reads: No such file or directory: 'creative projects'."
 tags:
  - writings
- - featured
 url: http://www.campustimes.org/2020/10/05/computer-science-education-needs-a-reboot/
 permalink: false
 ---
