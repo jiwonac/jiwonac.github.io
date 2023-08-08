@@ -18,15 +18,6 @@ module.exports = function(eleventyConfig) {
 
     /* Enable RSS */
     eleventyConfig.addPlugin(pluginRss);
-
-    /* Collection of everything except for stuff that should only be on HOME */
-    eleventyConfig.addCollection('allexcepthome', collection => {
-            return collection
-                .getAll()
-                .filter(post => !post.data.tags.includes('home'))
-                .sort((a, b) => (b.date - a.date))
-        }
-    );
     
     /* Set directories */
     return {

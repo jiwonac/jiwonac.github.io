@@ -5,6 +5,10 @@
 <body>
     <div id="body-container">
         <div id="body-grid">
+            <div id="body-right">
+                {% include "_categories.html" %}
+                {% include "_nav.html" %}
+            </div>
             <div id="body-left">
                 <h1><a href="/">{{ metadata.title }}</a></h1>
                 {% if eleventyExcludeFromCollections %}
@@ -38,10 +42,6 @@
                         </div>
                     </div>
                 {% endif %}
-            </div>
-            <div id="body-right">
-                {% include "_categories.html" %}
-                {% include "_nav.html" %}
             </div>
         </div>
         {% include "_foot.html" %}

@@ -26,13 +26,13 @@
             "image": "/assets/icons/linkedin.png"
         },
         {
-            "name": "GoodReads",
-            "url": " https://www.goodreads.com/jiwonac",
-            "image": "/assets/icons/book.png"
+            "name": "RSS (All)",
+            "url": "https://jiwonc.net/feed.xml",
+            "image": "/assets/icons/rss.png"
         },
         {
-            "name": "RSS",
-            "url": "https://jiwonc.net/feed.xml",
+            "name": "RSS (Blog)",
+            "url": "https://jiwonc.net/blog.xml",
             "image": "/assets/icons/rss.png"
         }
     ]

@@ -1,15 +1,12 @@
 <nav>
-    {% for link in metadata.links %} 
-    <div id="link">
-        {% if link.image %}
-        <a href="{{ link.url }}">
+    <div class="nav-inner">
+        {% for link in metadata.links %} 
+        <div class="link">
             <img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}">
-        </a>
-        {% endif %}
-        <!--{% if link.url != NULL %}
-            <a href="{{ link.url }}"><small>{{ link.name }}</small></a>
-        {% else %}
-            {{ link.name }}
-        {% endif %}-->
-    {% endfor %}
+            <a href="{{ link.url }}">
+                {{ link.name }}
+            </a>
+        </div>
+        {% endfor %}
+    </div>        
 </nav>

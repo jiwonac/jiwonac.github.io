@@ -10,6 +10,7 @@ permalink: false
 * B.S. in computer science!
 * GPA: 3.36
 * Discover Grant for Undergraduate Research
+* Advisors: Fatemeh Nargesian, Yuhao Zhu
 
 <b>Relevant Coursework</b>
 <ul class="keywords">

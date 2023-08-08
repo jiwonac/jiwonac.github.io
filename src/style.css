@@ -27,14 +27,16 @@
     width: 100%;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    /*flex-direction: row-reverse;*/
 }
 
 #body-left {
+    order: -1;
 }
 
 #body-right {
     margin-top: 10em;
-    position: relative;
+    /* position: relative; */
     padding: var(--default-margin);
 }
 
@@ -64,7 +66,15 @@
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-inner {
+}
+
+.link {
+    text-align: left;
 }
 
 footer {
