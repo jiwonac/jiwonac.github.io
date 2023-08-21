@@ -12,6 +12,59 @@
       
       
         <item>
+          <title>The Rules of Lazy Note-Taking</title>
+          <link>https://jiwonc.net/blog/lazy-notes/</link>
+          <description>&lt;p&gt;A phenomenon I see in the personal knowledge management (PKM) space is people obsessing over how they manage their notes.&lt;/p&gt;
+&lt;p&gt;Truth is, notes are only useful when they help us get stuff done.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Notes can help us retrieve information.&lt;/li&gt;
+&lt;li&gt;The process of writing a note can help us make sense of complex topic.&lt;/li&gt;
+&lt;li&gt;Notes serve as rough drafts of the final product.&lt;/li&gt;
+&lt;li&gt;Notes can help us get organized on a daily basis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For none of these use cases is there a requirement to be meticulous and consistent in the ways we organize our notes.&lt;/p&gt;
+&lt;p&gt;Much like a &lt;a href=&quot;https://en.wikipedia.org/wiki/Lazy_evaluation&quot;&gt;lazy evaluator&lt;/a&gt; which defers expensive computation until it is needed, note-taking should be done lazily until eager effort is needed.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Take notes lazily when a need arises.&lt;/li&gt;
+&lt;li&gt;Add structure lazily when a need arises.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Rule 1 prevents us from taking notes unnecessarily. Rule 2 prevents us from tweaking the setup unnecessarily.&lt;/p&gt;
+&lt;p&gt;Let us have a look at some of my notes to illustrate my point.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jiwonc.net/assets/blog/cauchy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I don&#39;t take notes on topics just because I just learned it.&lt;/p&gt;
+&lt;p&gt;I take notes on topics if I had a hard time figuring out some details (the reason &lt;em&gt;why&lt;/em&gt; Cauchy criterion is more useful than basic convergence definition), or if I can add my &amp;quot;original&amp;quot; thought to it (equivalent definitions that I worked out as an exercise).&lt;/p&gt;
+&lt;p&gt;Some notes like this are atomic. Others are giant documents. It&#39;s okay to be inconsistent and lazy about the atomicity of notes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jiwonc.net/assets/blog/literature-note.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If and only if I take repeated notes of a similar structure, will I formalize the structure.&lt;/p&gt;
+&lt;p&gt;Literature notes is a useful structure since I read and cite a lot of papers.&lt;/p&gt;
+&lt;p&gt;Notice the use of grammatically incorrect sentences and symbols as a visual shorthand for words (e.g. $&#92;exists$) to expedite writing &amp;amp; reading.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jiwonc.net/assets/blog/k-means.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://jiwonc.net/assets/blog/k-means-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Some notes exist on their own without being linked to other notes.&lt;/p&gt;
+&lt;p&gt;This note is about an experiment I ran to understand the behavior of clustering algorithms.&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to link every note with every other note.&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to recreate wikipedia.&lt;/p&gt;
+&lt;p&gt;I didn&#39;t create wikilinks to concepts like k-means clustering since I don&#39;t have a use for notes like that.&lt;/p&gt;
+&lt;p&gt;If I wanted to review some facts about k-means clustering, I could just look up wikipedia.&lt;/p&gt;
+&lt;p&gt;This experiment is mine, and the interpretation of this experiment is mine. I can&#39;t google it. As such, I lazily create a note for it.&lt;/p&gt;
+&lt;p&gt;I make use of bullet points with succint sentences. No one else has to understand this note. There&#39;s no point in polishing notes.&lt;/p&gt;
+&lt;p&gt;There are typos, and honestly, who cares?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jiwonc.net/assets/blog/question.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If a note doesn&#39;t have to be long, then I keep it short.&lt;/p&gt;
+&lt;p&gt;This note records a question I had when studying mathematics.&lt;/p&gt;
+&lt;p&gt;Since the title is enough context to remember my original question, I simply tag the note as #question and call it a day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jiwonc.net/assets/blog/wsl.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You don&#39;t have to recreate the documentation.&lt;/p&gt;
+&lt;p&gt;You can just link to the documentation page, or the Stack Overflow page, as needed.&lt;/p&gt;
+&lt;p&gt;Only when Googling again will be a headache or take way more time than the time it takes to note it down, do I take notes on documentation.&lt;/p&gt;
+</description>
+          <pubDate>Sun, 20 Aug 2023 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/blog/lazy-notes/</guid>
+        </item>
+      
+      
+        <item>
           <title>PhD Candidate at University of Rochester</title>
           <link>https://jiwonc.net/false</link>
           <description>&lt;ul&gt;
