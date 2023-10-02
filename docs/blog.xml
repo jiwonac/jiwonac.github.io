@@ -7,6 +7,40 @@
     <description>Musings on computer science and life.</description>
     <language>en</language>
         <item>
+            <title>Adult Survival #2: Offline Tools &gt; Desktop Web Apps &gt; Web Browser &gt; Mobile Apps</title>
+            <link>https://jiwonc.net/blog/survival-2/</link>
+            <description>&lt;p&gt;If you&#39;re as prone to addictions as I am, then you&#39;ve certainly spent many days and nights doomscrolling or going on an online research spree.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;second survival strategy&lt;/strong&gt; is to follow the flowchart: &lt;strong&gt;offline tools &amp;gt; online desktop apps &amp;gt; web browser &amp;gt; mobile apps.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mobile apps&lt;/strong&gt; are the worst since they are meticulously designed to maximize eyeball hours and minimize barrier to spending money. Only use if necessary for survival.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Web browsers&lt;/strong&gt; promote a bit more intentionality, but it is still very easy to fall into a rabbit hole of Youtube binges or online research sprees. Minimize time spent on a general-purpose web browser at all costs. Do NOT open up a web browser first thing in the morning.&lt;/p&gt;
+&lt;p&gt;I even uninstall my web browser during long focus sessions, then reinstall later. This is easy on Linux, but not on Windows or macOS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Desktop wrappers&lt;/strong&gt; for web apps are a bit better, since they do not allow you to open up any website instantly. Here are some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a &lt;a href=&quot;https://apps.gnome.org/Calendar/&quot;&gt;desktop calendar app&lt;/a&gt; instead of Google Calendar.&lt;/li&gt;
+&lt;li&gt;Use a text file or a locally stored word document instead of Google Sheets or Microsoft Office Online.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&quot;https://todoist.com/downloads&quot;&gt;Todoist Desktop&lt;/a&gt; or &lt;a href=&quot;https://ticktick.com/about/download&quot;&gt;Ticktick Desktop&lt;/a&gt; for task management.&lt;/li&gt;
+&lt;li&gt;Use Discord app instead of &lt;a href=&quot;http://discord.com/&quot;&gt;discord.com&lt;/a&gt;; use Slack app instead of &lt;a href=&quot;http://slack.com/&quot;&gt;slack.com&lt;/a&gt;; etc.&lt;/li&gt;
+&lt;li&gt;Use &lt;a href=&quot;https://desktop.github.com/&quot;&gt;GitHub Desktop&lt;/a&gt; instead of &lt;a href=&quot;http://github.com/&quot;&gt;github.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Use a desktop email client instead of web Gmail.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If a web app doesn&#39;t have a pre-existing desktop wrapper, then you can create one using tools like &lt;a href=&quot;https://github.com/linuxmint/webapp-manager&quot;&gt;Webapp Manager&lt;/a&gt; or &lt;a href=&quot;https://webcatalog.io/&quot;&gt;WebCatalog&lt;/a&gt;. Web apps created in this manner are still a web browser under the hood, but they hide UI elements that make it super easy to jump to any website.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entirely offline alternatives&lt;/strong&gt; are even better than desktop apps that still need some internet connection. These apps allow me to go completely offline. Here are some suggestions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download Wikipedia (roughly 100Gb) using &lt;a href=&quot;https://kiwix.org/&quot;&gt;Kiwix&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download programming language documentations using &lt;a href=&quot;https://zealdocs.org/&quot;&gt;Zeal&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download reading materials then send it to an e-reader or print them out.&lt;/li&gt;
+&lt;li&gt;Download music locally; you can buy DRM-free music from &lt;a href=&quot;https://bandcamp.com/&quot;&gt;Bandcamp&lt;/a&gt; or &lt;a href=&quot;https://www.amazon.com/MP3-Music-Download/b?ie=UTF8&amp;amp;node=163856011&quot;&gt;Amazon Digital Music&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Write LaTeX documents locally using &lt;a href=&quot;https://www.overleaf.com/learn/how-to/Git_Integration_and_GitHub_Synchronization&quot;&gt;Overleaf Git integration&lt;/a&gt; and a &lt;a href=&quot;https://www.texstudio.org/&quot;&gt;desktop editor&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Develop software locally when possible.&lt;/li&gt;
+&lt;li&gt;Buy physical copies of reference books.&lt;/li&gt;
+&lt;li&gt;Learn how to read man pages and consider using &lt;a href=&quot;https://tldr.sh/&quot;&gt;tldr.sh&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <pubDate>Mon, 02 Oct 2023 20:00:00 +0000</pubDate>
+            <dc:creator>Jiwon Chang</dc:creator>
+            <guid>https://jiwonc.net/blog/survival-2/</guid>
+        </item>
+        <item>
             <title>Adult Survival #1: Tie Small Things to Big Things</title>
             <link>https://jiwonc.net/blog/survival-1/</link>
             <description>&lt;p&gt;In the next few weeks, I will be sharing small strategies that helps my disorganized, lazy, forgetful, impulsive self to survive and thrive in a high-pressure adulting environment.&lt;/p&gt;
@@ -643,7 +677,7 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
             <title>The Beauty in Mediocrity</title>
             <link>https://jiwonc.net/blog/mediocrity/</link>
             <description>&lt;p&gt;As someone who has academically excelled since a young age, the most difficult transition in college has been an acceptance in my mediocrity.&lt;/p&gt;
-&lt;h1&gt;Korea&#39;s Obsession With Success.&lt;/h1&gt;
+&lt;h2&gt;Korea&#39;s Obsession With Success.&lt;/h2&gt;
 &lt;p&gt;I am the poster child of a success-driven society. I was raised in South Korea, a country with incomparable academic pressure. In primary school, I received special education for high-performing STEM students. Later in high school, I was my grade&#39;s top-performing competitive mathematician.&lt;/p&gt;
 &lt;p&gt;All this academic success came at a cost. I had previously &lt;a href=&quot;https://jiwonc.net/blog/mediocrity/naturewatching&quot;&gt;discussed&lt;/a&gt; my mental and physical health before. Only recently was I formally diagnosed with depression. I am fortunate that I am studying in a US college, where mental health services are readily available. In Korea, the situations are grim.&lt;/p&gt;
 &lt;p&gt;Korea has been the &lt;a href=&quot;https://www.nytimes.com/2014/04/03/opinion/south-koreas-struggle-with-suicide.html&quot;&gt;leading country&lt;/a&gt; in suicide rate in the developed world for a decade. For teens, suicide is the &lt;a href=&quot;http://www.koreaherald.com/view.php?ud=20180426000581&quot;&gt;leading cause of death.&lt;/a&gt; For brevity, I will disregard issues such as poor mental health awareness. Instead, I will focus squarely on the success-driven culture which I believe is to be blamed for.&lt;/p&gt;
@@ -654,13 +688,13 @@ Without gold on our necks, there is no meaning.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Having grown up in this environment, I feel a deep, instinctual sense of guilt if I even dare to approach mediocrity. It is baked into our education to fear failures, to fear slipping grades, and to fear not having enough awards for our college admissions.&lt;/p&gt;
 &lt;p&gt;Then, it is not surprising that depression is omnipresent. Guilt, self-doubt, and demotivation are all textbook symptoms of depression. Take into consideration that these constant stressors exist from childhood, where kids are expected to learn foreign languages in kindergarten, to adulthood, where overworking is commonplace. Such high suicide rates seem plausible.&lt;/p&gt;
-&lt;h1&gt;A Worldwide Pathological Misconception&lt;/h1&gt;
+&lt;h2&gt;A Worldwide Pathological Misconception&lt;/h2&gt;
 &lt;p&gt;I speak as though Korea is the worse offender of a success-driven culture. It probably is. However, I believe this poison of success is widespread throughout most of the developed world. I observed this notion that everyone should strive to succeed in my time in China and the USA.&lt;/p&gt;
 &lt;p&gt;I suspect that it is an inherent feature of any heavily capitalistic society, which rewards successful people disproportionately more at the expense of those who are less successful.&lt;/p&gt;
 &lt;p&gt;Here is the thing: you will most likely be mediocre at most everything you do. This conclusion directly follows from drawing a bell curve and an exponentially decaying distribution, two most likely skill distribution in any given task.&lt;/p&gt;
 &lt;p&gt;Not only that, even if you devote your life to be good at something, there are zero guarantees that you will be a star performer. By definition, most professionals are mediocre at their craft.&lt;/p&gt;
 &lt;p&gt;Why, then, do we expect everyone to be successful, to the point of systematically ailing our mental health?&lt;/p&gt;
-&lt;h1&gt;An Alternate Path&lt;/h1&gt;
+&lt;h2&gt;An Alternate Path&lt;/h2&gt;
 &lt;p&gt;Perhaps we should choose to appreciate a more abundant fact of live - mediocrity. Our parents are, most likely, mediocre parents. Yet we love our parents. (If you don&#39;t, my condolences for your bad luck.) Our beloved ones, our friends, our best and worst experiences, our talents and flaws, our exceptional ideas and our mundane discoveries, and everything, most likely, is mediocre.&lt;/p&gt;
 &lt;p&gt;From this perspective, the very premise of a success-driven culture is flawed. Instead, this realization opens us to a new possibility: excellence in mediocrity.&lt;/p&gt;
 &lt;p&gt;This new guiding philosophy in life is two-fold. First, we accept that we can be&lt;br /&gt;

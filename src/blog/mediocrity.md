@@ -11,7 +11,7 @@ small_image: true
 
 As someone who has academically excelled since a young age, the most difficult transition in college has been an acceptance in my mediocrity.
 
-# Korea's Obsession With Success.
+## Korea's Obsession With Success.
 
 I am the poster child of a success-driven society. I was raised in South Korea, a country with incomparable academic pressure. In primary school, I received special education for high-performing STEM students. Later in high school, I was my grade&#39;s top-performing competitive mathematician.
 
@@ -28,7 +28,7 @@ Having grown up in this environment, I feel a deep, instinctual sense of guilt i
 
 Then, it is not surprising that depression is omnipresent. Guilt, self-doubt, and demotivation are all textbook symptoms of depression. Take into consideration that these constant stressors exist from childhood, where kids are expected to learn foreign languages in kindergarten, to adulthood, where overworking is commonplace. Such high suicide rates seem plausible.
 
-# A Worldwide Pathological Misconception
+## A Worldwide Pathological Misconception
 
 I speak as though Korea is the worse offender of a success-driven culture. It probably is. However, I believe this poison of success is widespread throughout most of the developed world. I observed this notion that everyone should strive to succeed in my time in China and the USA.
 
@@ -40,7 +40,7 @@ Not only that, even if you devote your life to be good at something, there are z
 
 Why, then, do we expect everyone to be successful, to the point of systematically ailing our mental health?
 
-# An Alternate Path
+## An Alternate Path
 
 Perhaps we should choose to appreciate a more abundant fact of live - mediocrity. Our parents are, most likely, mediocre parents. Yet we love our parents. (If you don&#39;t, my condolences for your bad luck.) Our beloved ones, our friends, our best and worst experiences, our talents and flaws, our exceptional ideas and our mundane discoveries, and everything, most likely, is mediocre.
 
