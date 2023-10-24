@@ -11,7 +11,7 @@ permalink: false
 <p class="poster-text">
     <span class="inner-reveal">Hi! I'm <strong class="highlight">JIWON CHANG</strong>,</span>
     <span class="inner-reveal">a <span class="highlight">computer science PhD student</span>.</span>
-    <span class="inner-reveal">I research <span class="highlight">data management for analytics</span></span>
+    <span class="inner-reveal">I research <span class="highlight">data management</span></span>
     <span class="inner-reveal">at the University of Rochester's <span class=""><a href="https://dataintelligencecrew.github.io/">Data Intelligence Lab</a></span></span>
     <span class="inner-reveal">with professor <span class=""><a href="https://fnargesian.com/">Fatemeh Nargesian</a></span>.</span>
 </p>

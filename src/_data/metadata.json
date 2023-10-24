@@ -26,12 +26,7 @@
             "image": "/assets/icons/linkedin.png"
         },
         {
-            "name": "RSS (All)",
-            "url": "https://jiwonc.net/feed.xml",
-            "image": "/assets/icons/rss.png"
-        },
-        {
-            "name": "RSS (Blog)",
+            "name": "RSS",
             "url": "https://jiwonc.net/blog.xml",
             "image": "/assets/icons/rss.png"
         }

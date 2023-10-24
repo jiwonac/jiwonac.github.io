@@ -9,8 +9,7 @@ date_str: ""
 
 Right now, I'm...
 <ul>
-    <li>Working on in-database optimization systems.</li>
-    <li>Developing a color programming system.</li>
-    <li>Studying mathematics for algorithms research.</li>
-    <li>Enjoying summer break.</li>
+    <li>Studying machine learning and sampling algorithms.</li>
+    <li>Researching efficient query algorithms for data lakes and markets.</li>
+    <li>Taking care of my millipedes.</li>
 </ul>
