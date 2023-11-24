@@ -16,16 +16,7 @@ permalink: false
     <span class="inner-reveal">with professor <span class=""><a href="https://fnargesian.com/">Fatemeh Nargesian</a></span>.</span>
 </p>
 
-<!--<p class="poster-text">
-    I'm thinking about&nbsp;<span class="alternating-wrapper">
-        <span class="highlight">
-            <span class="alternating-inner">the latest science.</span>
-            <span class="alternating-inner">nonfiction writing.</span>
-            <span class="alternating-inner">minimalism.</span>
-            <span class="alternating-inner">environmentalism.</span>
-            <span class="alternating-inner">narrative games.</span>
-            <span class="alternating-inner">plant-based cooking.</span>
-        </span>
-    </span>
-    <br>
-</p>-->
+My current research interest lies at the intersection of data management, coresets, and sampling algorithms. I aim to enable **in-database machine learning at interactive speed** through **data-efficient machine learning** and **approximate coreset query algorithms**. I’m focusing on submodular gradient approximation and diversity for accuracy and robustness. Some of my current *big questions* are:
+
+1. How can we efficiently and accurately summarize relational data and data lakes for machine learning?
+2. How can we efficiently sample from semi-structured or non-structured data, and leverage sampling to accelerate coreset generation?
