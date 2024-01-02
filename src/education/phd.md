@@ -1,11 +1,10 @@
 ---
 title: PhD Candidate at University of Rochester
 date: 2023-08-20
-date_str: "Aug 2023 <br>- Present"
+date_str: "Aug 2023 - Present"
 tags:
  - education
  - professional
- - featured
 permalink: false
 ---
 

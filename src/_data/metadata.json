@@ -30,5 +30,59 @@
             "url": "https://jiwonc.net/blog.xml",
             "image": "/assets/icons/rss.png"
         }
+    ],
+    "categories": [
+        {
+            "name": "Blog",
+            "url": "/blog"
+        },
+        {
+            "name": "Microblog",
+            "url": "/microblog"
+        },
+        {
+            "name": "Education",
+            "url": "/education"
+        },
+        {
+            "name": "Professional",
+            "url": "/professional"
+        },
+        {
+            "name": "Research",
+            "url": "/research"
+        },
+        {
+            "name": "Writings",
+            "url": "/writings"
+        },
+        {
+            "name": "Now",
+            "url": "/now"
+        }
+    ],
+    "quotes": [
+        {
+            "quote": "I was the only person in an infinite exploding universe who knew that this powder was made of opal. In a wide, wide world, full of unimaginable numbers of people, I was—in addition to being small and insufficient—special.… [My] first scientific discovery shone, as even the cheapest plastic toy does when it is new.",
+            "by": "Hope Jahren",
+            "source": "Lab Girl"
+        },
+        {
+            "quote": "These are young people floating between identities, but their affections never change. It exists beyond gender, beyond sexuality. Something incredibly high order.",
+            "by": "Pause and Select",
+            "source": "Hourou Musuko and Love"
+        },
+        {
+            "quote": "I thought about our Earth that we irreversibly intervened in, yet must continue to live on. I thought about the people who decides to rebuild when faced with an utterly unlovable world.",
+            "by": "Kim Cho-Yeop"
+        },
+        {
+            "quote": "I learned very early the difference between knowing the name of something and knowing something.",
+            "by": "Richard Feynman"
+        },
+        {
+            "quote": "There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
+            "by": "Charles Darwin"
+        }
     ]
 }

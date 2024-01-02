@@ -1,0 +1,7 @@
+---
+eleventyExcludeFromCollections: true
+title: Microblog
+---
+{% for post in collections.microblog reversed %}
+    {% include "_content.html", index=true %}
+{% endfor %}

@@ -3,10 +3,9 @@ title: "Adult Survival #4: Separate Digital and Analog Workspace"
 tags: blog
 date: 2023-11-18
 date_str: "Nov 18, 2023"
-image: /assets/blog/office.jpg
 alt: Wide view of the local Barnes n Noble bookstore. 
 small_image: true
-blurb: "My newly furnished home office, where I spend much of my workdays, has two tables."
+blurb: ""
 ---
 
 My newly furnished home office, where I spend much of my workdays, has two tables. 

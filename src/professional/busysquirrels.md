@@ -1,7 +1,7 @@
 ---
 title: Full-Stack Intern at BusySquirrels
 date: 2020-06-15
-date_str: "May 2021 <br>- Aug 2021"
+date_str: "May 2021 - Aug 2021"
 tags:
  - professional
 permalink: false

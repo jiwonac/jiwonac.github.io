@@ -12,48 +12,41 @@
     color: var(--dark-color);
     background-color: var(--light-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1.4rem;
+    line-height: 1.3;
 }
 
-#body-container {
-    margin: 10px;
+body {
+    counter-reset: sidenote-counter;
     max-width: 1280px;
+    width: 90%;
     margin: auto;
-    display: flex;
-    flex-direction: column;
+    padding-right: 12.5%;
+    padding: 2.5%;
 }
 
-#body-grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    /*flex-direction: row-reverse;*/
+nav {
+    text-align: center;
+    margin: auto;
 }
 
-#body-left {
-    order: -1;
+.links {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
 
-#body-right {
-    margin-top: 10em;
-    /* position: relative; */
-    padding: var(--default-margin);
+.links li {
+    float: left;
+    margin-right: 0.5em;
 }
 
-.content {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+.nav-inner {
+    margin-bottom: 1%;
 }
 
-.content-left {
-    text-align: right;
-    margin-top: 1.5em;
-    margin-right: 1em;
-}
-
-.content-right {
-    border-left: 2px solid var(--dark-color);
-    padding-left: 10pt;
+.title {
+    margin-bottom: 0px;
 }
 
 #categories {
@@ -65,14 +58,6 @@
     margin: 2.5pt;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-.nav-inner {
-}
-
 .link {
     text-align: left;
 }
@@ -81,16 +66,28 @@ footer {
     width: 100%;
     position: relative; 
     text-align: center;
-    margin: var(--default-margin);
+    margin: 2.5%;
 }
 
 .textsize-image {
     height: 1em;
     width: auto;
+    display: inline;
+}
+
+.full-image {
+    max-width: 100%;
+}
+
+.wide-image {
+    max-width: 75%;
+    margin: auto;
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
+    display: block;
+    margin: auto;
 }
 
 a {
@@ -204,4 +201,80 @@ ul {
 blockquote {
     border-left: 2px solid var(--dim-color);
     padding-left: 20px;
+}
+
+/* Collapsible sections */
+
+details {
+    user-select: none;
+}
+
+details .detail {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+details>summary span {
+    margin-left: auto;
+}
+
+summary {
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid var(--dim-color);
+    margin-bottom: 0px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+article > p,
+article > footer,
+article > table {
+    width: 80%;
+}
+
+.sidenote,
+.marginnote {
+    float: right;
+    clear: right;
+    margin-right: -30%;
+    width: 20%;
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.sidenote-number {
+    counter-increment: sidenote-counter;
+    content: counter(sidenote-counter);
+}
+
+.sidenote-number:after,
+.sidenote:before {
+    position: relative;
+    vertical-align: baseline;
+}
+
+.sidenote-number:after {
+    content: counter(sidenote-counter);
+    font-size: 0.8rem;
+    top: -0.5rem;
+    left: 0.1rem;
+}
+
+.sidenote:before {
+    content: "[" counter(sidenote-counter) "] ";
+    font-size: 0.8rem;
+}
+
+label.margin-toggle:not(.sidenote-number) {
+    display: none;
+}
+
+input.margin-toggle {
+    display: none;
 }

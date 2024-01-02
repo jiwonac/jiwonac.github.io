@@ -1,7 +1,7 @@
 ---
 title: International Baccalaureate (IB)
 date: 2018-05-20
-date_str: "Aug 2016 <br>- May 2018"
+date_str: "Aug 2016 - May 2018"
 tags:
  - education
 permalink: false

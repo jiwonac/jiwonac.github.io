@@ -22,189 +22,172 @@
 </head>
 </html>
 <body>
-    <div id="body-container">
-        <div id="body-grid">
-            <div id="body-right">
-                <div id="categories">
-    <div class="category">
-        <a href="/blog">Blog</a><br>
-    </div>
-    <div class="category">
-        <a href="/education">Education</a><br>
-    </div>
-    <div class="category">
-        <a href="/professional">Professional</a><br>
-    </div>
-    <div class="category">
-        <a href="/research">Research</a><br>
-    </div>
-    <div class="category">
-        <a href="/writings">Writings</a><br>
-    </div>
-</div>
-
-                <nav>
+    <!--Website title-->
+    <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Navigation bar-->
+    <nav>
     <div class="nav-inner">
-         
-        <div class="link">
-            <img src="/assets/icons/pdf.png" class="textsize-image" alt="CV">
-            <a href="/assets/docs/cv.pdf">
-                CV
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/github.png" class="textsize-image" alt="Github">
-            <a href="https://github.com/jiwonac/">
-                Github
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/email.png" class="textsize-image" alt="Email">
-            <a href="mailto:blog@jiwonc.net">
-                Email
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/linkedin.png" class="textsize-image" alt="LinkedIn">
-            <a href="https://www.linkedin.com/in/jiwonchang">
-                LinkedIn
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/rss.png" class="textsize-image" alt="RSS">
-            <a href="https://jiwonc.net/blog.xml">
-                RSS
-            </a>
-        </div>
         
-    </div>        
+            <span class="category">
+                <a href="/blog">Blog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/microblog">Microblog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/education">Education</a>
+            </span>
+        
+            <span class="category">
+                <a href="/professional">Professional</a>
+            </span>
+        
+            <span class="category">
+                <a href="/research">Research</a>
+            </span>
+        
+            <span class="category">
+                <a href="/writings">Writings</a>
+            </span>
+        
+            <span class="category">
+                <a href="/now">Now</a>
+            </span>
+        
+    </div>
 </nav>
-            </div>
-            <div id="body-left">
-                <h1><a href="/">Jiwon's Alcove</a></h1>
-                
-                    
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    
+        
     <div class="content">
-    <div class="content-left">
-        2023<br>
+    <!--thumbnail image, if any-->
+    
         
-            <small>
+            <img src="/assets/research/dt.png" class="small-image" alt="The DT pipeline where data sources are combined with RatioColl or EpsilonGreedy to form a balanced unified dataset.">
+        
+    
+    <!--title-->
+    
+        
+            <h2 class="title">Data Distribution Tailoring</h2>
+        
+    
+    <!--date-->
+    
+        <i><small>2023</small></i><br>
+    
+    <!--collaborators, if any-->
+    
+        <small>
+            With 
+                <span>Bohan Cui, </span>
             
-                Bohan Cui<br>
+                <span>Fatemeh Nargesian.</span>
             
-                Fatemeh Nargesian<br>
-            
-            </small>
-        
-    </div>
-    <div class="content-right">
-        
-            
-                <h2>Data Distribution Tailoring</h2>
-            
-        
-        
-            
-                <img src="/assets/research/dt.png" alt="The DT pipeline where data sources are combined with RatioColl or EpsilonGreedy to form a balanced unified dataset.">
-            
-        
-        
-        
-            <p>We study the data distribution tailoring (DT) problem, which aims to collect a unified dataset from multiple data sources such that groups of interest are adequately represented. In doing so, we ensure a baseline level of fairness in downstream tasks. We demonstrate the suboptimality of the prior paper's <textsc>CoupColl</textsc> algorithm and present a strictly better <textsc>RatioColl</textsc> algorithm. Furthermore, we generalize the prior authors' <textsc>UCB</textsc> algorithm for situations in which demographic statistics are not available through our <textsc>EpsilonGreedy<textsc> algorithm.</p></p>
+        </small><br>
+    
+    <!--related links, if any-->
+    
 
-        
-    </div>
+    
+        <p>We study the data distribution tailoring (DT) problem, which aims to collect a unified dataset from multiple data sources such that groups of interest are adequately represented. In doing so, we ensure a baseline level of fairness in downstream tasks. We demonstrate the suboptimality of the prior paper's <textsc>CoupColl</textsc> algorithm and present a strictly better <textsc>RatioColl</textsc> algorithm. Furthermore, we generalize the prior authors' <textsc>UCB</textsc> algorithm for situations in which demographic statistics are not available through our <textsc>EpsilonGreedy<textsc> algorithm.</p></p>
+
+    
 </div>
 
 
     <div class="content">
-    <div class="content-left">
-        2022<br>
+    <!--thumbnail image, if any-->
+    
         
-            <small>
-            
-                Pranay Mundra<br>
-            
-                Yurong Yu<br>
-            
-                Fatemeh Nargesian<br>
-            
-            </small>
+            <img src="/assets/research/fkc.png" class="small-image" alt="Red and blue points on a plane, with some red points and some blue points having a circle around them.">
         
-    </div>
-    <div class="content-right">
+    
+    <!--title-->
+    
         
+            <h2 class="title">Fair $k$-Cover Coresets</h2>
+        
+    
+    <!--date-->
+    
+        <i><small>2022</small></i><br>
+    
+    <!--collaborators, if any-->
+    
+        <small>
+            With 
+                <span>Pranay Mundra, </span>
             
-                <h2>Fair $k$-Cover Coresets</h2>
+                <span>Yurong Yu, </span>
             
-        
-        
+                <span>Fatemeh Nargesian.</span>
             
-                <img src="/assets/research/fkc.png" alt="Red and blue points on a plane, with some red points and some blue points having a circle around them.">
-            
-        
-        
-        
-            <p>We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $\mathrm{F}\mathcal{K}\mathrm{C}$ coresets reduce accuracy disparity while generating coresets at a fraction of the cost as SOTA.</p>
+        </small><br>
+    
+    <!--related links, if any-->
+    
 
-        
-    </div>
+    
+        <p>We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $\mathrm{F}\mathcal{K}\mathrm{C}$ coresets reduce accuracy disparity while generating coresets at a fraction of the cost as SOTA.</p>
+
+    
 </div>
 
 
     <div class="content">
-    <div class="content-left">
-        2022<br>
+    <!--thumbnail image, if any-->
+    
         
-            <small>
+            <img src="/assets/research/sef.png" class="small-image" alt="The pipeline. An SDR image is made brighter and darker, then denoising is applied. The resultant three images are combined with Mertens' fusion.">
+        
+    
+    <!--title-->
+    
+        
+            <h2 class="title">Single Exposure Fusion</h2>
+        
+    
+    <!--date-->
+    
+        <i><small>2022</small></i><br>
+    
+    <!--collaborators, if any-->
+    
+        <small>
+            With 
+                <span>Yuhao Zhu.</span>
             
-                Yuhao Zhu<br>
+        </small><br>
+    
+    <!--related links, if any-->
+    
+        <p>
             
-            </small>
-        
-    </div>
-    <div class="content-right">
-        
+                <img src="/assets/icons/github.png" class="textsize-image">
+                <a href="https://github.com/jiwonac/singleexposurefusion">code</a>&nbsp;
             
-                <h2>Single Exposure Fusion</h2>
+                <img src="/assets/icons/pdf.png" class="textsize-image">
+                <a href="/assets/Single_Exposure_Fusion.pdf">report</a>&nbsp;
             
-        
-        
-            
-                <img src="/assets/research/sef.png" alt="The pipeline. An SDR image is made brighter and darker, then denoising is applied. The resultant three images are combined with Mertens' fusion.">
-            
-        
-        
-            <p>
-                
-                    <img src="/assets/icons/github.png" class="textsize-image">
-                    <a href="https://github.com/jiwonac/singleexposurefusion">code</a>&nbsp;
-                
-                    <img src="/assets/icons/pdf.png" class="textsize-image">
-                    <a href="/assets/Single_Exposure_Fusion.pdf">report</a>&nbsp;
-                
-            </p>
-        
-        
-            <p>Photographers can extend the perceptual dynamic range of a photograph by utilizing the exposure fusion method, in which multiple photographs taken at different exposures are combined. However, this technique is susceptible to blur if the camera or subject moves.</p>
+        </p>
+    
+
+    
+        <p>Photographers can extend the perceptual dynamic range of a photograph by utilizing the exposure fusion method, in which multiple photographs taken at different exposures are combined. However, this technique is susceptible to blur if the camera or subject moves.</p>
 <p>I developed an alternate SDR to HDR pipeline which only requires one medium-exposure SDR photograph and will not be blurred due to camera or subject's movement. Unlike existing alternatives, single exposure fusion is a simple combination of classic denoising and exposure fusion algorithms that does not require machine learning.</p>
 
-        
-    </div>
+    
 </div>
 
 
-                
-            </div>
-        </div>
-        <footer>
+    
+    <!--footer-->
+    <footer>
     <div>
-        <small>© Jiwon Chang 2023</small>
+        <small>© Jiwon Chang 2024</small>
     </div>
 </footer>
-    </div>
 </body>

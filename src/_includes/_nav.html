@@ -1,12 +1,9 @@
 <nav>
     <div class="nav-inner">
-        {% for link in metadata.links %} 
-        <div class="link">
-            <img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}">
-            <a href="{{ link.url }}">
-                {{ link.name }}
-            </a>
-        </div>
+        {% for category in metadata.categories %}
+            <span class="category">
+                <a href="{{ category.url }}">{{ category.name }}</a>
+            </span>
         {% endfor %}
-    </div>        
+    </div>
 </nav>

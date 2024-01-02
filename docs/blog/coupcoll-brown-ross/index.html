@@ -22,81 +22,54 @@
 </head>
 </html>
 <body>
-    <div id="body-container">
-        <div id="body-grid">
-            <div id="body-right">
-                <div id="categories">
-    <div class="category">
-        <a href="/blog">Blog</a><br>
-    </div>
-    <div class="category">
-        <a href="/education">Education</a><br>
-    </div>
-    <div class="category">
-        <a href="/professional">Professional</a><br>
-    </div>
-    <div class="category">
-        <a href="/research">Research</a><br>
-    </div>
-    <div class="category">
-        <a href="/writings">Writings</a><br>
-    </div>
-</div>
-
-                <nav>
+    <!--Website title-->
+    <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Navigation bar-->
+    <nav>
     <div class="nav-inner">
-         
-        <div class="link">
-            <img src="/assets/icons/pdf.png" class="textsize-image" alt="CV">
-            <a href="/assets/docs/cv.pdf">
-                CV
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/github.png" class="textsize-image" alt="Github">
-            <a href="https://github.com/jiwonac/">
-                Github
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/email.png" class="textsize-image" alt="Email">
-            <a href="mailto:blog@jiwonc.net">
-                Email
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/linkedin.png" class="textsize-image" alt="LinkedIn">
-            <a href="https://www.linkedin.com/in/jiwonchang">
-                LinkedIn
-            </a>
-        </div>
-         
-        <div class="link">
-            <img src="/assets/icons/rss.png" class="textsize-image" alt="RSS">
-            <a href="https://jiwonc.net/blog.xml">
-                RSS
-            </a>
-        </div>
         
-    </div>        
+            <span class="category">
+                <a href="/blog">Blog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/microblog">Microblog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/education">Education</a>
+            </span>
+        
+            <span class="category">
+                <a href="/professional">Professional</a>
+            </span>
+        
+            <span class="category">
+                <a href="/research">Research</a>
+            </span>
+        
+            <span class="category">
+                <a href="/writings">Writings</a>
+            </span>
+        
+            <span class="category">
+                <a href="/now">Now</a>
+            </span>
+        
+    </div>
 </nav>
-            </div>
-            <div id="body-left">
-                <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    
+        <!--Otherwise, display metadata-->
+        <div class="content">
+            <h2>The Two Coupons, Generic Quota Coupon Collector's Problem</h2>
+            <div>
+                <small>Jul 7, 2023</small><br>
                 
-                    <div class="content">
-                        <div class="content-left">
-                            Jul 7, 2023<br>
-                            
-                        </div>
-                        <div class="content-right">
-                            <h2>The Two Coupons, Generic Quota Coupon Collector's Problem</h2>
-                            
-                            
-                            <h3>Coupon Collector's Problem</h3>
+            </div>
+            
+            
+            <h3>Coupon Collector's Problem</h3>
 <p>The classic coupon collector's problem asks:</p>
 <blockquote>
 <p>There are $n$ distinct coupons, and we wish to collect each coupon at least once. We may draw a random coupon uniformly in each iteration. How many iteration does it take, in expectation, to complete a full collection?</p>
@@ -169,15 +142,12 @@ $$X = p^j \sum_{l = 0}^{\infty} (-1)^l {j + l \choose l} (-q)^l = p^j \sum_{l = 
 <p>[1] Mark Brown and Sheldon M. Ross. 2016. Optimality Results for Coupon Collection. Journal of Applied Probability 53, 3 (September 2016), 930–937. DOI:<a href="https://doi.org/10.1017/jpr.2016.51">https://doi.org/10.1017/jpr.2016.51</a></p>
 <p>[2] Felix Marin. Infinite binomial sum. Mathematics Stack Exchange. Retrieved from <a href="https://math.stackexchange.com/a/3106913/1102894">https://math.stackexchange.com/a/3106913/1102894</a>.</p>
 
-                        </div>
-                    </div>
-                
-            </div>
         </div>
-        <footer>
+    
+    <!--footer-->
+    <footer>
     <div>
-        <small>© Jiwon Chang 2023</small>
+        <small>© Jiwon Chang 2024</small>
     </div>
 </footer>
-    </div>
 </body>
