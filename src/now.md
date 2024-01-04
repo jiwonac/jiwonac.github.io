@@ -8,12 +8,12 @@ date_str: ""
 
 Right now, I'm...
 <ul>
-    <li>Studying machine learning and sampling algorithms.</li>
-    <li>Researching efficient query algorithms for data lakes and markets.</li>
-    <li>Taking care of my millipedes.</li>
+  <li>Studying database internals and compilers in depth.</li>
+  <li>Routine research.</li>
+  <li>Taking care of my millipedes.</li>
 </ul>
 
-<details>
+<!--<details>
   <summary>
   <h3 class="title">test test</h3>
   <span>↓</span>
@@ -30,4 +30,4 @@ Right now, I'm...
     </div>
   </details>
   </div>
-</details>
+</details>-->
