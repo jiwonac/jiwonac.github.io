@@ -10,6 +10,33 @@
       
       
         <item>
+          <title>SIGMOD Demo Paper &quot;Plutus: Understanding Data Distribution Tailoring for Machine Learning&quot; has been accepted!</title>
+          <link>https://jiwonc.net/microblog/2024-03-17/</link>
+          <description>&lt;p&gt;The paper will appear in SIGMOD 2024 Demonstration track.&lt;/p&gt;
+&lt;p&gt;This work was made possible thanks to my advisor Fatemeh Nargesian and Matthias Boehm of TU Berlin who developed the original techniques, as well as collaborator Christina Dionysio.&lt;/p&gt;
+</description>
+          <pubDate>Sat, 16 Mar 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-03-17/</guid>
+        </item>
+      
+      
+        <item>
+          <title>VLDB Journal Paper &quot;Data Distribution Tailoring: Cost-Efficient Acquisition of Representative Data&quot; has been accepted!</title>
+          <link>https://jiwonc.net/microblog/2024-03-13/</link>
+          <description>&lt;p&gt;Paper will be published in VLDBJ after editing processes are complete.&lt;/p&gt;
+&lt;p&gt;This work was made possible thanks to my collaborator Bohan Cui, authors of the original conference paper Fatemeh Nargesian, Abolfazl Asudeh, and H.V. Jagadish, and the Schwartz Discover Grant for Undergraduate Research.&lt;/p&gt;
+&lt;p&gt;Our journal paper significantly extends upon the conference paper with new and modified analysis and algorithms.&lt;/p&gt;
+&lt;p&gt;I will also publish additional materials (e.g. laymen&#39;s abstract, poster) about our work soon.&lt;/p&gt;
+&lt;p&gt;See also: &lt;a href=&quot;https://jiwonc.net/research/dt&quot;&gt;laymen&#39;s abstract and poster&lt;/a&gt;&lt;/p&gt;
+</description>
+          <pubDate>Tue, 12 Mar 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-03-13/</guid>
+        </item>
+      
+      
+        <item>
           <title>My Favorite Quotes</title>
           <link>https://jiwonc.net/blog/quotes/</link>
           <description>&lt;p&gt;&lt;em&gt;🪴 This page is a garden that I update over time.&lt;/em&gt;&lt;/p&gt;
@@ -226,12 +253,14 @@ Touching dirt makes me feel alive.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://dataintelligencecrew.github.io/&quot;&gt;Data Intelligence Lab&lt;/a&gt;, systems group, computer science.&lt;/li&gt;
 &lt;li&gt;Advisor: &lt;a href=&quot;https://fnargesian.com/&quot;&gt;Fatemah Nargesian&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;b&gt;Relevant Coursework&lt;/b&gt;&lt;/p&gt;
-&lt;ul class=&quot;keywords&quot;&gt;
-    &lt;li&gt;Machine Learning&lt;/li&gt;
-    &lt;li&gt;Sampling Algorithms&lt;/li&gt;
-    &lt;li&gt;Data Management Systems&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;strong&gt;Relevant Coursework&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Machine Learning&lt;/li&gt;
+&lt;li&gt;Sampling Algorithms&lt;/li&gt;
+&lt;li&gt;Data Management Systems&lt;/li&gt;
+&lt;li&gt;Advanced Compilers&lt;/li&gt;
+&lt;/ul&gt;
+</description>
           <pubDate>Sat, 19 Aug 2023 20:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/false</guid>
@@ -637,12 +666,19 @@ Welcome him with open arms&lt;/p&gt;
       
         <item>
           <title>Data Distribution Tailoring</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;We study the data distribution tailoring (DT) problem, which aims to collect a unified dataset from multiple data sources such that groups of interest are adequately represented. In doing so, we ensure a baseline level of fairness in downstream tasks. We demonstrate the suboptimality of the prior paper&#39;s &lt;textsc&gt;CoupColl&lt;/textsc&gt; algorithm and present a strictly better &lt;textsc&gt;RatioColl&lt;/textsc&gt; algorithm. Furthermore, we generalize the prior authors&#39; &lt;textsc&gt;UCB&lt;/textsc&gt; algorithm for situations in which demographic statistics are not available through our &lt;textsc&gt;EpsilonGreedy&lt;textsc&gt; algorithm.&lt;/textsc&gt;&lt;/textsc&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+          <link>https://jiwonc.net/research/dt/</link>
+          <description>&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Data scientists frequently construct datasets for analysis, leveraging various data sources available to them. A significant challenge lies in ensuring that the analyzed dataset adequately represents relevant demographic groups, meeting desired distribution requirements. Whether obtained through experimentation, data providers, or human-annotators data from a single source may fall short of meeting these requirements, necessitating the collection of data from multiple sources. The Data Distribution Tailoring (DT) problem aims to cost-efficiently collect a unified data set from multiple sources. In this paper, we present major optimizations and generalizations to previous algorithms for this problem. In situations when group distributions are known in sources, we present a novel algorithm RatioColl that outperforms the existing algorithm, based on the Coupon Collector’s problem. If distributions are unknown, we propose decaying exploration rate multi-armed-bandit algorithms that, unlike the existing algorithm used for unknown DT, does not require prior information. Through theoretical analysis and extensive experiments, we demonstrate the effectiveness of our proposed algorithms.&lt;/p&gt;
+&lt;h2&gt;Laymen&#39;s Abstract&lt;/h2&gt;
+&lt;p&gt;Modern machine learning (ML) requires a lot of training data. Collecting all of that data costs a lot of money. As such, data scientists often combine datasets that already exist and engineer the data to get the training data they need.&lt;/p&gt;
+&lt;p&gt;An important feature for many ML models is fairness. In its simplest form, fairness can be defined as: the model is accurate for all (racial, age, gender, etc.) demographic groups. An important way to ensure that a model is fair in this manner is to ensure that the training data has adequate number of samples from each group. If not, then the model does not have enough information to learn about under-represented groups.&lt;/p&gt;
+&lt;p&gt;We studied a problem that combines these objectives: how can we combine existing datasets such that the combined data has adequate representation across groups, while staying cost-efficient?&lt;/p&gt;
+&lt;p&gt;We achieve the goal by designing adaptive sampling algorithms. Adaptive means that in each iteration, the algorithm chooses the dataset to sample from. It prioritizes datasets that are likely to contain a large proportion of data points from the group that will be the bottleneck.&lt;/p&gt;
+&lt;p&gt;Our algorithm can also be applied to the setting where data scientists are collecting data from several sources, such as surveying different populations. It can help reduce data collection cost while ensuring that the collected data is representative in a manner similar to quota sampling in statistics.&lt;/p&gt;
 </description>
           <pubDate>Mon, 30 Jan 2023 19:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
+          <guid>https://jiwonc.net/research/dt/</guid>
         </item>
       
       
@@ -797,12 +833,12 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
       
         <item>
           <title>Fair $k$-Cover Coresets</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $&#92;mathrm{F}&#92;mathcal{K}&#92;mathrm{C}$ coresets reduce accuracy disparity while generating coresets at a fraction of the cost as SOTA.&lt;/p&gt;
+          <link>https://jiwonc.net/research/fkc/</link>
+          <description>&lt;p&gt;We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $&#92;mathrm{F}&#92;mathcal{K}&#92;mathrm{C}$ coresets reduce accuracy disparity while generating coresets rapidly.&lt;/p&gt;
 </description>
           <pubDate>Wed, 30 Nov 2022 19:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
+          <guid>https://jiwonc.net/research/fkc/</guid>
         </item>
       
       
@@ -868,13 +904,20 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
       
         <item>
           <title>Single Exposure Fusion</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;Photographers can extend the perceptual dynamic range of a photograph by utilizing the exposure fusion method, in which multiple photographs taken at different exposures are combined. However, this technique is susceptible to blur if the camera or subject moves.&lt;/p&gt;
+          <link>https://jiwonc.net/research/sef/</link>
+          <description>&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Photographers can extend the perceptual dynamic range of a photograph by utilizing the exposure fusion method, in which multiple photographs taken at different exposures are combined. However, this technique is susceptible to blur if the camera or subject moves.&lt;/p&gt;
 &lt;p&gt;I developed an alternate SDR to HDR pipeline which only requires one medium-exposure SDR photograph and will not be blurred due to camera or subject&#39;s movement. Unlike existing alternatives, single exposure fusion is a simple combination of classic denoising and exposure fusion algorithms that does not require machine learning.&lt;/p&gt;
+&lt;h2&gt;Laymen&#39;s Abstract&lt;/h2&gt;
+&lt;p&gt;A photograph is said to have &amp;quot;high perceptual dynamic range&amp;quot; if you can see the details clearly for both very bright and very dark parts of an image. Photographers want this property in their images. This goal hard to achieve due to fundamental limitations in cameras. Increasing exposure reveals details from dark parts, but over-exposes bright parts that become washed. On the other hand, decreasing exposure reveals details from light parts, but under-exposes dark parts that become pitch black.&lt;/p&gt;
+&lt;p&gt;Photographers can take images taken of the same shot with different exposures, then combine them using an image processing algorithm to achieve high perceptual dynamic range. This technique is called exposure fusion. However, in order for exposure fusion to work well, the scene needs to be completely static between different shots. As such, it would be ideal if photographers could take just one photo, then apply a filter onto it to make it appear to be high dynamic range.&lt;/p&gt;
+&lt;p&gt;The best method for making a single image to be high perceptual dynamic range is by training a machine learning model. However, existing models do not perform well for all types of subjects, and requires a lot of money to collect data and train the model.&lt;/p&gt;
+&lt;p&gt;In this project, I explored an alternative technique. I first apply basic filters to the image to make a really bright copy, and a really dark copy. Then, I apply a traditional exposure fusion algorithm to mimic the effect of real exposure fusion from a single image. (Hence, single exposure fusion.) There is one downside though: cranking up the brightness of an image makes it very noisy. To combat this problem, I use denoising algorithms to reduce the noise from the brightened up image.&lt;/p&gt;
+&lt;p&gt;The result of single exposure fusion is, of course, not as good as real exposure fusion nor machine learning. The upside is that it can be applied to fast-moving subjects, and that it is much cheaper than model training.&lt;/p&gt;
 </description>
           <pubDate>Tue, 14 Dec 2021 19:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
+          <guid>https://jiwonc.net/research/sef/</guid>
         </item>
       
       

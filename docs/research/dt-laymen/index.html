@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Jiwon's Alcove | Laymen's Abstract: Data Distribution Tailoring</title>
+    <meta name="description" content="Musings on computer science and life.">
+    <!--mathjax-->
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <!--use dollar signs for math-->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+  </script>
+</head>
+</html>
+<body>
+    <!--Website title-->
+    <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Navigation bar-->
+    <nav>
+    <div class="nav-inner">
+        
+            <span class="category">
+                <a href="/blog">Blog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/microblog">Microblog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/education">Education</a>
+            </span>
+        
+            <span class="category">
+                <a href="/professional">Professional</a>
+            </span>
+        
+            <span class="category">
+                <a href="/research">Research</a>
+            </span>
+        
+            <span class="category">
+                <a href="/writings">Writings</a>
+            </span>
+        
+            <span class="category">
+                <a href="/now">Now</a>
+            </span>
+        
+    </div>
+</nav>
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    
+        <h2>Laymen's Abstract: Data Distribution Tailoring</h2>
+<p>Modern machine learning (ML) requires a lot of training data. Collecting all of that data costs a lot of money. As such, data scientists often combine datasets that already exist and engineer the data to get the training data they need.</p>
+<p>An important feature for many ML models is fairness, which in its simplest form can be defined as: the model is accurate for all (racial, age, gender, etc.) demographic groups. An important way to ensure that a model is fair in this manner is to ensure that the training data has adequate number of samples from each group. If not, then the model does not have enough information to learn about under-represented groups.</p>
+<p>We studied a problem that combines these objectives: how can we combine existing datasets such that the combined data has adequate representation across groups, while staying cost-efficient?</p>
+<p>We achieve the goal by designing adaptive sampling algorithms. Adaptive means that in each iteration, the algorithm chooses the dataset to sample from. It prioritizes datasets that are likely to contain a large proportion of data points from the group that will be the bottleneck.</p>
+<p>Our algorithm can also be applied to the setting where data scientists are collecting data from several sources, such as surveying different populations. It can help reduce data collection cost while ensuring that the collected data is representative in a manner similar to quota sampling in statistics.</p>
+
+    
+    <!--footer-->
+    <footer>
+    <div>
+        <small>© Jiwon Chang 2024</small>
+    </div>
+</footer>
+</body>

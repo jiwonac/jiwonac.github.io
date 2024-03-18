@@ -11,9 +11,9 @@ permalink: false
 * [Data Intelligence Lab](https://dataintelligencecrew.github.io/), systems group, computer science. 
 * Advisor: [Fatemah Nargesian](https://fnargesian.com/). 
 
-<b>Relevant Coursework</b>
-<ul class="keywords">
-    <li>Machine Learning</li>
-    <li>Sampling Algorithms</li>
-    <li>Data Management Systems</li>
-</ul>
+**Relevant Coursework**
+
+* Machine Learning
+* Sampling Algorithms
+* Data Management Systems
+* Advanced Compilers

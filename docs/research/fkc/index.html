@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Jiwon's Alcove | Fair $k$-Cover Coresets</title>
+    <meta name="description" content="Musings on computer science and life.">
+    <!--mathjax-->
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <!--use dollar signs for math-->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+  </script>
+</head>
+</html>
+<body>
+    <!--Website title-->
+    <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Navigation bar-->
+    <nav>
+    <div class="nav-inner">
+        
+            <span class="category">
+                <a href="/blog">Blog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/microblog">Microblog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/education">Education</a>
+            </span>
+        
+            <span class="category">
+                <a href="/professional">Professional</a>
+            </span>
+        
+            <span class="category">
+                <a href="/research">Research</a>
+            </span>
+        
+            <span class="category">
+                <a href="/writings">Writings</a>
+            </span>
+        
+            <span class="category">
+                <a href="/now">Now</a>
+            </span>
+        
+    </div>
+</nav>
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    
+        <!--Otherwise, display metadata-->
+        <div class="content">
+            <h2>Fair $k$-Cover Coresets</h2>
+            <div>
+                <small>2022</small><br>
+                
+                    <small>
+                    
+                        Pranay Mundra<br>
+                    
+                        Yurong Yu<br>
+                    
+                        Fatemeh Nargesian<br>
+                    
+                    </small>
+                
+            </div>
+            
+                <img src="/assets/research/fkc.png" alt="Red and blue points on a plane, with some red points and some blue points having a circle around them.">
+            
+            
+            <p>We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $\mathrm{F}\mathcal{K}\mathrm{C}$ coresets reduce accuracy disparity while generating coresets rapidly.</p>
+
+        </div>
+    
+    <!--footer-->
+    <footer>
+    <div>
+        <small>© Jiwon Chang 2024</small>
+    </div>
+</footer>
+</body>

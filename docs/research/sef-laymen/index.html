@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Jiwon's Alcove | Laymen's Abstract: Single Exposure Fusion</title>
+    <meta name="description" content="Musings on computer science and life.">
+    <!--mathjax-->
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <!--use dollar signs for math-->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+  </script>
+</head>
+</html>
+<body>
+    <!--Website title-->
+    <h1><a href="/">Jiwon's Alcove</a></h1>
+    <!--Navigation bar-->
+    <nav>
+    <div class="nav-inner">
+        
+            <span class="category">
+                <a href="/blog">Blog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/microblog">Microblog</a>
+            </span>
+        
+            <span class="category">
+                <a href="/education">Education</a>
+            </span>
+        
+            <span class="category">
+                <a href="/professional">Professional</a>
+            </span>
+        
+            <span class="category">
+                <a href="/research">Research</a>
+            </span>
+        
+            <span class="category">
+                <a href="/writings">Writings</a>
+            </span>
+        
+            <span class="category">
+                <a href="/now">Now</a>
+            </span>
+        
+    </div>
+</nav>
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    
+        <h2>Laymen's Abstract: Single Exposure Fusion</h2>
+<p>A photograph is said to have &quot;high perceptual dynamic range&quot; if you can see the details clearly for both very bright and very dark parts of an image. Photographers want this property in their images. This goal hard to achieve due to fundamental limitations in cameras. Increasing exposure reveals details from dark parts, but over-exposes bright parts that become washed. On the other hand, decreasing exposure reveals details from light parts, but under-exposes dark parts that become pitch black.</p>
+<p>Photographers can take images taken of the same shot with different exposures, then combine them using an image processing algorithm to achieve high perceptual dynamic range. This technique is called exposure fusion. However, in order for exposure fusion to work well, the scene needs to be completely static between different shots. As such, it would be ideal if photographers could take just one photo, then apply a filter onto it to make it appear to be high dynamic range.</p>
+<p>The best method for making a single image to be high perceptual dynamic range is by training a machine learning model. However, existing models do not perform well for all types of subjects, and requires a lot of money to collect data and train the model.</p>
+<p>In this project, I explored an alternative technique. I first apply basic filters to the image to make a really bright copy, and a really dark copy. Then, I apply a traditional exposure fusion algorithm to mimic the effect of real exposure fusion from a single image. (Hence, single exposure fusion.) There is one downside though: cranking up the brightness of an image makes it very noisy. To combat this problem, I use denoising algorithms to reduce the noise from the brightened up image.</p>
+<p>The result of single exposure fusion is, of course, not as good as real exposure fusion nor machine learning. The upside is that it can be applied to fast-moving subjects, and that it is much cheaper than model training.</p>
+
+    
+    <!--footer-->
+    <footer>
+    <div>
+        <small>© Jiwon Chang 2024</small>
+    </div>
+</footer>
+</body>
