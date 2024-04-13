@@ -13,8 +13,12 @@ tags:
 links:
  -
      name: Paper
-     url: 'https://link.springer.com/epdf/10.1007/s00778-024-00849-w'
+     url: 'https://link.springer.com/epdf/10.1007/s00778-024-00849-w?sharing_token=2bonB5NahTVl2kK5rGrNb_e4RwlQNchNByi7wbcMAY5kEMlWJtUwo8rlfs37zl_ObD_kpCeyoTf7q8ym65v9X7B-oBV6l08CTdzqVhaNsuyCgn38KzlaxxbxGHw9R8hgJFZ_WGtVt8Jm0r9IrwamIVr9ENtCVYEsn9QESg-tAqM%3D'
      image: '/assets/icons/pdf.png'
+ -
+     name: Paper
+     url: 'https://doi.org/10.1007/s00778-024-00849-w'
+     image: '/assets/icons/doi.png'
  - 
      name: Poster
      url: '/assets/docs/dt-poster.pdf'
