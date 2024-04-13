@@ -11,6 +11,10 @@ date_str: "2022-2024"
 tags:
  - research
 links:
+ -
+     name: Paper
+     url: 'https://link.springer.com/epdf/10.1007/s00778-024-00849-w'
+     image: '/assets/icons/pdf.png'
  - 
      name: Poster
      url: '/assets/docs/dt-poster.pdf'
