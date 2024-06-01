@@ -3,86 +3,9 @@
   <channel>
     <title>Jiwon&#39;s Alcove</title>
     <link>https://jiwonc.net/</link>
-    <atom:link href="https://jiwonc.net/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jiwonc.net/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Musings on computer science and life.</description>
     <language>en</language>
-      
-      
-      
-      
-      
-      
-      
-        <item>
-          <title>Common yarrow and bugs</title>
-          <link>https://jiwonc.net/microblog/2024-06-01/</link>
-          <description>&lt;p&gt;Common yarrows are one of the few native, large, perennial flowering plants that I found in my back yard growing on its own. The colony just blooomed, which attracted quite the selection of bugs. I observed many and larval ladybugs, some native-looking flies and bees. It reminds me why I am doing this project in the first place.&lt;/p&gt;
-</description>
-          <pubDate>Fri, 31 May 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-06-01/</guid>
-        </item>
-      
-      
-        <item>
-          <title>Forget-me-not</title>
-          <link>https://jiwonc.net/microblog/2024-05-26/</link>
-          <description>&lt;p&gt;Most species of forget-me-nots (&lt;em&gt;Myosotis sp.&lt;/em&gt;) are non-native to North America. This colony, which occupies wide swaths of my back yard through its rhizomous spread, is most likely the highly invasive &lt;em&gt;Myosotis scorpiodes&lt;/em&gt; from Europe, which has become commonplace around here in the Great Lakes region. I will most likely need to resort to herbicidal control. It&#39;s a shame, since it is quite the pretty flower.&lt;/p&gt;
-</description>
-          <pubDate>Sat, 25 May 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-05-26/</guid>
-        </item>
-      
-      
-        <item>
-          <title>Charles Darwin&#39;s Letters</title>
-          <link>https://jiwonc.net/microblog/2024-05-23b/</link>
-          <description>&lt;p&gt;Some time ago, I was able to visit the exhibition &amp;quot;Charles Darwin&#39;s Letters&amp;quot; at the New York Public Library. Darwin is my original idol; it was the next best thing to meeting him in person!&lt;/p&gt;
-</description>
-          <pubDate>Wed, 22 May 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-05-23b/</guid>
-        </item>
-      
-      
-        <item>
-          <title>Common Yellow Woodsorrel</title>
-          <link>https://jiwonc.net/microblog/2024-05-23/</link>
-          <description>&lt;p&gt;I recently started cataloging and identifying all plants that live in my back yard. One of the most prevalent are, fittingly, common yellow woodsorrels. This plant is considered a weed to gardeners due to its rapid rhizomatous propagation. I think it is pretty.&lt;/p&gt;
-</description>
-          <pubDate>Wed, 22 May 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-05-23/</guid>
-        </item>
-      
-      
-        <item>
-          <title>SIGMOD Demo Paper &quot;Plutus: Understanding Data Distribution Tailoring for Machine Learning&quot; has been accepted!</title>
-          <link>https://jiwonc.net/microblog/2024-03-17/</link>
-          <description>&lt;p&gt;The paper will appear in SIGMOD 2024 Demonstration track.&lt;/p&gt;
-&lt;p&gt;This work was made possible thanks to my advisor Fatemeh Nargesian and Matthias Boehm of TU Berlin who developed the original techniques, as well as collaborator Christina Dionysio.&lt;/p&gt;
-</description>
-          <pubDate>Sat, 16 Mar 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-03-17/</guid>
-        </item>
-      
-      
-        <item>
-          <title>VLDB Journal Paper &quot;Data Distribution Tailoring: Cost-Efficient Acquisition of Representative Data&quot; has been accepted!</title>
-          <link>https://jiwonc.net/microblog/2024-03-13/</link>
-          <description>&lt;p&gt;Paper will be published in VLDBJ after editing processes are complete.&lt;/p&gt;
-&lt;p&gt;This work was made possible thanks to my collaborator Bohan Cui, authors of the original conference paper Fatemeh Nargesian, Abolfazl Asudeh, and H.V. Jagadish, and the Schwartz Discover Grant for Undergraduate Research.&lt;/p&gt;
-&lt;p&gt;Our journal paper significantly extends upon the conference paper with new and modified analysis and algorithms.&lt;/p&gt;
-&lt;p&gt;I will also publish additional materials (e.g. laymen&#39;s abstract, poster) about our work soon.&lt;/p&gt;
-&lt;p&gt;See also: &lt;a href=&quot;https://jiwonc.net/research/dt&quot;&gt;laymen&#39;s abstract and poster&lt;/a&gt;&lt;/p&gt;
-</description>
-          <pubDate>Tue, 12 Mar 2024 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2024-03-13/</guid>
-        </item>
-      
       
         <item>
           <title>My Favorite Quotes</title>
@@ -111,23 +34,6 @@
       
       
         <item>
-          <title>A Morning of Scavenging the Bargain Bin</title>
-          <link>https://jiwonc.net/microblog/2023-11-18/</link>
-          <description>&lt;p&gt;Physical bookstores have that magic of picking up random books that I never would have found from an online review.&lt;/p&gt;
-&lt;p&gt;I found several gems on this haul for about $10 total.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://link.springer.com/book/10.1057/9780230298118&quot;&gt;Imagining Iraq: Literature in English and the Iraq Invasion&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.wiley.com/en-us/How+Everything+Can+Collapse%3A+A+Manual+for+our+Times-p-9781509541393&quot;&gt;How Everything Can Collapse: A Manual for our Times&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.dukeupress.edu/after-the-post-cold-war&quot;&gt;After the Post-Cold War: The Future of Chinese History&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Fri, 17 Nov 2023 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2023-11-18/</guid>
-        </item>
-      
-      
-        <item>
           <title>Adult Survival #4: Separate Digital and Analog Workspace</title>
           <link>https://jiwonc.net/blog/survival-4/</link>
           <description>&lt;p&gt;My newly furnished home office, where I spend much of my workdays, has two tables.&lt;/p&gt;
@@ -139,31 +45,6 @@
           <pubDate>Fri, 17 Nov 2023 19:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/survival-4/</guid>
-        </item>
-      
-      
-        <item>
-          <title>What&#39;s Old is New</title>
-          <link>https://jiwonc.net/microblog/2023-11-10/</link>
-          <description>&lt;p&gt;Living the early 2000s life for focus and calm.&lt;/p&gt;
-</description>
-          <pubDate>Thu, 09 Nov 2023 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2023-11-10/</guid>
-        </item>
-      
-      
-        <item>
-          <title>My Millipede Friends</title>
-          <link>https://jiwonc.net/microblog/2023-11-06/</link>
-          <description>&lt;p&gt;This terrarmium houses three &lt;em&gt;Orthoporus ornatus&lt;/em&gt; millipedes.&lt;br /&gt;
-I like watching them crawl around.&lt;br /&gt;
-They munch of leaves and wood.&lt;br /&gt;
-Touching dirt makes me feel alive.&lt;/p&gt;
-</description>
-          <pubDate>Sun, 05 Nov 2023 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/microblog/2023-11-06/</guid>
         </item>
       
       
@@ -291,27 +172,6 @@ Touching dirt makes me feel alive.&lt;/p&gt;
           <pubDate>Sun, 20 Aug 2023 20:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/lazy-notes/</guid>
-        </item>
-      
-      
-        <item>
-          <title>PhD Candidate at University of Rochester</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://dataintelligencecrew.github.io/&quot;&gt;Data Intelligence Lab&lt;/a&gt;, systems group, computer science.&lt;/li&gt;
-&lt;li&gt;Advisor: &lt;a href=&quot;https://fnargesian.com/&quot;&gt;Fatemah Nargesian&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Relevant Coursework&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Machine Learning&lt;/li&gt;
-&lt;li&gt;Sampling Algorithms&lt;/li&gt;
-&lt;li&gt;Data Management Systems&lt;/li&gt;
-&lt;li&gt;Advanced Compilers&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Sat, 19 Aug 2023 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
         </item>
       
       
@@ -515,19 +375,6 @@ Status:
       
       
         <item>
-          <title>Research Assistant at the University of Rochester</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;Assisted computer science research with professor Fatemeh Nargesian and Yuhao Zhu.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Sun, 12 Mar 2023 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
-        </item>
-      
-      
-        <item>
           <title>Is Technology or Morality Foundational?</title>
           <link>https://jiwonc.net/blog/machine-ethics/</link>
           <description>&lt;p&gt;Given recent technological breakthroughs in AI, everyone seems to be conversing about technological advancement and its societal implications. A particularly thorny topic is the ethics of popular models, which were trained on copyrighted data, and is capable of reproducing the style of human creators with much less effort.&lt;/p&gt;
@@ -713,24 +560,6 @@ Welcome him with open arms&lt;/p&gt;
       
       
         <item>
-          <title>Data Distribution Tailoring</title>
-          <link>https://jiwonc.net/research/dt/</link>
-          <description>&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Data scientists frequently construct datasets for analysis, leveraging various data sources available to them. A significant challenge lies in ensuring that the analyzed dataset adequately represents relevant demographic groups, meeting desired distribution requirements. Whether obtained through experimentation, data providers, or human-annotators data from a single source may fall short of meeting these requirements, necessitating the collection of data from multiple sources. The Data Distribution Tailoring (DT) problem aims to cost-efficiently collect a unified data set from multiple sources. In this paper, we present major optimizations and generalizations to previous algorithms for this problem. In situations when group distributions are known in sources, we present a novel algorithm RatioColl that outperforms the existing algorithm, based on the Coupon Collector’s problem. If distributions are unknown, we propose decaying exploration rate multi-armed-bandit algorithms that, unlike the existing algorithm used for unknown DT, does not require prior information. Through theoretical analysis and extensive experiments, we demonstrate the effectiveness of our proposed algorithms.&lt;/p&gt;
-&lt;h2&gt;Laymen&#39;s Abstract&lt;/h2&gt;
-&lt;p&gt;Modern machine learning (ML) requires a lot of training data. Collecting all of that data costs a lot of money. As such, data scientists often combine datasets that already exist and engineer the data to get the training data they need.&lt;/p&gt;
-&lt;p&gt;An important feature for many ML models is fairness. In its simplest form, fairness can be defined as: the model is accurate for all (racial, age, gender, etc.) demographic groups. An important way to ensure that a model is fair in this manner is to ensure that the training data has adequate number of samples from each group. If not, then the model does not have enough information to learn about under-represented groups.&lt;/p&gt;
-&lt;p&gt;We studied a problem that combines these objectives: how can we combine existing datasets such that the combined data has adequate representation across groups, while staying cost-efficient?&lt;/p&gt;
-&lt;p&gt;We achieve the goal by designing adaptive sampling algorithms. Adaptive means that in each iteration, the algorithm chooses the dataset to sample from. It prioritizes datasets that are likely to contain a large proportion of data points from the group that will be the bottleneck.&lt;/p&gt;
-&lt;p&gt;Our algorithm can also be applied to the setting where data scientists are collecting data from several sources, such as surveying different populations. It can help reduce data collection cost while ensuring that the collected data is representative in a manner similar to quota sampling in statistics.&lt;/p&gt;
-</description>
-          <pubDate>Mon, 30 Jan 2023 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/research/dt/</guid>
-        </item>
-      
-      
-        <item>
           <title>Two Years of Living Without</title>
           <link>https://jiwonc.net/blog/without/</link>
           <description>&lt;p&gt;&lt;a href=&quot;https://manuelmoreale.com/&quot;&gt;Manuel Moreal&lt;/a&gt; has a series of blog posts on the &lt;a href=&quot;https://manuelmoreale.com/without&quot;&gt;year of living without&lt;/a&gt;, in which he temporarily eliminates aspects of his life to see how it goes. In a way, I&#39;ve already lived a year without in 2022, and would like to continue with this trend in 2023.&lt;/p&gt;
@@ -782,32 +611,6 @@ Welcome him with open arms&lt;/p&gt;
           <pubDate>Thu, 05 Jan 2023 19:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/deadinternet/</guid>
-        </item>
-      
-      
-        <item>
-          <title>University of Rochester</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;B.S. in computer science!&lt;/li&gt;
-&lt;li&gt;GPA: 3.36&lt;/li&gt;
-&lt;li&gt;Discover Grant for Undergraduate Research&lt;/li&gt;
-&lt;li&gt;Advisors: Fatemeh Nargesian, Yuhao Zhu&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;b&gt;Relevant Coursework&lt;/b&gt;&lt;/p&gt;
-&lt;ul class=&quot;keywords&quot;&gt;
-    &lt;li&gt;Undergraduate Research Seminar&lt;/li&gt;
-    &lt;li&gt;Data Mining&lt;/li&gt;
-    &lt;li&gt;Design &amp; Analysis of Algorithms&lt;/li&gt;
-    &lt;li&gt;Data Structures &amp; Algorithms&lt;/li&gt;
-    &lt;li&gt;Theory of Computing&lt;/li&gt;
-    &lt;li&gt;Linear Algebra&lt;/li&gt;
-    &lt;li&gt;Probability Theory&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Tue, 27 Dec 2022 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
         </item>
       
       
@@ -880,17 +683,6 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
       
       
         <item>
-          <title>Fair $k$-Cover Coresets</title>
-          <link>https://jiwonc.net/research/fkc/</link>
-          <description>&lt;p&gt;We study the fair $k$-cover problem, which aims to efficiently obtain coresets such that 1) every point in the full dataset is covered by a point in the coreset at least $k$ times, and 2) points in the coreset adequately represent groups of interest. We solve the problem through a reduction to submodular optimization. Our $&#92;mathrm{F}&#92;mathcal{K}&#92;mathrm{C}$ coresets reduce accuracy disparity while generating coresets rapidly.&lt;/p&gt;
-</description>
-          <pubDate>Wed, 30 Nov 2022 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/research/fkc/</guid>
-        </item>
-      
-      
-        <item>
           <title>Single-Purpose Smart Devices</title>
           <link>https://jiwonc.net/blog/singlepurpose/</link>
           <description>&lt;p&gt;Are our smart devices the ultimate minimalist dream? After all, a single smartphone can replace notepads, books, a compass, maps, an mp3 player, a TV, a remote control, a grocery list, a camera, a landline, and many more. Smartphones are, indeed, the ultimate Swiss army knife.&lt;/p&gt;
@@ -911,17 +703,6 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
       
       
         <item>
-          <title>The specter of deadnames</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;If UR implemented a policy of utilizing preferred names wherever legal names are not necessary, it would improve the quality of life of transgender students, with no downsides for others.&lt;/p&gt;
-</description>
-          <pubDate>Sat, 15 Oct 2022 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
-        </item>
-      
-      
-        <item>
           <title>User-Controlled Recommender Systems</title>
           <link>https://jiwonc.net/blog/recommender/</link>
           <description>&lt;p&gt;Algorithmic recommendations are a fact of life on the contemporary internet, from Google Searches to Youtube, Facebook, Instagram, Netflix, Amazon...the list goes on. With the omnipresence of recommender systems comes a widespread recognition of its downside.&lt;/p&gt;
@@ -934,71 +715,6 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
           <pubDate>Wed, 03 Aug 2022 20:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/recommender/</guid>
-        </item>
-      
-      
-        <item>
-          <title>Freelance Tutoring</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;Taught a number of students the International Baccalaureate (IB) Physics and Biology curriculum.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Mon, 31 Jan 2022 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
-        </item>
-      
-      
-        <item>
-          <title>Single Exposure Fusion</title>
-          <link>https://jiwonc.net/research/sef/</link>
-          <description>&lt;h2&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Photographers can extend the perceptual dynamic range of a photograph by utilizing the exposure fusion method, in which multiple photographs taken at different exposures are combined. However, this technique is susceptible to blur if the camera or subject moves.&lt;/p&gt;
-&lt;p&gt;I developed an alternate SDR to HDR pipeline which only requires one medium-exposure SDR photograph and will not be blurred due to camera or subject&#39;s movement. Unlike existing alternatives, single exposure fusion is a simple combination of classic denoising and exposure fusion algorithms that does not require machine learning.&lt;/p&gt;
-&lt;h2&gt;Laymen&#39;s Abstract&lt;/h2&gt;
-&lt;p&gt;A photograph is said to have &amp;quot;high perceptual dynamic range&amp;quot; if you can see the details clearly for both very bright and very dark parts of an image. Photographers want this property in their images. This goal hard to achieve due to fundamental limitations in cameras. Increasing exposure reveals details from dark parts, but over-exposes bright parts that become washed. On the other hand, decreasing exposure reveals details from light parts, but under-exposes dark parts that become pitch black.&lt;/p&gt;
-&lt;p&gt;Photographers can take images taken of the same shot with different exposures, then combine them using an image processing algorithm to achieve high perceptual dynamic range. This technique is called exposure fusion. However, in order for exposure fusion to work well, the scene needs to be completely static between different shots. As such, it would be ideal if photographers could take just one photo, then apply a filter onto it to make it appear to be high dynamic range.&lt;/p&gt;
-&lt;p&gt;The best method for making a single image to be high perceptual dynamic range is by training a machine learning model. However, existing models do not perform well for all types of subjects, and requires a lot of money to collect data and train the model.&lt;/p&gt;
-&lt;p&gt;In this project, I explored an alternative technique. I first apply basic filters to the image to make a really bright copy, and a really dark copy. Then, I apply a traditional exposure fusion algorithm to mimic the effect of real exposure fusion from a single image. (Hence, single exposure fusion.) There is one downside though: cranking up the brightness of an image makes it very noisy. To combat this problem, I use denoising algorithms to reduce the noise from the brightened up image.&lt;/p&gt;
-&lt;p&gt;The result of single exposure fusion is, of course, not as good as real exposure fusion nor machine learning. The upside is that it can be applied to fast-moving subjects, and that it is much cheaper than model training.&lt;/p&gt;
-</description>
-          <pubDate>Tue, 14 Dec 2021 19:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/research/sef/</guid>
-        </item>
-      
-      
-        <item>
-          <title>A more engaging way to teach science</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;The incorrect notion of a sudden Scientific Revolution discourages future scientists.&lt;/p&gt;
-</description>
-          <pubDate>Sat, 30 Oct 2021 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
-        </item>
-      
-      
-        <item>
-          <title>Disaster prevention lessons from AI</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;Disaster narratives remind us that, especially in times like this, we shouldn’t forget the potential for other disasters.&lt;/p&gt;
-</description>
-          <pubDate>Sat, 24 Oct 2020 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
-        </item>
-      
-      
-        <item>
-          <title>Computer science education needs a reboot</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;p&gt;What we need is the best of both worlds: a college CS curriculum that incorporates the tactics of coding boot camps.&lt;/p&gt;
-</description>
-          <pubDate>Sun, 04 Oct 2020 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
         </item>
       
       
@@ -1017,22 +733,6 @@ Launch options: run --branch=stable --arch=x86 --command=/app/bin/chromium --fil
           <pubDate>Sat, 01 Aug 2020 20:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/why/</guid>
-        </item>
-      
-      
-        <item>
-          <title>Full-Stack Intern at BusySquirrels</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;Helped develop the BusySquirrels Shopping Tips browser extension with ReactJS and IndexedDB.&lt;/li&gt;
-&lt;li&gt;Implemented user analytics system using Google Analytics.&lt;/li&gt;
-&lt;li&gt;Redesigned DynamoDB shopping website database for feature extension.&lt;/li&gt;
-&lt;li&gt;Created help pages for the BusySquirrels website.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Sun, 14 Jun 2020 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
         </item>
       
       
@@ -1340,27 +1040,6 @@ mediocre, heck, below-average in many things we strive to be good at, likely for
           <pubDate>Sun, 14 Apr 2019 20:00:00 +0000</pubDate>
           <dc:creator>Jiwon Chang</dc:creator>
           <guid>https://jiwonc.net/blog/readinghabit/</guid>
-        </item>
-      
-      
-        <item>
-          <title>International Baccalaureate (IB)</title>
-          <link>https://jiwonc.net/false</link>
-          <description>&lt;ul&gt;
-&lt;li&gt;IB: 42/45&lt;/li&gt;
-&lt;li&gt;GPA: 3.90/4.3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Relevant Coursework&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;HL Physics (7/7)&lt;/li&gt;
-&lt;li&gt;HL Mathematics (7/7)&lt;/li&gt;
-&lt;li&gt;HL Biology (6/7)&lt;/li&gt;
-&lt;li&gt;AP Chemistry (5/5)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-          <pubDate>Sat, 19 May 2018 20:00:00 +0000</pubDate>
-          <dc:creator>Jiwon Chang</dc:creator>
-          <guid>https://jiwonc.net/false</guid>
         </item>
       
   </channel>

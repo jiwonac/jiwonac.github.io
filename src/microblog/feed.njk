@@ -1,7 +1,7 @@
 ---json
 {
   "layout": "",
-  "permalink": "blog/feed.xml",
+  "permalink": "microblog/feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
     "title": "Jiwon's Alcove",
@@ -22,7 +22,7 @@
     <atom:link href="{{ permalink | absoluteUrl(metadata.url) }}" rel="self" type="application/rss+xml" />
     <description>{{ metadata.subtitle }}</description>
     <language>{{ metadata.language }}</language>
-    {%- for post in collections.blog | reverse %}
+    {%- for post in collections.microblog | reverse %}
       {% if post in collections.home %}
       {% else %}
         {%- set absolutePostUrl = post.url | absoluteUrl(metadata.url) %}

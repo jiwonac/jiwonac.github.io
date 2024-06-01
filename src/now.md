@@ -7,9 +7,8 @@ date_str: ""
 ---
 
 Right now, I'm...
-* Studying database internals and compiler optimization.
-* Researching efficient query algorithms for data lakes. 
-* Taking care of my millipedes.
+* Researching index structures for dataset search. 
+* Taking care of my native garden. 
 
 <!--<details>
   <summary>

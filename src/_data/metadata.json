@@ -27,7 +27,7 @@
         },
         {
             "name": "RSS",
-            "url": "https://jiwonc.net/blog.xml",
+            "url": "https://jiwonc.net/feed/",
             "image": "/assets/icons/rss.png"
         }
     ],

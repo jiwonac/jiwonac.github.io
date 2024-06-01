@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://jiwonc.net/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiwon&#39;s Alcove</title>
+    <link>https://jiwonc.net/</link>
+    <atom:link href="https://jiwonc.net/microblog/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Musings on computer science and life.</description>
+    <language>en</language>
+      
+        <item>
+          <title>Common yarrow and bugs</title>
+          <link>https://jiwonc.net/microblog/2024-06-01/</link>
+          <description>&lt;p&gt;Common yarrows are one of the few native, large, perennial flowering plants that I found in my back yard growing on its own. The colony just blooomed, which attracted quite the selection of bugs. I observed many and larval ladybugs, some native-looking flies and bees. It reminds me why I am doing this project in the first place.&lt;/p&gt;
+</description>
+          <pubDate>Fri, 31 May 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-06-01/</guid>
+        </item>
+      
+      
+        <item>
+          <title>Forget-me-not</title>
+          <link>https://jiwonc.net/microblog/2024-05-26/</link>
+          <description>&lt;p&gt;Most species of forget-me-nots (&lt;em&gt;Myosotis sp.&lt;/em&gt;) are non-native to North America. This colony, which occupies wide swaths of my back yard through its rhizomous spread, is most likely the highly invasive &lt;em&gt;Myosotis scorpiodes&lt;/em&gt; from Europe, which has become commonplace around here in the Great Lakes region. I will most likely need to resort to herbicidal control. It&#39;s a shame, since it is quite the pretty flower.&lt;/p&gt;
+</description>
+          <pubDate>Sat, 25 May 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-05-26/</guid>
+        </item>
+      
+      
+        <item>
+          <title>Charles Darwin&#39;s Letters</title>
+          <link>https://jiwonc.net/microblog/2024-05-23b/</link>
+          <description>&lt;p&gt;Some time ago, I was able to visit the exhibition &amp;quot;Charles Darwin&#39;s Letters&amp;quot; at the New York Public Library. Darwin is my original idol; it was the next best thing to meeting him in person!&lt;/p&gt;
+</description>
+          <pubDate>Wed, 22 May 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-05-23b/</guid>
+        </item>
+      
+      
+        <item>
+          <title>Common Yellow Woodsorrel</title>
+          <link>https://jiwonc.net/microblog/2024-05-23/</link>
+          <description>&lt;p&gt;I recently started cataloging and identifying all plants that live in my back yard. One of the most prevalent are, fittingly, common yellow woodsorrels. This plant is considered a weed to gardeners due to its rapid rhizomatous propagation. I think it is pretty.&lt;/p&gt;
+</description>
+          <pubDate>Wed, 22 May 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-05-23/</guid>
+        </item>
+      
+      
+        <item>
+          <title>SIGMOD Demo Paper &quot;Plutus: Understanding Data Distribution Tailoring for Machine Learning&quot; has been accepted!</title>
+          <link>https://jiwonc.net/microblog/2024-03-17/</link>
+          <description>&lt;p&gt;The paper will appear in SIGMOD 2024 Demonstration track.&lt;/p&gt;
+&lt;p&gt;This work was made possible thanks to my advisor Fatemeh Nargesian and Matthias Boehm of TU Berlin who developed the original techniques, as well as collaborator Christina Dionysio.&lt;/p&gt;
+</description>
+          <pubDate>Sat, 16 Mar 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-03-17/</guid>
+        </item>
+      
+      
+        <item>
+          <title>VLDB Journal Paper &quot;Data Distribution Tailoring: Cost-Efficient Acquisition of Representative Data&quot; has been accepted!</title>
+          <link>https://jiwonc.net/microblog/2024-03-13/</link>
+          <description>&lt;p&gt;Paper will be published in VLDBJ after editing processes are complete.&lt;/p&gt;
+&lt;p&gt;This work was made possible thanks to my collaborator Bohan Cui, authors of the original conference paper Fatemeh Nargesian, Abolfazl Asudeh, and H.V. Jagadish, and the Schwartz Discover Grant for Undergraduate Research.&lt;/p&gt;
+&lt;p&gt;Our journal paper significantly extends upon the conference paper with new and modified analysis and algorithms.&lt;/p&gt;
+&lt;p&gt;I will also publish additional materials (e.g. laymen&#39;s abstract, poster) about our work soon.&lt;/p&gt;
+&lt;p&gt;See also: &lt;a href=&quot;https://jiwonc.net/research/dt&quot;&gt;laymen&#39;s abstract and poster&lt;/a&gt;&lt;/p&gt;
+</description>
+          <pubDate>Tue, 12 Mar 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2024-03-13/</guid>
+        </item>
+      
+      
+        <item>
+          <title>A Morning of Scavenging the Bargain Bin</title>
+          <link>https://jiwonc.net/microblog/2023-11-18/</link>
+          <description>&lt;p&gt;Physical bookstores have that magic of picking up random books that I never would have found from an online review.&lt;/p&gt;
+&lt;p&gt;I found several gems on this haul for about $10 total.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://link.springer.com/book/10.1057/9780230298118&quot;&gt;Imagining Iraq: Literature in English and the Iraq Invasion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wiley.com/en-us/How+Everything+Can+Collapse%3A+A+Manual+for+our+Times-p-9781509541393&quot;&gt;How Everything Can Collapse: A Manual for our Times&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dukeupress.edu/after-the-post-cold-war&quot;&gt;After the Post-Cold War: The Future of Chinese History&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+          <pubDate>Fri, 17 Nov 2023 19:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2023-11-18/</guid>
+        </item>
+      
+      
+        <item>
+          <title>What&#39;s Old is New</title>
+          <link>https://jiwonc.net/microblog/2023-11-10/</link>
+          <description>&lt;p&gt;Living the early 2000s life for focus and calm.&lt;/p&gt;
+</description>
+          <pubDate>Thu, 09 Nov 2023 19:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2023-11-10/</guid>
+        </item>
+      
+      
+        <item>
+          <title>My Millipede Friends</title>
+          <link>https://jiwonc.net/microblog/2023-11-06/</link>
+          <description>&lt;p&gt;This terrarmium houses three &lt;em&gt;Orthoporus ornatus&lt;/em&gt; millipedes.&lt;br /&gt;
+I like watching them crawl around.&lt;br /&gt;
+They munch of leaves and wood.&lt;br /&gt;
+Touching dirt makes me feel alive.&lt;/p&gt;
+</description>
+          <pubDate>Sun, 05 Nov 2023 19:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/microblog/2023-11-06/</guid>
+        </item>
+      
+  </channel>
+</rss>
