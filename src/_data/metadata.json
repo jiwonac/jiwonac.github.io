@@ -26,6 +26,16 @@
             "image": "/assets/icons/linkedin.png"
         },
         {
+            "name": "Scholar",
+            "url": "https://scholar.google.com/citations?user=ajzJfgMAAAAJ&hl=en",
+            "image": "/assets/icons/scholar.png"
+        },
+        {
+            "name": "ORCID",
+            "url": "https://orcid.org/0000-0003-3945-925X",
+            "image": "/assets/icons/orcid.png"
+        },
+        {
             "name": "RSS",
             "url": "https://jiwonc.net/feed/",
             "image": "/assets/icons/rss.png"

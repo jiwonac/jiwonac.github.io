@@ -14,6 +14,23 @@
       
       
         <item>
+          <title>PLUTUS: Understanding Data Distribution Tailoring for Machine Learning</title>
+          <link>https://jiwonc.net/research/plutus/</link>
+          <description>&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Existing data debugging tools allow users to trace model performance problems all the way to the data by efficiently identifying slices (conjunctions of features and values) for which a trained model performs significantly worse than the entire dataset. To ensure accurate and fair models, one solution is to acquire enough data for these slices. In addition to crowdsourcing, recent data acquisition techniques design cost-effective algorithms to obtain such data from a union of external sources such as data lakes and data markets. We demonstrate PLUTUS, a tool for human-in-the-loop and model-aware data acquisition pipeline, on SystemDS, as an open source ML system for the end-to-end data science lifecycle. In PLUTUS, a user can efficiently identify problematic slices, connect to external data sources, and acquire the right amount of data for these slices in a cost-effective manner.&lt;/p&gt;
+&lt;h2&gt;Laymen&#39;s Abstract&lt;/h2&gt;
+&lt;p&gt;When data scientists train machine learning models from a dataset, the model might not be accurate for all subgroups. Subgroups are subsets of data, such as &amp;quot;male&amp;quot; or &amp;quot;young male&amp;quot;. This may be caused by the lack of data for some subgroups, especially minorities. Or, it may be that some subgroups are simply harder to learn. For example, training a machine vision model to identify a Roseate Spoonbill is much harder than having it learn what a bird is.&lt;/p&gt;
+&lt;p&gt;PLUTUS is our prototype system where we propose a workflow to remedy this issue. First, we train a model on some data. Then, we use a tool called Sliceline that exhaustively searches through all subgroups in a dataset and identifies the subgroups with the worst performance. It can search a very large number of subgroups for a very large dataset in just a few seconds.&lt;/p&gt;
+&lt;p&gt;Then, we acquire additional data for the worst subgroups, as identified by Sliceline, using a Distribution Tailoring (DT) algorithm. DT algorithms efficiently sample data from a data repository containing many different datasets. Its goal is to assemble a collection of data points that have an adequate number of data points from each subgroup. It adaptively changes the target of its sampling procedure to minimize latency.&lt;/p&gt;
+&lt;p&gt;Finally, we shuffle the additional data back into the additional dataset, and we re-train the model. Hopefully, this process has improved the model&#39;s overall performance and/or group fairness. We repeat this process until satisfied.&lt;/p&gt;
+</description>
+          <pubDate>Sat, 08 Jun 2024 20:00:00 +0000</pubDate>
+          <dc:creator>Jiwon Chang</dc:creator>
+          <guid>https://jiwonc.net/research/plutus/</guid>
+        </item>
+      
+      
+        <item>
           <title>Common yarrow and bugs</title>
           <link>https://jiwonc.net/microblog/2024-06-01/</link>
           <description>&lt;p&gt;Common yarrows are one of the few native, large, perennial flowering plants that I found in my back yard growing on its own. The colony just blooomed, which attracted quite the selection of bugs. I observed many adult and larval ladybugs, some native-looking flies and bees. It reminds me why I am doing this project in the first place.&lt;/p&gt;
