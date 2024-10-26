@@ -14,7 +14,7 @@ Over the past summer, I went on a camping trip with my family to a remote mounta
 
 A male _Prismognathus dauricus_ stag beetle. It is native to the Korean peninsula and Manchuria. It is small, yet exquisite. 
 
-![](/assets/blog/bugs-from-korea/Dorcus.webp)
+![](/assets/blog/bugs-from-korea/dorcus.webp)
 
 A female stag beetle, of what I think is the _Serrognathus titanus_ species. Very common across mountain ranges in Korea. 
 
