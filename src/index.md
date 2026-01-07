@@ -12,3 +12,5 @@ My interests outside of computer science include bug friends and houseplants, sc
 My office hours Fall 2024 are Mon/Wed 10:30AM, Tue 12:30PM, Thu 11AM, and Fri 1PM, 1 hour each, at Wegmans Hall 2311. 
 
 {% for link in metadata.links %}<span style="margin-right: 0.5%;"><img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}"> <a href="{{ link.url }}">{{ link.name }}</a></span>{% endfor %}
+
+test
