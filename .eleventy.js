@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
             input: "src",
             includes: "_includes",
             data: "_data",
-            output: "_SITE"
+            output: "_site"
         },
     };
 };
