@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: jiwonac/jiwonac.github.io
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: Ov23liQVyzbEUfFSRC8t
+
+media_folder: "src/assets"
+public_folder: "/assets"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["blog"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "microblog"
+    label: "Microblog Posts"
+    folder: "src/microblog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}"
+    fields:
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+
+  - name: "research"
+    label: "Research"
+    folder: "src/research"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "writings"
+    label: "Writings"
+    folder: "src/writings"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Now Page"
+        name: "now"
+        file: "src/now.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
