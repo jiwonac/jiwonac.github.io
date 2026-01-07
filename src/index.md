@@ -13,4 +13,4 @@ My office hours Fall 2024 are Mon/Wed 10:30AM, Tue 12:30PM, Thu 11AM, and Fri 1P
 
 {% for link in metadata.links %}<span style="margin-right: 0.5%;"><img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}"> <a href="{{ link.url }}">{{ link.name }}</a></span>{% endfor %}
 
-test
+test test test
