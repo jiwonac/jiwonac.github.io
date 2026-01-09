@@ -1,0 +1,11 @@
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.font-sans {
+    font-family: var(--font-sansserif), sans-serif;
+}
+
+.font-hand {
+    font-family: var(--font-handwriting), sans-serif;
+}

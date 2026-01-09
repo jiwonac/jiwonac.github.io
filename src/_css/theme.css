@@ -1,0 +1,56 @@
+/* ============================================
+   THEME COLORS
+   ============================================ */
+
+body[data-theme="light"] {
+    --color-bg: #F5EFE7;
+    --color-off-white: #FFFEF9;
+    --color-text-body: #2A2A2A;
+    --color-text-secondary: #6B6B6B;
+    --color-accent: #993399;
+    --color-deco-A: #D4A574;
+    --color-deco-B: #FFB4A2;
+    --color-deco-C: #8B7355;
+}
+
+body[data-theme="dark"] {
+    --color-bg: #1A1612;
+    --color-off-white: #2D2620;
+    --color-text-body: #E8E6E3;
+    --color-text-secondary: #A8A8A8;
+    --color-accent: #C97AB8;
+    --color-deco-A: #8B6F47;
+    --color-deco-B: #B8755E;
+    --color-deco-C: #A68B6A;
+}
+
+/* When in dark mode, black icons should be inverted to white */
+body[data-theme="dark"] .external-link-icon {
+    filter: invert(1);
+}
+
+/* ============================================
+   DARK MODE TOGGLE
+   ============================================ */
+
+.theme-toggle {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1000;
+    transition: transform 200ms ease;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.2) rotate(20deg);
+}

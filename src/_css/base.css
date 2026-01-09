@@ -1,0 +1,43 @@
+/* Import subtle handwritten font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* Shadows & Effects */
+    --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.08);
+    --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.12);
+    --shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.16);
+
+    /* Spacing */
+    --default-margin: 10px;
+    --card-padding: 1.5rem;
+    --section-spacing: 3rem;
+
+    /* Typography */
+    --font-sansserif: 'Inter', 'Arial';
+    --font-handwriting: 'Architects Daughter', 'Cabin', 'Arial';
+
+    /* Layout */
+    --max-width: 1280px;
+    --content-width: 80%;
+
+    scroll-behavior: smooth;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+body {
+    counter-reset: sidenote-counter;
+    max-width: var(--max-width);
+    width: 90%;
+    margin: auto;
+    padding: 2.5%;
+    background-color: var(--color-bg);
+    color: var(--color-text-body);
+    font-family: var(--font-sansserif), sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    position: relative;
+}

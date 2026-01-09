@@ -1,0 +1,37 @@
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1.2rem;
+        width: 95%;
+        padding: 2%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .card,
+    .link-card,
+    .blog-item {
+        border-width: 4px;
+        border-bottom-width: 20px;
+        padding: 1rem;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    article > p,
+    article > footer,
+    article > table {
+        width: 100%;
+    }
+}

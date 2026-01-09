@@ -3,14 +3,29 @@ eleventyExcludeFromCollections: true
 title: Home
 ---
 
-<p class="poster-text">Hi! I'm <strong class="highlight">JIWON CHANG</strong>, a <span class="highlight">computer science PhD student</span>. I research <span class="highlight">data acquisition for ML</span> at the University of Rochester with professor <a href="https://fnargesian.com/">Fatemeh Nargesian</a>.</p>
+<section class="landing-intro">
+    <p>A data management technology nerd doing a PhD. I work at the University of Rochester with <a href="https://fnargesian.com/">Fatemeh Nargesian</a>. My focus is on AI-driven SQL extensions and their optimization in databases.</p>
+    <p>You can find me in my natural habitat ranting about my various lifelong learning fixations.</p>
+</section>
 
-My current research interest is two-fold. First, how can we **acquire data** from data repositores to **improve model performance?** Second, how can we optimize queries where some **clauses are given by models?** The two objectives are synergistic, since data acquisition queries are often queries that include ML models. There are also fundamental structural similarities where both are naturally modelled as combinatorial optimization problems. 
+<section class="landing-links">
+    {% for link in metadata.largelinks %}
+    <a href="{{link.url}}" class="link-card">
+        <span class="link-card-text">
+            <span class="link-card-title">{{link.name}}</span>
+            <span class="link-card-description">{{link.description}}</span>
+        </span>
+    </a>
+    {% endfor %}
+</section>
 
-My interests outside of computer science include bug friends and houseplants, science fiction, gaming, minimal and intentional living. 
-
-My office hours Fall 2024 are Mon/Wed 10:30AM, Tue 12:30PM, Thu 11AM, and Fri 1PM, 1 hour each, at Wegmans Hall 2311. 
-
-{% for link in metadata.links %}<span style="margin-right: 0.5%;"><img src="{{ link.image }}" class="textsize-image" alt="{{ link.name }}"> <a href="{{ link.url }}">{{ link.name }}</a></span>{% endfor %}
-
-test test test
+<section class="landing-external-links">
+    <div class="external-links-grid">
+        {% for link in metadata.smalllinks %}
+        <a href="{{link.url}}" class="external-link">
+            <img src="{{link.image}}" class="external-link-icon" alt="{{link.name}}">
+            <span>{{ link.name }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</section>

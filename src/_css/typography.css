@@ -1,0 +1,73 @@
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0.2em;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+/* H1 is used for the site title; underline is not wanted there */
+h1 a {
+    text-decoration: none;
+}
+
+/* Site title should be black by default and accented when hovered */
+h1 a:hover {
+    color: var(--color-accent);
+}
+
+/* H2 is used for page titles */
+h2 {
+    font-size: 2.5em;
+    margin-top: 1.5em;
+}
+
+/* H3 is used within pages */
+h3 {
+    font-size: 1.8em;
+}
+
+/* Links have an underline and get accented with a line shift effect when hovered over */
+a {
+    text-decoration: underline 0.15em var(--color-text-body);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms, color 300ms;
+    color: var(--color-text-body);
+}
+
+a:hover {
+    text-decoration-color: var(--color-accent);
+    text-underline-offset: 0.4em;
+    color: var(--color-accent);
+}
+
+/* The highlight class can be used to make any text accented even if it's not the link */
+.highlight {
+    color: var(--color-accent);
+}
+
+/* Highlighted links are accented by default and become black when hovered over */
+.highlight a {
+    color: var(--color-accent);
+    text-decoration-color: var(--color-accent);
+}
+
+.highlight a:hover {
+    color: var(--color-text-body);
+    text-decoration-color: var(--color-text-body);
+}
+
+/* Make any text small caps */
+.smallcaps {
+    font-variant: small-caps;
+}
+
+/* Add a left vertical line next to block quotes */
+blockquote {
+    border-left: 3px solid var(--color-deco-A);
+    padding-left: 20px;
+    color: var(--color-text-secondary);
+}

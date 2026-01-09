@@ -5,9 +5,7 @@
 <body>
     <!--Website title-->
     <h1><a href="/">{{ metadata.title }}</a></h1>
-    <!--Navigation bar-->
-    {% include "_nav.html" %}
-    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata d isplayed-->
+    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata displayed-->
     {% if eleventyExcludeFromCollections %}
         {{ content }}
     {% else %}
@@ -40,4 +38,12 @@
     {% endif %}
     <!--footer-->
     {% include "_foot.html" %}
+    <!-- Theme toggle script -->
+    <script src="/theme-toggle.js"></script>
+    <!-- Rough.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/roughjs@4.5.2/bundled/rough.js"></script>
+    <!-- Rough cards initialization -->
+    <script src="/_scripts/rough-cards.js"></script>
+    <!-- Theme toggle -->
+    <script src="/_scripts/theme-toggle.js"></script>
 </body>

@@ -1,20 +1,30 @@
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>{{ metadata.title }} | {{ title }}</title>
+    <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
     <meta name="description" content="{{ metadata.description }}">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Theme toggle script -->
+    <script src="/theme-toggle.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico">
+
     <!--mathjax-->
     <script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
     <!--use dollar signs for math-->
     <script>
-      MathJax = {
-        tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']]
-        }
-      };
-  </script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+
 </head>

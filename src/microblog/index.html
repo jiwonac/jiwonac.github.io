@@ -2,6 +2,10 @@
 eleventyExcludeFromCollections: true
 title: Microblog
 ---
+<div class="microblog-grid">
 {% for post in collections.microblog reversed %}
-    {% include "_content.html", index=true %}
+    <div class="microblog-card">
+        {% include "_microblog-content.html" %}
+    </div>
 {% endfor %}
+</div>

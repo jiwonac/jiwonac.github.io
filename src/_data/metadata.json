@@ -1,10 +1,10 @@
 {
     "title": "Jiwon's Alcove",
-    "description": "Musings on computer science and life.",
+    "description": "Internet den of a computer science PhD student.",
     "name": "Jiwon Chang",
     "baseURL": "https://jiwonc.net/",
     "language": "en-us",
-    "links": [
+    "smalllinks": [
         {
             "name": "CV",
             "url": "/assets/docs/cv.pdf",
@@ -17,7 +17,7 @@
         },
         {
             "name": "Email",
-            "url": "mailto:blog@jiwonc.net",
+            "url": "mailto:jchang38@cs.rochester.edu",
             "image": "/assets/icons/email.png"
         },
         {
@@ -34,41 +34,28 @@
             "name": "ORCID",
             "url": "https://orcid.org/0000-0003-3945-925X",
             "image": "/assets/icons/orcid.png"
-        },
-        {
-            "name": "RSS",
-            "url": "https://jiwonc.net/feed/",
-            "image": "/assets/icons/rss.png"
         }
     ],
-    "categories": [
-        {
-            "name": "Blog",
-            "url": "/blog"
-        },
+    "largelinks": [
         {
             "name": "Microblog",
-            "url": "/microblog"
+            "url": "/microblog",
+            "description": "Short and casual updates from life."
         },
         {
-            "name": "Education",
-            "url": "/education"
+            "name": "Personal Blog",
+            "url": "/blog",
+            "description": "Longer musings on topics of personal interests."
         },
         {
-            "name": "Professional",
-            "url": "/professional"
-        },
-        {
-            "name": "Research",
-            "url": "/research"
+            "name": "Research Blog",
+            "url": "/research",
+            "description": "Writings on academic research and technical topics."
         },
         {
             "name": "Writings",
-            "url": "/writings"
-        },
-        {
-            "name": "Now",
-            "url": "/now"
+            "url": "/writings",
+            "description": "Published writings and other works."
         }
     ],
     "quotes": [

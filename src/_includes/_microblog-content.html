@@ -1,0 +1,24 @@
+<!--thumbnail image, if any-->
+{% if post.data.image %}
+    <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
+{% endif %}
+
+<div class="microblog-card-content">
+    <!--title-->
+    {% if post.data.title %}
+        <h3 class="microblog-title">{{ post.data.title }}</h3>
+    {% endif %}
+
+    <!--metadata row with date and permalink-->
+    <div class="microblog-meta">
+        {% if post.data.date_str %}
+            <span class="microblog-date">{{ post.data.date_str }}</span>
+        {% endif %}
+        <a href="{{ post.url }}" class="microblog-permalink">[link]</a>
+    </div>
+
+    <!--body content-->
+    <div class="microblog-body">
+        {{ post.templateContent }}
+    </div>
+</div>
