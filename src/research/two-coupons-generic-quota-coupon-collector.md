@@ -90,9 +90,9 @@ A property of ${n \choose k}$ is that ${n \choose k} = n!/k!(n-k)! = {n \choose 
 At this point, we need a new technique to simplify $n \choose n - j$: generalization of $n \choose k$ s.t. $n$ can be negative. The definition that everyone uses for ${-n \choose k}$ is
 $$
 \begin{align\*}
-    {-n \choose k} &= \frac{-n \cdot (-n - 1) \cdot (-n - 2) \cdots (-n - (k - 2))\cdot (-n - (k - 1))}{k!}\\
-    &= (-1)^k \frac{n \cdot (n + 1) \cdot (n + 2) \ldots (n + (k - 2)) \cdot (n + (k - 1))}{k!}\\
-    &= (-1)^k \frac{(n + k - 1)!}{k! (n - 1)!}\\
+    {-n \choose k} &= \frac{-n \cdot (-n - 1) \cdot (-n - 2) \cdots (-n - (k - 2))\cdot (-n - (k - 1))}{k!}\
+    &= (-1)^k \frac{n \cdot (n + 1) \cdot (n + 2) \ldots (n + (k - 2)) \cdot (n + (k - 1))}{k!}\
+    &= (-1)^k \frac{(n + k - 1)!}{k! (n - 1)!}\
     &= (-1)^k {n + k - 1 \choose k}.
 \end{align\*}
 $$
