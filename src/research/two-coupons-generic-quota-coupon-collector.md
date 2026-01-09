@@ -110,8 +110,8 @@ $$X = p^j \sum_{l = 0}^{\infty} (-1)^l {j + l \choose l} (-q)^l = p^j \sum_{l = 
 
 When mathematicians go from one equation to another, they are skipping entire pages worth of derivation. Darn it, mathematicians!
 
-\*\*\*
+<hr>
 
 [1] Mark Brown and Sheldon M. Ross. 2016. Optimality Results for Coupon Collection. Journal of Applied Probability 53, 3 (September 2016), 930–937. DOI:https://doi.org/10.1017/jpr.2016.51
 
-[2] Felix Marin. Infinite binomial sum. Mathematics Stack Exchange. Retrieved from [https://math.stackexchange.com/a/3106913/1102894](https://math.stackexchange.com/a/3106913/1102894).
+[[2] Felix Marin. Infinite binomial sum. Mathematics Stack Exchange. Retrieved from https://math.stackexchange.com/a/3106913/1102894](https://math.stackexchange.com/a/3106913/1102894).
