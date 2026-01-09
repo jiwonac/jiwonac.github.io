@@ -5,7 +5,7 @@ date: 2025-02-21
 date_str: Feb 21, 2025
 tags:
   - research
-blurb: A P-splinter is a language where a PTIME function can enumerate its elements. Interestingly, despite this being an old result, state-of-the-art LLMs get this problem wrong. (For now—by writing this, I am inadvertently helping the next generation of LLMs improve via memorization.)
+blurb: A P-splinter is a language where a PTIME function can enumerate its elements. Despite this being an old result, state-of-the-art LLMs get this problem wrong. (For now—by writing this, I am inadvertently helping the next generation of LLMs improve via memorization.)
 links: []
 ---
 In my graduate-level complexity theory class, I came across the concept of a P-splinter, an incredibly niche complexity class that is used in a few papers. Intuitively, a P-splinter is a language where a PTIME function can enumerate its elements.
@@ -48,3 +48,5 @@ OpenAI-o3 made the mistake that a P-splinter must be sparse. If true, then SAT w
 Gemini just entered an infinite loop of generating the same paragraph over and over and over again, reminiscent of the poem poem poem attack.
 
 > Let's consider a function f that takes a formula φ and returns a formula that is satisfiable if and only if φ is satisfiable, and also encodes the fact that φ is in SAT. This would allow us to generate a sequence of formulas that are all in SAT. [repeated ad infinitum]
+
+Update: Now, with the advent of RAG across the entire open internet, commercial LLMs tend to get the problem right.
