@@ -101,11 +101,13 @@ body[data-theme="dark"] .external-link-icon {
    TYPOGRAPHY
    ============================================ */
 
+/* H1 is site title only */
 h1 {
     font-size: 4em;
     margin-bottom: 0.2em;
     line-height: 1.1;
     font-weight: 400;
+    font-family: var(--font-handwriting), sans-serif;
 }
 
 /* H1 is used for the site title; underline is not wanted there */
