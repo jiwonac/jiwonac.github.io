@@ -63,17 +63,12 @@
                     resizeTimeout = setTimeout(drawCard, 100);
                 });
 
-                // Redraw when theme changes (watch for attribute changes on html/body)
+                // Redraw when theme changes (theme is set on <html>)
                 const observer = new MutationObserver(() => {
                     drawCard();
                 });
 
                 observer.observe(document.documentElement, {
-                    attributes: true,
-                    attributeFilter: ['data-theme']
-                });
-
-                observer.observe(document.body, {
                     attributes: true,
                     attributeFilter: ['data-theme']
                 });

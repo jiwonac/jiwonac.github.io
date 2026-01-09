@@ -1,8 +1,9 @@
 /* ============================================
    THEME COLORS
+   Theme is set on <html> element to prevent flash
    ============================================ */
 
-body[data-theme="light"] {
+:root[data-theme="light"] {
     --color-bg: #af9b75;
     --color-off-white: #cac4a6;
     --color-text-body: #2A2A2A;
@@ -13,7 +14,7 @@ body[data-theme="light"] {
     --color-deco-C: #8B7355;
 }
 
-body[data-theme="dark"] {
+:root[data-theme="dark"] {
     --color-bg: #1A1612;
     --color-off-white: #2D2620;
     --color-text-body: #E8E6E3;
@@ -25,11 +26,11 @@ body[data-theme="dark"] {
 }
 
 /* Tint black icons to match --color-text-body */
-body[data-theme="light"] .external-link-icon {
+:root[data-theme="light"] .external-link-icon {
     filter: invert(0.25);
 }
 
-body[data-theme="dark"] .external-link-icon {
+:root[data-theme="dark"] .external-link-icon {
     filter: invert(0.7);
 }
 

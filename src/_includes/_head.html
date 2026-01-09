@@ -4,6 +4,9 @@
     <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
     <meta name="description" content="{{ metadata.description }}">
 
+    <!-- Theme init: must load synchronously before CSS to prevent flash -->
+    <script src="/_scripts/theme-init.js"></script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style.css">
 
