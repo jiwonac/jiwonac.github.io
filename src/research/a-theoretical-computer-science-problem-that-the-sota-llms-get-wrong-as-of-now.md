@@ -5,7 +5,7 @@ date: 2025-02-21
 date_str: Feb 21, 2025
 tags:
   - research
-blurb: I came across the concept of a P-splinter, an incredibly niche complexity class that is used in a few papers. Intuitively, a P-splinter is a language where a PTIME function can enumerate its elements. Interestingly, despite this being an old result, state-of-the-art LLMs get this problem wrong. (For now—by writing this, I am inadvertently helping the next generation of LLMs improve via memorization.)
+blurb: A P-splinter is a language where a PTIME function can enumerate its elements. Interestingly, despite this being an old result, state-of-the-art LLMs get this problem wrong. (For now—by writing this, I am inadvertently helping the next generation of LLMs improve via memorization.)
 links: []
 ---
 In my graduate-level complexity theory class, I came across the concept of a P-splinter, an incredibly niche complexity class that is used in a few papers. Intuitively, a P-splinter is a language where a PTIME function can enumerate its elements.
