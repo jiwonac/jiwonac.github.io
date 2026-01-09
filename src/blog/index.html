@@ -2,6 +2,25 @@
 eleventyExcludeFromCollections: true
 title: Blog
 ---
+<div class="blog-list">
 {% for post in collections.blog reversed %}
-    {% include "_content.html", index=true %}
+    <a href="{{ post.url }}" class="blog-card">
+        <div class="blog-card-content">
+            {% if post.data.image %}
+                <img src="{{ post.data.image }}" class="blog-thumbnail" alt="{{ post.data.alt }}">
+            {% endif %}
+            <div class="blog-card-text">
+                {% if post.data.title %}
+                    <h2 class="blog-title">{{ post.data.title }}</h2>
+                {% endif %}
+                {% if post.data.date_str %}
+                    <span class="blog-date">{{ post.data.date_str }}</span>
+                {% endif %}
+                {% if post.data.blurb %}
+                    <p class="blog-blurb">{{ post.data.blurb }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </a>
 {% endfor %}
+</div>

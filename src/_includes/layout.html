@@ -4,10 +4,32 @@
 </html>
 <body>
     <!--Website title-->
-    <h1><a href="/">{{ metadata.title }}</a></h1>
+    <h1><a href="/">{{ metadata.title }}</a>{% if subtitle %}<span class="site-subtitle"> <span class="highlight">{{ subtitle }}</span></span>{% endif %}</h1>
     <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata displayed-->
     {% if eleventyExcludeFromCollections %}
         {{ content }}
+    {% elsif tags contains "microblog" %}
+        <!--Microblog single post view-->
+        <div class="microblog-single">
+            <div class="microblog-card">
+                {% if image %}
+                    <img src="{{ image }}" alt="{{ alt }}">
+                {% endif %}
+                <div class="microblog-card-content">
+                    {% if title %}
+                        <h3 class="microblog-title">{{ title }}</h3>
+                    {% endif %}
+                    <div class="microblog-meta">
+                        {% if date_str %}
+                            <span class="microblog-date">{{ date_str }}</span>
+                        {% endif %}
+                    </div>
+                    <div class="microblog-body">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
     {% else %}
         <!--Otherwise, display metadata-->
         <div class="content">
@@ -42,8 +64,14 @@
     <script src="/theme-toggle.js"></script>
     <!-- Rough.js library -->
     <script src="https://cdn.jsdelivr.net/npm/roughjs@4.5.2/bundled/rough.js"></script>
+    <!-- Masonry.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <!-- imagesLoaded for Masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
     <!-- Rough cards initialization -->
     <script src="/_scripts/rough-cards.js"></script>
+    <!-- Microblog cards ragged edges and masonry layout -->
+    <script src="/_scripts/microblog-cards.js"></script>
     <!-- Theme toggle -->
     <script src="/_scripts/theme-toggle.js"></script>
 </body>

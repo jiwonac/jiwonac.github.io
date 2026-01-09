@@ -3,8 +3,8 @@
    ============================================ */
 
 body[data-theme="light"] {
-    --color-bg: #F5EFE7;
-    --color-off-white: #FFFEF9;
+    --color-bg: #af9b75;
+    --color-off-white: #cac4a6;
     --color-text-body: #2A2A2A;
     --color-text-secondary: #6B6B6B;
     --color-accent: #993399;
@@ -24,9 +24,13 @@ body[data-theme="dark"] {
     --color-deco-C: #A68B6A;
 }
 
-/* When in dark mode, black icons should be inverted to white */
+/* Tint black icons to match --color-text-body */
+body[data-theme="light"] .external-link-icon {
+    filter: invert(0.25);
+}
+
 body[data-theme="dark"] .external-link-icon {
-    filter: invert(1);
+    filter: invert(0.7);
 }
 
 /* ============================================

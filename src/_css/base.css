@@ -1,7 +1,7 @@
 /* Import subtle handwritten font for headings */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
     /* Shadows & Effects */
     --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.08);
@@ -15,7 +15,8 @@
 
     /* Typography */
     --font-sansserif: 'Inter', 'Arial';
-    --font-handwriting: 'Architects Daughter', 'Cabin', 'Arial';
+    --font-semi-handwriting: 'Grandstander', 'Inter', 'Arial';
+    --font-handwriting: 'Architects Daughter', 'Inter', 'Arial';
 
     /* Layout */
     --max-width: 1280px;

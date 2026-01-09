@@ -7,77 +7,132 @@
             return;
         }
 
-        // Find all link cards
-        const cards = document.querySelectorAll('.link-card');
+        // Configuration for different card types
+        const cardConfigs = [
+            { selector: '.link-card', canvasClass: 'link-card-canvas', showBorder: true },
+            { selector: '.landing-intro', canvasClass: 'landing-intro-canvas', showBorder: false }
+        ];
 
-        cards.forEach((card, index) => {
-            // Create canvas for this card
-            const canvas = document.createElement('canvas');
-            canvas.className = 'link-card-canvas';
+        cardConfigs.forEach(config => {
+            const cards = document.querySelectorAll(config.selector);
 
-            // Insert canvas as first child
-            card.insertBefore(canvas, card.firstChild);
+            cards.forEach((card, index) => {
+                // Create canvas for this card
+                const canvas = document.createElement('canvas');
+                canvas.className = config.canvasClass;
 
-            // Function to draw the sketchy background
-            function drawCard() {
-                const rect = card.getBoundingClientRect();
-                const width = card.offsetWidth;
-                const height = card.offsetHeight;
+                // Insert canvas as first child
+                card.insertBefore(canvas, card.firstChild);
 
-                // Set canvas size
-                canvas.width = width;
-                canvas.height = height;
+                // Function to draw the sketchy background
+                function drawCard() {
+                    const rect = card.getBoundingClientRect();
+                    const width = card.offsetWidth;
+                    const height = card.offsetHeight;
 
-                // Get colors from CSS variables (read from body where theme is applied)
-                const computedStyle = getComputedStyle(document.body);
-                const bgColor = computedStyle.getPropertyValue('--color-off-white').trim();
-                const borderColor = computedStyle.getPropertyValue('--color-deco-A').trim();
+                    // Set canvas size
+                    canvas.width = width;
+                    canvas.height = height;
 
-                // Initialize rough canvas
-                const rc = rough.canvas(canvas);
+                    // Get colors from CSS variables (read from body where theme is applied)
+                    const computedStyle = getComputedStyle(document.body);
+                    const bgColor = computedStyle.getPropertyValue('--color-off-white').trim();
+                    const borderColor = computedStyle.getPropertyValue('--color-deco-A').trim();
 
-                // Draw single sketchy rectangle with thick border (no polaroid style)
-                rc.rectangle(8, 8, width - 16, height - 16, {
-                    fill: bgColor,
-                    fillStyle: 'solid',
-                    roughness: 3.0,
-                    strokeWidth: 2,
-                    stroke: borderColor,
-                    bowing: 1.5
-                });
-            }
+                    // Initialize rough canvas
+                    const rc = rough.canvas(canvas);
 
-            // Draw initially
-            drawCard();
+                    // Draw single sketchy rectangle
+                    rc.rectangle(8, 8, width - 16, height - 16, {
+                        fill: bgColor,
+                        fillStyle: 'solid',
+                        roughness: 3.0,
+                        strokeWidth: config.showBorder ? 2 : 0,
+                        stroke: config.showBorder ? borderColor : 'none',
+                        bowing: 1.5
+                    });
+                }
 
-            // Redraw on window resize
-            let resizeTimeout;
-            window.addEventListener('resize', () => {
-                clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(drawCard, 100);
-            });
-
-            // Redraw when theme changes (watch for attribute changes on html/body)
-            const observer = new MutationObserver(() => {
+                // Draw initially
                 drawCard();
-            });
 
-            observer.observe(document.documentElement, {
-                attributes: true,
-                attributeFilter: ['data-theme']
-            });
+                // Redraw on window resize
+                let resizeTimeout;
+                window.addEventListener('resize', () => {
+                    clearTimeout(resizeTimeout);
+                    resizeTimeout = setTimeout(drawCard, 100);
+                });
 
-            observer.observe(document.body, {
-                attributes: true,
-                attributeFilter: ['data-theme']
+                // Redraw when theme changes (watch for attribute changes on html/body)
+                const observer = new MutationObserver(() => {
+                    drawCard();
+                });
+
+                observer.observe(document.documentElement, {
+                    attributes: true,
+                    attributeFilter: ['data-theme']
+                });
+
+                observer.observe(document.body, {
+                    attributes: true,
+                    attributeFilter: ['data-theme']
+                });
             });
+        });
+    }
+
+    // Generate ragged clip-path for external link cards
+    function generateRaggedClipPath() {
+        const variance = () => (Math.random() * 0.8).toFixed(2);
+        const invVariance = () => (100 - Math.random() * 0.8).toFixed(2);
+
+        const top = [
+            `0% ${variance()}%`,
+            `25% ${variance()}%`,
+            `50% ${variance()}%`,
+            `75% ${variance()}%`,
+            `100% ${variance()}%`
+        ];
+
+        const right = [
+            `${invVariance()}% 25%`,
+            `${invVariance()}% 50%`,
+            `${invVariance()}% 75%`,
+            `${invVariance()}% 100%`
+        ];
+
+        const bottom = [
+            `75% ${invVariance()}%`,
+            `50% ${invVariance()}%`,
+            `25% ${invVariance()}%`,
+            `0% ${invVariance()}%`
+        ];
+
+        const left = [
+            `${variance()}% 75%`,
+            `${variance()}% 50%`,
+            `${variance()}% 25%`
+        ];
+
+        const points = [...top, ...right, ...bottom, ...left];
+        return `polygon(${points.join(', ')})`;
+    }
+
+    function initExternalLinks() {
+        const links = document.querySelectorAll('.external-link');
+        links.forEach(link => {
+            link.style.clipPath = generateRaggedClipPath();
         });
     }
 
     // Start initialization
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initRoughCards);
+        document.addEventListener('DOMContentLoaded', () => {
+            initRoughCards();
+            initExternalLinks();
+        });
     } else {
         initRoughCards();
+        initExternalLinks();
     }
 })();

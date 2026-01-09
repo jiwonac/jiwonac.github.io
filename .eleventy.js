@@ -4,15 +4,17 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = function(eleventyConfig) {
-    /* Bundle CSS files from src/_css into src/style.css */
+    /* Bundle CSS files from src/_css into _site/style.css */
     eleventyConfig.on("eleventy.before", () => {
         const cssDir = "src/_css";
+        const outputDir = "_site";
         const cssFiles = [
             "base.css",
             "theme.css",
             "typography.css",
             "landing.css",
             "blog.css",
+            "article.css",
             "microblog.css",
             "images.css",
             "layout.css",
@@ -22,13 +24,18 @@ module.exports = function(eleventyConfig) {
         const combined = cssFiles
             .map(f => fs.readFileSync(path.join(cssDir, f), "utf8"))
             .join("\n");
-        fs.writeFileSync("src/style.css", combined);
+
+        // Ensure output directory exists
+        if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+        }
+        fs.writeFileSync(path.join(outputDir, "style.css"), combined);
     });
 
     /* Copy some files directly */
-    eleventyConfig.addPassthroughCopy("src/style.css");
     eleventyConfig.addPassthroughCopy("src/_scripts/theme-toggle.js");
     eleventyConfig.addPassthroughCopy("src/_scripts/rough-cards.js");
+    eleventyConfig.addPassthroughCopy("src/_scripts/microblog-cards.js");
     eleventyConfig.addPassthroughCopy("src/favicon.ico");
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/admin");

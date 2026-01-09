@@ -21,6 +21,12 @@ h1 a:hover {
     color: var(--color-accent);
 }
 
+/* Subtitle shown next to site title on section pages */
+.site-subtitle {
+    font-size: 0.6em;
+    font-weight: 400;
+}
+
 /* H2 is used for page titles */
 h2 {
     font-size: 2.5em;

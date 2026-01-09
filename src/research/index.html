@@ -2,6 +2,30 @@
 eleventyExcludeFromCollections: true
 title: Research
 ---
+<div class="article-list">
 {% for post in collections.research reversed %}
-    {% include "_content.html", index=true %}
+    <a href="{{ post.url }}" class="article-card">
+        <div class="article-card-content">
+            {% if post.data.image %}
+                <img src="{{ post.data.image }}" class="article-thumbnail" alt="{{ post.data.alt }}">
+            {% endif %}
+            <div class="article-card-text">
+                {% if post.data.title %}
+                    <h2 class="article-title">{{ post.data.title }}</h2>
+                {% endif %}
+                {% if post.data.date_str %}
+                    <span class="article-date">{{ post.data.date_str }}</span>
+                {% endif %}
+                {% if post.data.collaborators %}
+                    <span class="article-collaborators">
+                        With {% for collaborator in post.data.collaborators %}{{ collaborator }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+                    </span>
+                {% endif %}
+                {% if post.data.blurb %}
+                    <p class="article-blurb">{{ post.data.blurb }}</p>
+                {% endif %}
+            </div>
+        </div>
+    </a>
 {% endfor %}
+</div>
