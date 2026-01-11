@@ -16,11 +16,6 @@ title: Research
                 {% if post.data.date_str %}
                     <span class="article-date">{{ post.data.date_str }}</span>
                 {% endif %}
-                {% if post.data.collaborators %}
-                    <span class="article-collaborators">
-                        With {% for collaborator in post.data.collaborators %}{{ collaborator }}{% unless forloop.last %}, {% endunless %}{% endfor %}
-                    </span>
-                {% endif %}
                 {% if post.data.blurb %}
                     <p class="article-blurb">{{ post.data.blurb }}</p>
                 {% endif %}

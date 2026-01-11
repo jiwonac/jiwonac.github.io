@@ -21,14 +21,6 @@
     {% if post.data.date_str %}
         <i><small>{{ post.data.date_str }}</small></i><br>
     {% endif %}
-    <!--collaborators, if any-->
-    {% if post.data.collaborators %}
-        <small>
-            With {% for collaborator in post.data.collaborators %}
-                <span>{{ collaborator }}{% unless forloop.last %}, {% endunless %}{% if forloop.last %}.{% endif %}</span>
-            {% endfor %}
-        </small><br>
-    {% endif %}
     <!--related links, if any-->
     {% if post.data.links %}
         <p>
