@@ -2,8 +2,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
-    <meta name="description" content="{{ metadata.description }}">
+
+    <!-- SEO Meta Tags -->
+    {% assign pageDescription = blurb | default: metadata.description %}
+    {% assign pageTitle = title | default: metadata.title %}
+    {% assign canonicalUrl = metadata.baseURL | append: page.url %}
+    {% if image %}{% assign imageUrl = metadata.baseURL | append: image %}{% endif %}
+    <meta name="description" content="{{ pageDescription }}">
+    <link rel="canonical" href="{{ canonicalUrl }}">
+    <meta name="author" content="{{ metadata.name }}">
     <meta name="google-site-verification" content="6TWQ5Bn6LQn9UJ3mgt1nIDIsdvIsPOilhHuWvy5S5kY" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ pageTitle }}">
+    <meta property="og:description" content="{{ pageDescription }}">
+    <meta property="og:url" content="{{ canonicalUrl }}">
+    <meta property="og:site_name" content="{{ metadata.title }}">
+    <meta property="og:locale" content="{{ metadata.language | replace: '-', '_' }}">
+    {% if tags contains 'blog' or tags contains 'research' or tags contains 'writings' or tags contains 'microblog' %}<meta property="og:type" content="article">
+    {% if date %}<meta property="article:published_time" content="{{ date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}">{% endif %}
+    <meta property="article:author" content="{{ metadata.name }}">
+    {% else %}<meta property="og:type" content="website">
+    {% endif %}{% if image %}<meta property="og:image" content="{{ imageUrl }}">
+    {% if alt %}<meta property="og:image:alt" content="{{ alt }}">{% endif %}
+    {% endif %}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ pageTitle }}">
+    <meta name="twitter:description" content="{{ pageDescription }}">
+    {% if image %}<meta name="twitter:image" content="{{ imageUrl }}">
+    {% if alt %}<meta name="twitter:image:alt" content="{{ alt }}">{% endif %}
+    {% endif %}
 
     <!-- Theme init: must load synchronously before CSS to prevent flash -->
     <script src="/_scripts/theme-init.js"></script>
@@ -30,5 +60,61 @@
             }
         };
     </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ metadata.title }}",
+        "url": "{{ metadata.baseURL }}",
+        "description": "{{ metadata.description }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ metadata.name }}",
+            "url": "{{ metadata.baseURL }}"
+        }
+    }
+    </script>
+    {% if tags contains 'blog' or tags contains 'research' or tags contains 'writings' %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ title }}",
+        "description": "{{ pageDescription }}",
+        "url": "{{ canonicalUrl }}",
+        "datePublished": "{{ date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ metadata.name }}",
+            "url": "{{ metadata.baseURL }}"
+        },
+        "publisher": {
+            "@type": "Person",
+            "name": "{{ metadata.name }}",
+            "url": "{{ metadata.baseURL }}"
+        }{% if image %},
+        "image": "{{ imageUrl }}"{% endif %}
+    }
+    </script>
+    {% elsif tags contains 'microblog' %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ title }}",
+        "description": "{{ pageDescription }}",
+        "url": "{{ canonicalUrl }}",
+        "datePublished": "{{ date | date: '%Y-%m-%dT%H:%M:%S+00:00' }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ metadata.name }}",
+            "url": "{{ metadata.baseURL }}"
+        }{% if image %},
+        "image": "{{ imageUrl }}"{% endif %}
+    }
+    </script>
+    {% endif %}
 
 </head>

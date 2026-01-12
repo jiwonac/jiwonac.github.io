@@ -1,0 +1,35 @@
+---json
+{
+  "layout": "",
+  "permalink": "sitemap.xml",
+  "eleventyExcludeFromCollections": true
+}
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ metadata.baseURL }}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {%- for page in collections.all %}
+    {%- if page.url and page.url != "/" %}
+    <url>
+        <loc>{{ page.url | absoluteUrl(metadata.baseURL) }}</loc>
+        {%- if page.date %}
+        <lastmod>{{ page.date | dateToRfc3339 | truncate(10, true, "") }}</lastmod>
+        {%- endif %}
+        {%- if page.data.tags and ('blog' in page.data.tags or 'research' in page.data.tags or 'writings' in page.data.tags) %}
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+        {%- elif page.data.tags and 'microblog' in page.data.tags %}
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+        {%- else %}
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        {%- endif %}
+    </url>
+    {%- endif %}
+    {%- endfor %}
+</urlset>
