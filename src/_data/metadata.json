@@ -38,9 +38,9 @@
     ],
     "largelinks": [
         {
-            "name": "Microblog",
-            "url": "/microblog",
-            "description": "Short and casual updates from life."
+            "name": "Research Blog",
+            "url": "/research",
+            "description": "Writings on academic research and technical topics."
         },
         {
             "name": "Personal Blog",
@@ -48,9 +48,9 @@
             "description": "Longer musings on topics of personal interest."
         },
         {
-            "name": "Research Blog",
-            "url": "/research",
-            "description": "Writings on academic research and technical topics."
+            "name": "Microblog",
+            "url": "/microblog",
+            "description": "Short and casual updates from life."
         },
         {
             "name": "Writings",
@@ -84,4 +84,5 @@
             "source": "On the Origin of Species"
         }
     ]
+
 }
