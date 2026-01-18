@@ -12,6 +12,7 @@
     <link rel="canonical" href="{{ canonicalUrl }}">
     <meta name="author" content="{{ metadata.name }}">
     <meta name="google-site-verification" content="6TWQ5Bn6LQn9UJ3mgt1nIDIsdvIsPOilhHuWvy5S5kY" />
+    <meta name="robots" content="index, follow, max-image-preview:large">
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ pageTitle }}">
@@ -27,13 +28,8 @@
     {% if alt %}<meta property="og:image:alt" content="{{ alt }}">{% endif %}
     {% endif %}
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ pageTitle }}">
-    <meta name="twitter:description" content="{{ pageDescription }}">
-    {% if image %}<meta name="twitter:image" content="{{ imageUrl }}">
-    {% if alt %}<meta name="twitter:image:alt" content="{{ alt }}">{% endif %}
-    {% endif %}
+    <!-- RSS Autodiscovery -->
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ metadata.baseURL }}/feed.xml">
 
     <!-- Theme init: must load synchronously before CSS to prevent flash -->
     <script src="/_scripts/theme-init.js"></script>
