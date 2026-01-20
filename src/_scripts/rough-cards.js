@@ -24,12 +24,8 @@
                 // Insert canvas as first child
                 card.insertBefore(canvas, card.firstChild);
 
-                // Function to draw the sketchy background
-                function drawCard() {
-                    const rect = card.getBoundingClientRect();
-                    const width = card.offsetWidth;
-                    const height = card.offsetHeight;
-
+                // Function to draw the sketchy background with given dimensions
+                function drawCard(width, height) {
                     // Set canvas size
                     canvas.width = width;
                     canvas.height = height;
@@ -53,22 +49,27 @@
                     });
                 }
 
-                // Draw initially
-                drawCard();
-
-                // Redraw on window resize
-                let resizeTimeout;
-                window.addEventListener('resize', () => {
-                    clearTimeout(resizeTimeout);
-                    resizeTimeout = setTimeout(drawCard, 100);
+                // Use ResizeObserver for efficient resize handling (no forced reflow)
+                const resizeObserver = new ResizeObserver(entries => {
+                    for (const entry of entries) {
+                        const { width, height } = entry.contentRect;
+                        if (width > 0 && height > 0) {
+                            drawCard(Math.round(width), Math.round(height));
+                        }
+                    }
                 });
+                resizeObserver.observe(card);
 
                 // Redraw when theme changes (theme is set on <html>)
-                const observer = new MutationObserver(() => {
-                    drawCard();
+                const themeObserver = new MutationObserver(() => {
+                    const width = card.offsetWidth;
+                    const height = card.offsetHeight;
+                    if (width > 0 && height > 0) {
+                        drawCard(width, height);
+                    }
                 });
 
-                observer.observe(document.documentElement, {
+                themeObserver.observe(document.documentElement, {
                     attributes: true,
                     attributeFilter: ['data-theme']
                 });
