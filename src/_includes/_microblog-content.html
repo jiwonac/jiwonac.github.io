@@ -2,7 +2,7 @@
      rather than hiding full body like in long-form blogs -->
 <!--thumbnail image, if any-->
 {% if post.data.image %}
-    <img src="{{ post.data.image }}" alt="{{ post.data.alt }}">
+    {% microblogImage post.data.image, post.data.alt %}
 {% endif %}
 
 <div class="microblog-card-content">

@@ -7,7 +7,7 @@ title: Blog
     <a href="{{ post.url }}" class="blog-card">
         <div class="blog-card-content">
             {% if post.data.image %}
-                <img src="{{ post.data.image }}" class="blog-thumbnail" alt="{{ post.data.alt }}">
+                {% blogThumbnail post.data.image, post.data.alt %}
             {% endif %}
             <div class="blog-card-text">
                 {% if post.data.title %}

@@ -2,6 +2,8 @@ const markdownIt = require("markdown-it");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const fs = require("fs");
 const path = require("path");
+const { generateImage } = require("./src/_11ty/images");
+const markdownImagePlugin = require("./src/_11ty/markdown-image-plugin");
 
 module.exports = function(eleventyConfig) {
     /* Bundle CSS files from src/_css into _site/style.css */
@@ -48,7 +50,34 @@ module.exports = function(eleventyConfig) {
         breaks: true,
         linkify: true
     }
-    eleventyConfig.setLibrary("md", markdownIt(mdoptions));
+    let md = markdownIt(mdoptions);
+    md.use(markdownImagePlugin);
+    eleventyConfig.setLibrary("md", md);
+
+    /* Image shortcodes */
+    eleventyConfig.addAsyncShortcode("blogThumbnail", async (src, alt) => {
+        return generateImage(src, alt, "blogThumbnail", { class: "blog-thumbnail" });
+    });
+
+    eleventyConfig.addAsyncShortcode("articleThumbnail", async (src, alt) => {
+        return generateImage(src, alt, "articleThumbnail", { class: "article-thumbnail" });
+    });
+
+    eleventyConfig.addAsyncShortcode("smallImage", async (src, alt) => {
+        return generateImage(src, alt, "smallImage", { class: "small-image" });
+    });
+
+    eleventyConfig.addAsyncShortcode("wideImage", async (src, alt) => {
+        return generateImage(src, alt, "wideImage", { class: "wide-image" });
+    });
+
+    eleventyConfig.addAsyncShortcode("microblogImage", async (src, alt) => {
+        return generateImage(src, alt, "microblogGrid", {});
+    });
+
+    eleventyConfig.addAsyncShortcode("icon", async (src, alt, className) => {
+        return generateImage(src, alt, "icon", { class: className || "textsize-image" });
+    });
 
     /* Enable RSS */
     eleventyConfig.addPlugin(pluginRss);

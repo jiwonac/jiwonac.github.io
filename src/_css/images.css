@@ -2,9 +2,15 @@
    IMAGES
    ============================================ */
 
+/* Picture elements should not interfere with layout */
+picture {
+    display: contents;
+}
+
 /* By default, images are centered and slightly less than 100% wide */
 img {
     max-width: 80%;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -17,6 +23,7 @@ img {
 /* Slightly wider images; used for post thumbnails */
 .wide-image {
     max-width: 90%;
+    height: auto;
     margin: auto;
 }
 
@@ -25,6 +32,7 @@ img {
     aspect-ratio: 4/3;
     object-fit: cover;
     width: 200px;
+    height: auto;
     margin-left: 1.5rem;
     margin-bottom: 1rem;
     box-shadow: var(--shadow-card);

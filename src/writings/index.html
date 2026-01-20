@@ -7,7 +7,7 @@ title: Writings
     <a href="{% if post.data.url %}{{ post.data.url }}{% else %}{{ post.url }}{% endif %}" class="article-card">
         <div class="article-card-content">
             {% if post.data.image %}
-                <img src="{{ post.data.image }}" class="article-thumbnail" alt="{{ post.data.alt }}">
+                {% articleThumbnail post.data.image, post.data.alt %}
             {% endif %}
             <div class="article-card-text">
                 {% if post.data.title %}

@@ -25,7 +25,7 @@ title: Home
     <div class="external-links-grid">
         {% for link in metadata.smalllinks %}
         <a href="{{link.url}}" class="external-link">
-            <img src="{{link.image}}" class="external-link-icon" alt="{{link.name}}">
+            {% icon link.image, link.name, "external-link-icon" %}
             <span>{{ link.name }}</span>
         </a>
         {% endfor %}

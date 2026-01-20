@@ -14,7 +14,7 @@
         <div class="microblog-single">
             <div class="microblog-card">
                 {% if image %}
-                    <img src="{{ image }}" alt="{{ alt }}">
+                    {% microblogImage image, alt %}
                 {% endif %}
                 <div class="microblog-card-content">
                     {% if title %}
@@ -39,12 +39,12 @@
                 <small>{{ date | formatDate }}</small><br>
             </div>
             {% if image %}
-                <img src="{{ image }}" alt="{{ alt }}">
+                {% wideImage image, alt %}
             {% endif %}
             {% if links %}
                 <p>
                     {% for link in links %}
-                        <img src="{{ link.image }}" class="textsize-image">
+                        {% icon link.image, link.name, "textsize-image" %}
                         <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
                     {% endfor %}
                 </p>

@@ -2,9 +2,9 @@
     <!--thumbnail image, if any-->
     {% if post.data.image %}
         {% if index %}
-            <img src="{{ post.data.image }}" class="small-image" alt="{{ post.data.alt }}">
+            {% smallImage post.data.image, post.data.alt %}
         {% else %}
-            <img src="{{ post.data.image }}" class="wide-image" alt="{{ post.data.alt }}">
+            {% wideImage post.data.image, post.data.alt %}
         {% endif %}
     {% endif %}
     <!--title-->
@@ -25,7 +25,7 @@
     {% if post.data.links %}
         <p>
             {% for link in post.data.links %}
-                <img src="{{ link.image }}" class="textsize-image">
+                {% icon link.image, link.name, "textsize-image" %}
                 <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
             {% endfor %}
         </p>
