@@ -2,7 +2,7 @@
 title: Some Bugs from Korea
 tags: blog
 date: 2024-10-25
-blurb: ""
+blurb: "Photos of insects I found during a sleepless night at a remote mountain campsite in South Korea."
 image: "/assets/blog/bugs-from-korea/mountain.webp"
 small_image: true
 ---

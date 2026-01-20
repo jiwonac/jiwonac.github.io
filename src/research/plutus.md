@@ -19,7 +19,7 @@ links:
     name: Poster
     url: '/assets/docs/plutus-poster.pdf'
     image: '/assets/icons/poster.png'
-blurb: ""
+blurb: "A human-in-the-loop pipeline that identifies problematic model slices and acquires targeted data from external sources to improve fairness."
 ---
 
 ## Abstract

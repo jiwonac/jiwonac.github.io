@@ -2,7 +2,7 @@
 title: "Adult Survival #3: There Are No Rules"
 tags: blog
 date: 2023-10-04
-blurb: ""
+blurb: "You're the adult now. You make your own rules. Let go of the arbitrary ones you grew up with."
 ---
 
 The third survival tip is the notion that **there are no rules.** You're the adult now. You make your own rules. You're now old enough to be part of the rules-making process. 

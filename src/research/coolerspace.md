@@ -15,7 +15,7 @@ links:
      name: Paper
      url: 'https://arxiv.org/abs/2409.02771'
      image: '/assets/icons/arxiv.png'
-blurb: ""
+blurb: "A type system for color programming that prevents physically meaningless computations and optimizes performance via equality saturation."
 ---
 
 ## Abstract

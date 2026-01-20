@@ -2,7 +2,7 @@
 title: "Adult Survival #2: Offline Tools > Desktop Web Apps > Web Browser > Mobile Apps"
 tags: blog
 date: 2023-10-03
-blurb: ""
+blurb: "To avoid doomscrolling and rabbit holes, prefer offline tools over desktop apps over web browsers over mobile apps."
 ---
 
 If you're as prone to addictions as I am, then you've certainly spent many days and nights doomscrolling or going on an online research spree. 

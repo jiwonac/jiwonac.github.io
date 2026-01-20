@@ -2,7 +2,7 @@
 title: Analog is Still King
 tags: blog
 date: 2023-04-28
-blurb: ""
+blurb: "Despite trying countless digital tools, I keep returning to pen and paper. Tangibility, flexibility, and freedom from distraction make analog king."
 ---
 
 Growing up in the digital era, I've always been fascinated by emerging technologies. I've tried incorporating various apps and devices to organize my life and research, from zettelkasten apps and e-ink notepads to plain text. However, time and time again, I find myself reaching for the simplicity of a notebook. It seems that, for me at least, analog is still king.

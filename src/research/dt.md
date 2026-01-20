@@ -22,7 +22,7 @@ links:
      name: Poster
      url: '/assets/docs/dt-poster.pdf'
      image: '/assets/icons/poster.png'
-blurb: ""
+blurb: "Cost-efficient algorithms for collecting data from multiple sources while ensuring adequate representation across demographic groups."
 ---
 
 ## Abstract

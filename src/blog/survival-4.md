@@ -4,7 +4,7 @@ tags: blog
 date: 2023-11-18
 alt: Wide view of the local Barnes n Noble bookstore. 
 small_image: true
-blurb: ""
+blurb: "Position your computer desk and analog workspace opposite to each other to avoid digital distractions during offline work."
 ---
 
 My newly furnished home office, where I spend much of my workdays, has two tables. 

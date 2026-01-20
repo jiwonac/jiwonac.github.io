@@ -2,7 +2,7 @@
 title: "Adult Survival #1: Tie Small Things to Big Things"
 tags: blog
 date: 2023-10-02
-blurb: ""
+blurb: "Prevent losing small essential items by physically attaching them to bigger things. No diligence required."
 ---
 
 In the next few weeks, I will be sharing small strategies that helps my disorganized, lazy, forgetful, impulsive self to survive and thrive in a high-pressure adulting environment. 

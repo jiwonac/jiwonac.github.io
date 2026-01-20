@@ -2,7 +2,7 @@
 title: "My Favorite Quotes"
 tags: blog
 date: 2024-01-02
-blurb: ""
+blurb: "A growing collection of quotes that have stuck with me over the years."
 ---
 
 *🪴 This page is a garden that I update over time.*

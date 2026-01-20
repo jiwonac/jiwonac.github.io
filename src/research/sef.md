@@ -17,7 +17,7 @@ links:
      name: report
      url: "/assets/docs/sef.pdf"
      image: "/assets/icons/pdf.png"
-blurb: ""
+blurb: "Extend the perceptual dynamic range of a single photograph using classic denoising and exposure fusion, no machine learning required."
 ---
 
 ## Abstract

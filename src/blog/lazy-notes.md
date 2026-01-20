@@ -2,7 +2,7 @@
 title: "The Rules of Lazy Note-Taking"
 tags: blog
 date: 2023-08-21
-blurb: ""
+blurb: "Notes are only useful when they help us get stuff done. Take notes lazily when a need arises, and add structure lazily when a need arises."
 ---
 
 A phenomenon I see in the personal knowledge management (PKM) space is people obsessing over how they manage their notes. 
