@@ -63,11 +63,9 @@
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico">
 
-    <!--mathjax-->
-    <script type="text/javascript" id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
-    <!--use dollar signs for math-->
+    <!-- MathJax: only load on pages with math content -->
+    {% assign needsMath = content | hasMath %}
+    {% if needsMath %}
     <script>
         MathJax = {
             tex: {
@@ -76,6 +74,8 @@
             }
         };
     </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {% endif %}
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">

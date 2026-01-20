@@ -110,6 +110,14 @@ module.exports = function(eleventyConfig) {
         return (lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated) + "...";
     });
 
+    /* Math detection filter: checks for LaTeX/MathJax delimiters */
+    eleventyConfig.addFilter("hasMath", (content) => {
+        if (!content) return false;
+        // Detect: $...$ (inline), $$...$$ (display), \(...\), \[...\]
+        const mathPattern = /\$\$[\s\S]+?\$\$|\$[^\$\n]+?\$|\\\([\s\S]+?\\\)|\\\[[\s\S]+?\\\]/;
+        return mathPattern.test(content);
+    });
+
     /* Set directories */
     return {
         dir: {
