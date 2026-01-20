@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const cacheBuster = require("@mightyplow/eleventy-plugin-cache-buster");
 const fs = require("fs");
 const path = require("path");
 const { generateImage } = require("./src/_11ty/images");
@@ -41,6 +42,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/_scripts/microblog-cards.js");
     eleventyConfig.addPassthroughCopy("src/favicon.ico");
     eleventyConfig.addPassthroughCopy("src/robots.txt");
+    eleventyConfig.addPassthroughCopy("src/.htaccess");
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/admin");
 
@@ -81,6 +83,11 @@ module.exports = function(eleventyConfig) {
 
     /* Enable RSS */
     eleventyConfig.addPlugin(pluginRss);
+
+    /* Cache busting for CSS/JS assets */
+    eleventyConfig.addPlugin(cacheBuster({
+        outputDirectory: "_site"
+    }));
 
     /* Date formatting filter */
     eleventyConfig.addFilter("formatDate", (date) => {
