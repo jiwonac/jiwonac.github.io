@@ -3,6 +3,32 @@
    Theme is set on <html> element to prevent flash
    ============================================ */
 
+/* Default/fallback: use system preference */
+:root {
+    --color-bg: #af9b75;
+    --color-off-white: #cac4a6;
+    --color-text-body: #2A2A2A;
+    --color-text-secondary: #6B6B6B;
+    --color-accent: #993399;
+    --color-deco-A: #D4A574;
+    --color-deco-B: #FFB4A2;
+    --color-deco-C: #8B7355;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #1A1612;
+        --color-off-white: #2D2620;
+        --color-text-body: #E8E6E3;
+        --color-text-secondary: #A8A8A8;
+        --color-accent: #C97AB8;
+        --color-deco-A: #8B6F47;
+        --color-deco-B: #B8755E;
+        --color-deco-C: #A68B6A;
+    }
+}
+
+/* Explicit theme overrides (set by JS) */
 :root[data-theme="light"] {
     --color-bg: #af9b75;
     --color-off-white: #cac4a6;
@@ -25,7 +51,18 @@
     --color-deco-C: #A68B6A;
 }
 
-/* Tint black icons to match --color-text-body */
+/* Tint black icons to match theme - default to light */
+.external-link-icon {
+    filter: invert(0.25);
+}
+
+@media (prefers-color-scheme: dark) {
+    .external-link-icon {
+        filter: invert(0.7);
+    }
+}
+
+/* Explicit theme overrides for icons */
 :root[data-theme="light"] .external-link-icon {
     filter: invert(0.25);
 }
