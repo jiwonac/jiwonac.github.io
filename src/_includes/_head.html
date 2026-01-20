@@ -37,8 +37,22 @@
     <!-- RSS Autodiscovery -->
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ metadata.baseURL }}/feed.xml">
 
-    <!-- Theme init: must load synchronously before CSS to prevent flash -->
-    <script src="/_scripts/theme-init.js"></script>
+    <!-- Preload fonts for faster rendering -->
+    <link rel="preload" href="/_fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/_fonts/grandstander-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/_fonts/architects-daughter-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Theme init: inlined to prevent flash of wrong theme -->
+    <script>
+        (function() {
+            var storageKey = 'theme-preference';
+            var theme = localStorage.getItem(storageKey);
+            if (!theme) {
+                theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            }
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style.css">

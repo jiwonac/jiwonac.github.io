@@ -12,6 +12,7 @@ module.exports = function(eleventyConfig) {
         const cssDir = "src/_css";
         const outputDir = "_site";
         const cssFiles = [
+            "fonts.css",
             "base.css",
             "theme.css",
             "typography.css",
@@ -36,7 +37,7 @@ module.exports = function(eleventyConfig) {
     });
 
     /* Copy some files directly */
-    eleventyConfig.addPassthroughCopy("src/_scripts/theme-init.js");
+    eleventyConfig.addPassthroughCopy({ "src/_fonts": "_fonts" });
     eleventyConfig.addPassthroughCopy("src/_scripts/theme-toggle.js");
     eleventyConfig.addPassthroughCopy("src/_scripts/rough-cards.js");
     eleventyConfig.addPassthroughCopy("src/_scripts/microblog-cards.js");
