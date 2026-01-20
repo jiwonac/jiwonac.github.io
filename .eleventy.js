@@ -53,6 +53,14 @@ module.exports = function(eleventyConfig) {
     /* Enable RSS */
     eleventyConfig.addPlugin(pluginRss);
 
+    /* Date formatting filter */
+    eleventyConfig.addFilter("formatDate", (date) => {
+        const d = new Date(date);
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        return `${months[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+    });
+
     /* Set directories */
     return {
         dir: {
