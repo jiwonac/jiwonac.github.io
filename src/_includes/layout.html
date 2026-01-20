@@ -1,67 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include "_head.html" %}
-</html>
+{% include "_head.html" %}
 <body>
-    <!--Website title-->
-    <h1><a href="/">{{ metadata.title }}</a>
-    {% if subtitle %}<br><span class="site-subtitle"> <span class="highlight">{{ subtitle }}</span></span>{% endif %}</h1>
-    <!--Pages excluded from collections, i.e. "index" pages, do not need their own metadata displayed-->
-    {% if eleventyExcludeFromCollections %}
-        {{ content }}
-    {% elsif tags contains "microblog" %}
-        <!--Microblog single post view-->
-        <div class="microblog-single">
-            <div class="microblog-card">
-                {% if image %}
-                    {% microblogImage image, alt %}
-                {% endif %}
-                <div class="microblog-card-content">
-                    {% if title %}
-                        <h3 class="microblog-title">{{ title }}</h3>
+    <header>
+        <h1><a href="/">{{ metadata.title }}</a>
+        {% if subtitle %}<br><span class="site-subtitle"> <span class="highlight">{{ subtitle }}</span></span>{% endif %}</h1>
+    </header>
+    <main>
+        {% if eleventyExcludeFromCollections %}
+            {{ content }}
+        {% elsif tags contains "microblog" %}
+            <div class="microblog-single">
+                <div class="microblog-card">
+                    {% if image %}
+                        {% microblogImage image, alt %}
                     {% endif %}
-                    <div class="microblog-meta">
-                        {% if date %}
-                            <span class="microblog-date">{{ date | formatDate }}</span>
+                    <div class="microblog-card-content">
+                        {% if title %}
+                            <h3 class="microblog-title">{{ title }}</h3>
                         {% endif %}
-                    </div>
-                    <div class="microblog-body">
-                        {{ content }}
+                        <div class="microblog-meta">
+                            {% if date %}
+                                <span class="microblog-date">{{ date | formatDate }}</span>
+                            {% endif %}
+                        </div>
+                        <div class="microblog-body">
+                            {{ content }}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    {% else %}
-        <!--Otherwise, display metadata-->
-        <div class="content">
-            <h2>{{ title }}</h2>
-            <div>
-                <small>{{ date | formatDate }}</small><br>
+        {% else %}
+            <div class="content">
+                <h2>{{ title }}</h2>
+                <div>
+                    <small>{{ date | formatDate }}</small><br>
+                </div>
+                {% if image %}
+                    {% wideImage image, alt %}
+                {% endif %}
+                {% if links %}
+                    <p>
+                        {% for link in links %}
+                            {% icon link.image, link.name, "textsize-image" %}
+                            <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
+                        {% endfor %}
+                    </p>
+                {% endif %}
+                {{ content }}
             </div>
-            {% if image %}
-                {% wideImage image, alt %}
-            {% endif %}
-            {% if links %}
-                <p>
-                    {% for link in links %}
-                        {% icon link.image, link.name, "textsize-image" %}
-                        <a href="{{ link.url }}">{{ link.name }}</a>&nbsp;
-                    {% endfor %}
-                </p>
-            {% endif %}
-            {{ content }}
-        </div>
-    {% endif %}
-    <!--footer-->
+        {% endif %}
+    </main>
     {% include "_foot.html" %}
-    <!-- Rough.js library -->
     <script defer src="https://cdn.jsdelivr.net/npm/roughjs@4.5.2/bundled/rough.js"></script>
-    <!-- Masonry.js library -->
     <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
-    <!-- imagesLoaded for Masonry -->
     <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"></script>
-    <!-- Rough cards initialization -->
     <script defer src="/_scripts/rough-cards.js"></script>
-    <!-- Microblog cards ragged edges and masonry layout -->
     <script defer src="/_scripts/microblog-cards.js"></script>
 </body>
+</html>
