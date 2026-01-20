@@ -2,7 +2,6 @@
 title: "Adult Survival #4: Separate Digital and Analog Workspace"
 tags: blog
 date: 2023-11-18
-date_str: "Nov 18, 2023"
 alt: Wide view of the local Barnes n Noble bookstore. 
 small_image: true
 blurb: ""

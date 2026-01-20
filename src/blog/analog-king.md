@@ -2,7 +2,6 @@
 title: Analog is Still King
 tags: blog
 date: 2023-04-28
-date_str: "Apr 28, 2023"
 blurb: ""
 ---
 

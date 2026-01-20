@@ -1,7 +1,6 @@
 ---
 title: Two Years of Living Without
 date: 2023-01-13
-date_str: "Jan 13, 2023"
 tags: blog
 blurb: Limitations bring creativity, after all.
 ---

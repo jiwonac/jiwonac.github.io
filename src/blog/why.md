@@ -2,7 +2,6 @@
 title: Why Should I Bother?
 tags: blog
 date: 2020-08-02
-date_str: "Aug 2, 2022"
 image: /assets/blog/team.png
 small_image: true
 alt: Four people's arms of different races holding each other in a grid. 

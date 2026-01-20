@@ -2,7 +2,6 @@
 title: "My Academic Knowledge Management Setup"
 tags: blog
 date: 2023-03-27
-date_str: "Mar 27, 2023"
 blurb: "The concept of a PKM isn't inherently life-saving nor terrible. It's just a tool that could be useful."
 ---
 

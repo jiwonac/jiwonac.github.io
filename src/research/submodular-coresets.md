@@ -2,7 +2,6 @@
 title: 'Submodular coresets: Machine learning with less data'
 collaborators: []
 date: 2025-02-28
-date_str: Feb 28, 2025
 tags: research
 blurb: ''
 links: []

@@ -3,7 +3,6 @@ title: RSS Feeds
 tags: 
  - home
 date: 8888-12-30
-date_str: ""
 ---
 
 You can subscribe to my various writings via RSS feeds. 

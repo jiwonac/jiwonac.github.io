@@ -2,7 +2,6 @@
 title: Is Technology or Morality Foundational?
 tags: blog
 date: 2023-02-27
-date_str: "Feb 27, 2023"
 blurb: "In other words, technology is more foundational than moral frameworks."
 ---
 

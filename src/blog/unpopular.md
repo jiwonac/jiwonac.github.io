@@ -2,7 +2,6 @@
 title: The Freedom of Unpopularity
 tags: blog
 date: 2020-04-01
-date_str: "Apr 1, 2020"
 image: /assets/blog/unpopular.jpg
 small_image: true
 alt: Actor Joseph Gordon-Levitt giving a TED talk. 

@@ -2,7 +2,6 @@
 title: "Adult Survival #2: Offline Tools > Desktop Web Apps > Web Browser > Mobile Apps"
 tags: blog
 date: 2023-10-03
-date_str: "Oct 03, 2023"
 blurb: ""
 ---
 

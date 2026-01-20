@@ -18,8 +18,8 @@
         {% endif %}
     {% endif %}
     <!--date-->
-    {% if post.data.date_str %}
-        <i><small>{{ post.data.date_str }}</small></i><br>
+    {% if post.data.date %}
+        <i><small>{{ post.data.date | formatDate }}</small></i><br>
     {% endif %}
     <!--related links, if any-->
     {% if post.data.links %}

@@ -2,7 +2,6 @@
 title: Jamming to Musicians I Like for their Poetic Lyrics
 tags: blog
 date: 2023-02-18
-date_str: "Feb 18, 2023"
 blurb: "This is the post in which I vibe to the lyricism of my favorite songs and artists. "
 ---
 

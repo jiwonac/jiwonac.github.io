@@ -2,7 +2,6 @@
 title: "My Favorite Quotes"
 tags: blog
 date: 2024-01-02
-date_str: "Jan 02, 2024"
 blurb: ""
 ---
 

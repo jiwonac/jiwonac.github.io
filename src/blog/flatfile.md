@@ -2,7 +2,6 @@
 title: The Flat File Lifestyle
 tags: blog
 date: 2022-12-28
-date_str: "Dec 28, 2022"
 image: /assets/blog/flatfile.jpg
 alt: Document icons with popular file formats. 
 blurb: Over the years, I've grown increasingly wary of using any application that stores its data in a nonstandard format or in a relational database. 

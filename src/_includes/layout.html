@@ -21,8 +21,8 @@
                         <h3 class="microblog-title">{{ title }}</h3>
                     {% endif %}
                     <div class="microblog-meta">
-                        {% if date_str %}
-                            <span class="microblog-date">{{ date_str }}</span>
+                        {% if date %}
+                            <span class="microblog-date">{{ date | formatDate }}</span>
                         {% endif %}
                     </div>
                     <div class="microblog-body">
@@ -36,7 +36,7 @@
         <div class="content">
             <h2>{{ title }}</h2>
             <div>
-                <small>{{ date_str }}</small><br>
+                <small>{{ date | formatDate }}</small><br>
             </div>
             {% if image %}
                 <img src="{{ image }}" alt="{{ alt }}">

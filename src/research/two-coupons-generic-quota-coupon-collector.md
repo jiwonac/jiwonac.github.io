@@ -2,7 +2,6 @@
 title: The Two Coupons, Generic Quota Coupon Collector's Problem
 collaborators: []
 date: 2023-07-07
-date_str: Jul 7, 2023
 tags:
   - research
 blurb: Suppose there are two distinct coupons. In each iteration, the probability of sampling type-1 coupon is $p$ and that for type-2 coupon is $q = 1 - p$. Our goal is to collect at least $k$ of type-1 and $r$ of type-2. How many iterations does it take, in expectation, to complete a full collection?

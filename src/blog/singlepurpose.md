@@ -2,7 +2,6 @@
 title: Single-Purpose Smart Devices
 tags: blog
 date: 2022-11-11
-date_str: "Nov 11, 2022"
 image: /assets/blog/ereader.jpg
 small_image: true
 alt: Hand holding up an ereader. 

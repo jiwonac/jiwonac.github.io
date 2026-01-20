@@ -2,7 +2,6 @@
 title: A Minimal Online Presence
 tags: blog
 date: 2019-10-20
-date_str: "Oct 20, 2019"
 image: /assets/blog/profile.jpg
 alt: Hand holding up a phone with Instagram on it. 
 blurb: I feel like there is an instinctual and incessant urge to publicize everything on the internet ingrained onto us.

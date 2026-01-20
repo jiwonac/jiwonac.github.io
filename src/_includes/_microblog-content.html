@@ -13,8 +13,8 @@
 
     <!--metadata row with date and permalink-->
     <div class="microblog-meta">
-        {% if post.data.date_str %}
-            <span class="microblog-date">{{ post.data.date_str }}</span>
+        {% if post.data.date %}
+            <span class="microblog-date">{{ post.data.date | formatDate }}</span>
         {% endif %}
         <a href="{{ post.url }}" class="microblog-permalink">[link]</a>
     </div>

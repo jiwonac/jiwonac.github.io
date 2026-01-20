@@ -6,7 +6,6 @@ small_image: false
 collaborators: 
  - Yuhao Zhu
 date: 2021-12-15
-date_str: "2021"
 tags:
  - research
 links:

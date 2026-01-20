@@ -2,7 +2,6 @@
 title: "The Rules of Lazy Note-Taking"
 tags: blog
 date: 2023-08-21
-date_str: "Aug 21, 2023"
 blurb: ""
 ---
 

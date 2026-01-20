@@ -2,7 +2,6 @@
 title: How I Finally Made Reading Into a Habit
 tags: blog
 date: 2019-04-15
-date_str: "Apr 15, 2019"
 image: /assets/blog/readinghabit.jpg
 alt: A woman covering her face with a book. 
 blurb: "Here is my simple solution: hack your phone."

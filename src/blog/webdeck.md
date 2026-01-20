@@ -2,7 +2,6 @@
 title: Using Web Apps on the Steam Deck's Gaming Mode
 tags: blog
 date: 2022-12-12
-date_str: "Dec 12, 2022"
 image: /assets/blog/webdeck.webp
 small_image: true
 alt: Streaming service Nebula running as a web app on the Steam Deck. 

@@ -4,7 +4,6 @@ collaborators:
  - Ethan Chen
  - Yuhao Zhu
 date: 2024-08-01
-date_str: "2024"
 tags:
  - research
 links:

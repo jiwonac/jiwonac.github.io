@@ -2,7 +2,6 @@
 title: "Adult Survival #3: There Are No Rules"
 tags: blog
 date: 2023-10-04
-date_str: "Oct 04, 2023"
 blurb: ""
 ---
 

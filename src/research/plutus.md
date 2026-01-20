@@ -8,7 +8,6 @@ collaborators:
  - Fatemeh Nargesian
  - Matthias Boehm
 date: 2024-06-09
-date_str: "2024"
 tags:
  - research
 links:

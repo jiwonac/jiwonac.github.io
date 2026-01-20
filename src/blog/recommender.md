@@ -2,7 +2,6 @@
 title: User-Controlled Recommender Systems
 tags: blog
 date: 2022-08-04
-date_str: "Aug 4, 2022"
 image: /assets/blog/clustering.jpeg
 small_image: true
 alt: Clusters of weighted nodes in a social network graph. 

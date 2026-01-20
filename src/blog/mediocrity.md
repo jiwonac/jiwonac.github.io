@@ -2,7 +2,6 @@
 title: The Beauty in Mediocrity
 tags: blog
 date: 2019-08-16
-date_str: "Aug 16, 2019"
 image: /assets/blog/4thplace.jpg
 alt: Scene from the film Fourth Place in which a swimming coach is hitting a boy with a broom.
 blurb: Perhaps we should choose to appreciate a more abundant fact of live - mediocrity.

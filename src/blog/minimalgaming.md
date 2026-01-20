@@ -2,7 +2,6 @@
 title: 6 Minimalist Gaming Setup Ideas
 tags: blog
 date: 2019-04-18
-date_str: "Apr 18, 2019"
 image: /assets/blog/egpu.jpg
 alt: My gaming setup with a MacBook and an external graphics card. 
 blurb: New and exciting emerging technologies allow us to pack performance into an increasingly small footprint.

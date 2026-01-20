@@ -2,7 +2,6 @@
 title: "No Optional Websites: Month 1 Update"
 tags: blog
 date: 2023-02-16
-date_str: "Feb 16, 2023"
 blurb: It's been a month and the experiment was largely a failure. 
 ---
 

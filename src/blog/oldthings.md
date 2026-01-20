@@ -2,7 +2,6 @@
 title: On Old Things
 tags: blog
 date: 2023-02-17
-date_str: "Feb 17, 2023"
 blurb: "Using old things gives me a feeling of contentment, of true ownership and understanding how the object works. "
 ---
 

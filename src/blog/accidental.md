@@ -2,7 +2,6 @@
 title: Accidental Environmentalism in Minimalism
 tags: blog
 date: 2019-05-19
-date_str: "May 19, 2019"
 image: /assets/blog/plant.jpg
 alt: Plant in a glass jar in a corner in an otherwise white, minimal backdrop. 
 blurb: At the very least, it is clear that the developed world needs to drastically change its consumption habits, one Konmari fan at a time.

@@ -13,8 +13,8 @@ title: Blog
                 {% if post.data.title %}
                     <h2 class="blog-title">{{ post.data.title }}</h2>
                 {% endif %}
-                {% if post.data.date_str %}
-                    <span class="blog-date">{{ post.data.date_str }}</span>
+                {% if post.data.date %}
+                    <span class="blog-date">{{ post.data.date | formatDate }}</span>
                 {% endif %}
                 {% if post.data.blurb %}
                     <p class="blog-blurb">{{ post.data.blurb }}</p>

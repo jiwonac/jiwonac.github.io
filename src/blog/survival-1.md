@@ -2,7 +2,6 @@
 title: "Adult Survival #1: Tie Small Things to Big Things"
 tags: blog
 date: 2023-10-02
-date_str: "Oct 02, 2023"
 blurb: ""
 ---
 

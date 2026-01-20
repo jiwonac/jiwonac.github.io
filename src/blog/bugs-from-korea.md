@@ -2,7 +2,6 @@
 title: Some Bugs from Korea
 tags: blog
 date: 2024-10-25
-date_str: "Oct 25, 2024"
 blurb: ""
 image: "/assets/blog/bugs-from-korea/mountain.webp"
 small_image: true

@@ -2,7 +2,6 @@
 title: The Joy of Nature-Watching in our Technocentric Lives
 tags: blog
 date: 2019-04-26
-date_str: "Apr 26, 2019"
 image: /assets/blog/naturewatching.jpg
 alt: A small, white flower, photographed on an iPhone. 
 blurb: Few activities brought me more joy than the simple act of observing and photographing wildlife in their natural habitat.

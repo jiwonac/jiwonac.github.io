@@ -2,7 +2,6 @@
 title: A theoretical computer science problem that the SOTA LLMs get wrong (as of now)
 collaborators: []
 date: 2025-02-21
-date_str: Feb 21, 2025
 tags:
   - research
 blurb: A P-splinter is a language where a PTIME function can enumerate its elements. Despite this being an old result, state-of-the-art LLMs get this problem wrong. (For now—by writing this, I am inadvertently helping the next generation of LLMs improve via memorization.)

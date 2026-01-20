@@ -2,7 +2,6 @@
 title: The Unbearable Melancholy of the Dead Internet
 tags: blog
 date: 2023-01-06
-date_str: "Jan 6, 2023"
 alt: Document icons with popular file formats. 
 blurb: Do you know that your embarassing creations meant a lot to me?
 small_image: true

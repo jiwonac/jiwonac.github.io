@@ -1,7 +1,6 @@
 ---
 title: "A Few Lessons from Undergrad"
 date: 2023-02-12
-date_str: "Feb 12, 2023"
 tags: blog
 blurb: "I just got my bachelor's degree, so I wrote a listicle about it."
 ---

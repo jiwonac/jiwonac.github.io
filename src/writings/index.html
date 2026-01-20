@@ -13,8 +13,8 @@ title: Writings
                 {% if post.data.title %}
                     <h2 class="article-title">{{ post.data.title }}</h2>
                 {% endif %}
-                {% if post.data.date_str %}
-                    <span class="article-date">{{ post.data.date_str }}</span>
+                {% if post.data.date %}
+                    <span class="article-date">{{ post.data.date | formatDate }}</span>
                 {% endif %}
                 {% if post.data.blurb %}
                     <p class="article-blurb">{{ post.data.blurb }}</p>
