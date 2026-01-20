@@ -12,7 +12,7 @@ footer {
     margin: 2.5%;
     padding-top: 3rem;
     border-top: 1px solid var(--color-deco-A);
-    color: var(--color-text-secondary);
+    color: var(--color-text-body);
 }
 
 /* Portfolio Grid */
