@@ -3,7 +3,6 @@ title: Single-Purpose Smart Devices
 tags: blog
 date: 2022-11-11
 image: /assets/blog/ereader.jpg
-small_image: true
 alt: Hand holding up an ereader. 
 blurb: By turning my phone, tablet, and gaming console into single-purposes machines, I feel less cluttered and distracted than before. 
 ---

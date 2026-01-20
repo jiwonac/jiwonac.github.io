@@ -5,7 +5,6 @@ date: 2019-04-18
 image: /assets/blog/egpu.jpg
 alt: My gaming setup with a MacBook and an external graphics card. 
 blurb: New and exciting emerging technologies allow us to pack performance into an increasingly small footprint.
-small_image: true
 ---
 
 Can a gamer also be a minimalist? Of course. Gaming provides value in many of our lives, so many minimalists choose to keep it.

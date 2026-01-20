@@ -5,7 +5,6 @@ date: 2019-04-15
 image: /assets/blog/readinghabit.jpg
 alt: A woman covering her face with a book. 
 blurb: "Here is my simple solution: hack your phone."
-small_image: true
 ---
 
 <p>Most people recognize the value of reading books; many of us set a new year's resolution to read more. We're pumped up with energy. Yet, it rarely lasts.</p>

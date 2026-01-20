@@ -2,7 +2,6 @@
 title: "Single Exposure Fusion"
 image: "/assets/research/sef.png"
 alt: The pipeline. An SDR image is made brighter and darker, then denoising is applied. The resultant three images are combined with Mertens' fusion.
-small_image: false
 collaborators: 
  - Yuhao Zhu
 date: 2021-12-15

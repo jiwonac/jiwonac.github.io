@@ -5,7 +5,6 @@ date: 2019-05-19
 image: /assets/blog/plant.jpg
 alt: Plant in a glass jar in a corner in an otherwise white, minimal backdrop. 
 blurb: At the very least, it is clear that the developed world needs to drastically change its consumption habits, one Konmari fan at a time.
-small_image: true
 ---
 
 <p>The Green New Deal is still a hot topic in politics, which is remarkable considering that conservation biologists, climatologists, and <a href="https://youtu.be/JDcro7dPqpA?t=1108">Bill Nye</a>  have been shouting into the void for what seems like an eternity. </p>

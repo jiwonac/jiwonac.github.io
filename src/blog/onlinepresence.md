@@ -5,7 +5,6 @@ date: 2019-10-20
 image: /assets/blog/profile.jpg
 alt: Hand holding up a phone with Instagram on it. 
 blurb: I feel like there is an instinctual and incessant urge to publicize everything on the internet ingrained onto us.
-small_image: true
 ---
 
 I feel like there is an instinctual and incessant urge to publicize everything on the internet ingrained onto us. Personally, simply reading an opinionated post online can trigger a desire to make an account to deliver a clever rebuttal. 

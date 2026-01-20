@@ -2,7 +2,6 @@
 title: Disaster prevention lessons from AI
 date: 2020-10-25
 image: "/assets/writings/aisafety.png"
-small_image: true
 alt: "A robot wearing a safety vest."
 tags:
  - writings

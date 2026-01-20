@@ -17,10 +17,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Date String", name: "date_str", widget: "string", hint: "e.g. Aug 4, 2022"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "blog"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Small Image", name: "small_image", widget: "boolean", default: true, required: false}
       - {label: "Alt Text", name: "alt", widget: "string", required: false}
       - {label: "Blurb", name: "blurb", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -33,25 +31,10 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Date String", name: "date_str", widget: "string", hint: "e.g. Nov 06, 2023"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "microblog"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Small Image", name: "small_image", widget: "boolean", default: false, required: false}
       - {label: "Alt Text", name: "alt", widget: "string", required: false}
       - {label: "Blurb", name: "blurb", widget: "text", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "professional"
-    label: "Professional Experience"
-    folder: "src/professional"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Date String", name: "date_str", widget: "string", hint: "e.g. Mar 2023 - May 2021"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: ["professional"]}
-      - {label: "Permalink", name: "permalink", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "research"
@@ -63,7 +46,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Collaborators", name: "collaborators", widget: "list", required: false}
       - {label: "Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Date String", name: "date_str", widget: "string", hint: "e.g. 2024"}
       - {label: "Tags", name: "tags", widget: "hidden", default: ["research"]}
       - {label: "Blurb", name: "blurb", widget: "text", required: false}
       - label: "Links"
@@ -76,15 +58,6 @@ collections:
           - {label: "Icon Image", name: "image", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "education"
-    label: "Education"
-    folder: "src/education"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "writings"
     label: "Writings"
     folder: "src/writings"
@@ -93,21 +66,9 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime", time_format: false}
-      - {label: "Date String", name: "date_str", widget: "string", hint: "e.g. Oct 25, 2020"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Small Image", name: "small_image", widget: "boolean", default: true, required: false}
       - {label: "Alt Text", name: "alt", widget: "string", required: false}
       - {label: "Tags", name: "tags", widget: "hidden", default: ["writings"]}
       - {label: "External URL", name: "url", widget: "string", required: false, hint: "Link to external publication"}
       - {label: "Permalink", name: "permalink", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Now Page"
-        name: "now"
-        file: "src/now.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}

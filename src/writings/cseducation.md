@@ -2,7 +2,6 @@
 title: Computer science education needs a reboot
 date: 2020-10-05
 image: "/assets/writings/cseducation.png"
-small_image: true
 alt: "Computer code which reads: No such file or directory: 'creative projects'."
 tags:
  - writings

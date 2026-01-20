@@ -4,7 +4,6 @@ tags: blog
 date: 2023-01-06
 alt: Document icons with popular file formats. 
 blurb: Do you know that your embarassing creations meant a lot to me?
-small_image: true
 ---
 
 Some time ago, I stumbled upon a band. They released two albums to little fanfare, then disappeared. I wondered what had happened to its members. They were certainly passionate people. Did their musical dreams blossom at all, under different identities?

@@ -2,7 +2,6 @@
 title: The specter of deadnames
 date: 2022-10-16
 image: "/assets/writings/specter.png"
-small_image: true
 alt: "Hand holding up a University of Rochester ID card with the name crossed out."
 tags:
  - writings

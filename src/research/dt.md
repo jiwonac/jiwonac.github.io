@@ -2,7 +2,6 @@
 title: Data Distribution Tailoring
 image: "/assets/research/dt.png"
 alt: The DT pipeline where data sources are combined with RatioColl or EpsilonGreedy to form a balanced unified dataset.
-small_image: false
 collaborators: 
  - Bohan Cui
  - Fatemeh Nargesian

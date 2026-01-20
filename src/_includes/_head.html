@@ -4,7 +4,13 @@
     <title>{% if title %}{{ title }} | {% endif %}{{ metadata.title }}</title>
 
     <!-- SEO Meta Tags -->
-    {% assign pageDescription = blurb | default: metadata.description %}
+    {% if blurb %}
+        {% assign pageDescription = blurb %}
+    {% elsif tags contains 'microblog' %}
+        {% assign pageDescription = content | autoBlurb %}
+    {% else %}
+        {% assign pageDescription = metadata.description %}
+    {% endif %}
     {% assign pageTitle = title | default: metadata.title %}
     {% assign canonicalUrl = metadata.baseURL | append: page.url %}
     {% if image %}{% assign imageUrl = metadata.baseURL | append: image %}{% endif %}

@@ -3,7 +3,6 @@ title: Using Web Apps on the Steam Deck's Gaming Mode
 tags: blog
 date: 2022-12-12
 image: /assets/blog/webdeck.webp
-small_image: true
 alt: Streaming service Nebula running as a web app on the Steam Deck. 
 blurb: For this reason, turning a website into a desktop "app" with Chromium and adding it to Steam as a non-Steam game is the best solution.
 ---

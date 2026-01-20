@@ -5,7 +5,6 @@ date: 2019-08-16
 image: /assets/blog/4thplace.jpg
 alt: Scene from the film Fourth Place in which a swimming coach is hitting a boy with a broom.
 blurb: Perhaps we should choose to appreciate a more abundant fact of live - mediocrity.
-small_image: true
 ---
 
 As someone who has academically excelled since a young age, the most difficult transition in college has been an acceptance in my mediocrity.

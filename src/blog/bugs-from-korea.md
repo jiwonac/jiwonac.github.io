@@ -4,7 +4,6 @@ tags: blog
 date: 2024-10-25
 blurb: "Photos of insects I found during a sleepless night at a remote mountain campsite in South Korea."
 image: "/assets/blog/bugs-from-korea/mountain.webp"
-small_image: true
 ---
 
 Over the past summer, I went on a camping trip with my family to a remote mountain range in what is roughly at the center of South Korea. I couldn't fall asleep at the tent for the life of me, with the hard surface and noise from nocturnal singing bugs. So, I went out walking looking for bugs that are drawn by the light. I wasn't disappointed!

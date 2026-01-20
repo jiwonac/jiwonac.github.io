@@ -3,7 +3,6 @@ title: The Freedom of Unpopularity
 tags: blog
 date: 2020-04-01
 image: /assets/blog/unpopular.jpg
-small_image: true
 alt: Actor Joseph Gordon-Levitt giving a TED talk. 
 blurb: One of the best decisions I made in creating this blog was to not chase a readership. 
 ---

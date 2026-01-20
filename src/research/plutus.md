@@ -2,7 +2,6 @@
 title: "PLUTUS: Understanding Data Distribution Tailoring for Machine Learning"
 image: "/assets/research/plutus-sketch.svg"
 alt: "The PLUTUS pipeline consists of a cycle: model training, sliceline to identify problematic subgroups, and distribution tailoring to acquire additional data."
-small_image: false
 collaborators:
  - Christina Dionysio
  - Fatemeh Nargesian

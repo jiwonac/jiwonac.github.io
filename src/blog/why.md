@@ -3,7 +3,6 @@ title: Why Should I Bother?
 tags: blog
 date: 2020-08-02
 image: /assets/blog/team.png
-small_image: true
 alt: Four people's arms of different races holding each other in a grid. 
 blurb: "Yet, even in my worst days where I don't see the point of it all, one thing makes me move: a friend in need."
 ---

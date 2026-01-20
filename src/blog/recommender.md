@@ -3,7 +3,6 @@ title: User-Controlled Recommender Systems
 tags: blog
 date: 2022-08-04
 image: /assets/blog/clustering.jpeg
-small_image: true
 alt: Clusters of weighted nodes in a social network graph. 
 blurb: So what if we just...gave users more control over recommender systems?
 ---

@@ -2,7 +2,6 @@
 title: A more engaging way to teach science
 date: 2021-10-31
 image: "/assets/writings/scienceeducation.png"
-small_image: true
 alt: "A man in a lab coat handling a glass tube with green, burning liquid."
 tags:
  - writings
