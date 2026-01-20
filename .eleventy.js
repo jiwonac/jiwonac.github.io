@@ -90,6 +90,18 @@ module.exports = function(eleventyConfig) {
         return `${months[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
     });
 
+    /* Auto-blurb filter: strips HTML and truncates content */
+    eleventyConfig.addFilter("autoBlurb", (content, maxLength = 150) => {
+        if (!content) return "";
+        // Strip HTML tags
+        const text = content.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
+        if (text.length <= maxLength) return text;
+        // Truncate at word boundary
+        const truncated = text.substring(0, maxLength);
+        const lastSpace = truncated.lastIndexOf(" ");
+        return (lastSpace > 0 ? truncated.substring(0, lastSpace) : truncated) + "...";
+    });
+
     /* Set directories */
     return {
         dir: {
