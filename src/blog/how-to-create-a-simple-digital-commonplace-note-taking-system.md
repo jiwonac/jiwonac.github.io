@@ -25,7 +25,7 @@ Below is a visualization of a subset of tags that I use. Notice the use of hiera
 
 ![](/assets/tags.png)
 
-<small>Tags categorize notes into topics, assign statuses, or note that a note is about some external reference.</small>
+<small>Tags categorize notes into topics, assign statuses, or specify that a note is about some external reference.</small>
 
 #### Daily notes
 
@@ -39,7 +39,7 @@ At the start of each day, create a daily note. This daily note is a "parent note
 
 Whenever you have an interesting thought, attend a meeting, read a section of a textbook, or a coworker suggests something, create a new "child note", "block", or a "bullet" (depending on the terminology of the specific app) within the daily note. Write down your thoughts.
 
-Then, after writing down the note, tag it with all appropriate tags. A note may be tagged with multiple tags if appropriate.
+Then, after writing down the note, tag it with all appropriate tags. A note may be tagged with multiple tags if it is speaking to multiple topics at once.
 
 ![](/assets/daily%20note%20example.png)
 
@@ -82,3 +82,26 @@ A digital Zettelkasten is characterized by short, evergreen notes, each containi
 My system is a direct result of experimenting with a digital Zettelkasten and discovering its main pain points. First, it is a very time-consuming hobby. Second, the network can be difficult to navigate, especially in scenarios where a little top-down planning can simplify the organization. Third, its bottom-up, wiki-like structure incentivizes too much pseudo-productive procrastination.
 
 My digital commonplace book addresses all issues. It has low time and effort overhead. All I have to do each day is create a new daily note, write down some notes, and tag them. It is also easy to retrieve old notes by searching for all notes that contain the relevant tag. It is also (real-)productivity oriented, helping me get stuff done each day, rather than incentivizing rabbit holes that feel productive but don't move the needle.
+
+### RemNote-Specific Details
+
+As aforementioned, my specific implementation uses RemNote, a note-taking app designed for students and lifelong learners. It has specific features for flashcards or learning from YouTube videos. Beyond all that bells and whistle, it is a damn good infinite outliner, and I love a good outliner. I've also considered other outliner apps like Workflowy, Dynalist, and Tana, but no other app has active development and support on par with RemNote, and no other app has first-class support for PDFs and videos and math equations. 
+
+RemNote has a built-in daily note feature. Each daily note is a "document" that holds "rems", a.k.a. bullet points. Each bullet point can itself hold other bullet points, theoretically infinitely. RemNote calls bullet points _rems_. I tag each rem that is a direct descendant of a daily note with tags. As aforementioned, RemNote supports hierarchical tags, like #animals/songbirds, by simply tagging the #songbirds rem with the #animals rem. Interlinking is also well-supported via references. 
+
+### Some Tag Ideas
+
+- **#classics**: I tag all academic papers or books that are the "classics", "must read", or "foundational" works within a field as #classics. 
+- **#learning from people**: This is a parent tag that contains three child tags: #meetings, #talks (which mainly refers to one-off conference lectures and tutorials) and #courses (which includes both in-person and online courses). 
+- **Hobbies:** Don't confine the topic of your note-taking to "serious" topics. I have tags such as #Overwatch and #Deadlock (my main video games these days) as well as tags like #showerthought, #birds, and #journal. Topics should cover all topics that interest you, and you'd like to take some notes on. 
+
+### Q&A
+
+**Q: Do you edit individual notes/thoughts after writing them?**
+**A:** Yes, if I have a small amount of edits or addition to make. If the edit would need to be extensive, then I prefer instead to create a new note within today's daily note. 
+
+**Q: Is there a distinction between different "types" of notes, like literature notes, fleeting notes, and main notes?**
+**A:** No. Each note can simultaneously contain some fleeting thoughts, some "evergreen" thoughts, and  some commentary on some literature source. 
+
+**Q: Do you organize project notes into sections and subsections?**
+**A:** Sometimes, if appropriate. For example, for a project that's about reading a textbook, organizing the project note into sections that reflect the textbook's sections works well for me.
