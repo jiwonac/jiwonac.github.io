@@ -1,5 +1,5 @@
 ---
-title: A better way to do markdown todo lists
+title: A better way TO(DO) markdown
 date: 2026-11-11
 tags: blog
 image: ''
